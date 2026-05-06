@@ -1,0 +1,391 @@
+VBELN_DEL,VBELN_SO,CustomerId,CustomerName,Country,Product,Qty_Ordered,Qty_Delivered,Planned_Delivery_Date,Actual_Delivery_Date,Delay_Days,IsLate,ShipPoint,TransportMode,InspectionStatus,Anomaly
+VL0080000000,SD00000001,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 6X,2,2,2023-06-24,2023-05-25,-30,False,Merignac,Road,Passed,
+VL0080000001,SD00000002,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 6X,10,10,2020-04-13,2020-06-12,60,True,Merignac,Road,Passed,DELAY_60D
+VL0080000002,SD00000003,CUST-UAE-001,UAE Air Force,UAE,Spare_Parts_Bundle,1,1,2021-06-06,2021-07-06,30,True,Nagpur,Air Freight,Conditional,
+VL0080000003,SD00000006,CUST-PRIV-002,Reliance Industries,India,Rafale F4,9,9,2025-09-21,2025-11-20,60,True,Merignac,Air Freight,Passed,DELAY_60D
+VL0080000004,SD00000009,CUST-PRIV-002,Reliance Industries,India,Falcon 6X,12,12,2020-12-23,2020-12-23,0,False,Nagpur,Road,Passed,
+VL0080000005,SD00000010,CUST-PRIV-003,Air France,France,Falcon 10X,4,4,2021-06-07,2021-09-05,90,True,Bordeaux,Road,Passed,DELAY_90D
+VL0080000006,SD00000011,CUST-PRIV-002,Reliance Industries,India,Falcon 6X,6,5,2023-06-11,2023-12-08,180,True,Nagpur,Road,Passed,CRITICAL_DELAY_180D
+VL0080000007,SD00000015,CUST-PRIV-002,Reliance Industries,India,Falcon 6X,3,3,2020-05-08,2020-05-08,0,False,Nagpur,Air Freight,Conditional,
+VL0080000008,SD00000016,CUST-UAE-001,UAE Air Force,UAE,Falcon 8X,1,0,2024-07-29,2024-07-29,0,False,Merignac,Sea Freight,Conditional,
+VL0080000009,SD00000019,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F4,6,6,2021-07-01,2021-09-29,90,True,Merignac,Air Freight,Passed,DELAY_90D
+VL0080000010,SD00000024,CUST-IND-001,Indian Air Force,India,Rafale F4,10,10,2024-04-05,2024-06-04,60,True,Nagpur,Air Freight,Conditional,DELAY_60D
+VL0080000011,SD00000028,CUST-PRIV-002,Reliance Industries,India,Falcon 6X,12,12,2024-07-20,2024-09-18,60,True,Merignac,Road,Passed,DELAY_60D
+VL0080000012,SD00000029,CUST-PRIV-004,Total Energies,France,MRO_Package_Annual,1,1,2024-02-26,2024-02-26,0,False,Bordeaux,Sea Freight,Conditional,
+VL0080000013,SD00000031,CUST-IND-002,Indian Navy,India,Falcon 8X,1,0,2024-03-13,2024-06-11,90,True,Bordeaux,Air Freight,Conditional,DELAY_90D
+VL0080000014,SD00000032,CUST-PRIV-001,Tata Sons Ltd,India,Training_Package,1,1,2023-09-19,2023-09-19,0,False,Bordeaux,Sea Freight,Conditional,
+VL0080000015,SD00000033,CUST-HRV-001,Croatian Air Force,Croatia,Rafale F3-R,7,6,2021-06-28,2021-06-28,0,False,Merignac,Sea Freight,Failed,
+VL0080000016,SD00000035,CUST-HRV-001,Croatian Air Force,Croatia,Training_Package,1,0,2025-08-15,2025-08-15,0,False,Bordeaux,Road,Passed,
+VL0080000017,SD00000037,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Training_Package,1,0,2019-12-24,2019-12-24,0,False,Nagpur,Sea Freight,Passed,
+VL0080000018,SD00000040,CUST-IND-001,Indian Air Force,India,Training_Package,1,0,2024-06-06,2024-06-06,0,False,Nagpur,Sea Freight,Passed,
+VL0080000019,SD00000042,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,12,6,2021-11-09,2022-01-08,60,True,Bordeaux,Road,Passed,DELAY_60D
+VL0080000020,SD00000044,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 8X,8,5,2025-08-09,2025-07-10,-30,False,Merignac,Road,Passed,
+VL0080000021,SD00000046,CUST-IND-002,Indian Navy,India,Falcon 10X,6,6,2019-02-25,2019-02-25,0,False,Bordeaux,Air Freight,Passed,
+VL0080000022,SD00000048,CUST-IND-001,Indian Air Force,India,MRO_Package_Annual,1,1,2021-01-02,2021-02-01,30,True,Bordeaux,Air Freight,Passed,
+VL0080000023,SD00000049,CUST-IND-001,Indian Air Force,India,Falcon 10X,11,11,2026-04-12,2026-07-11,90,True,Nagpur,Sea Freight,Passed,DELAY_90D
+VL0080000024,SD00000050,CUST-IDN-001,Indonesian Air Force,Indonesia,Training_Package,1,1,2025-04-14,2025-10-11,180,True,Nagpur,Sea Freight,Passed,CRITICAL_DELAY_180D
+VL0080000025,SD00000051,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 6X,8,6,2021-10-06,2021-11-05,30,True,Merignac,Sea Freight,Passed,
+VL0080000026,SD00000052,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 8X,4,2,2027-08-03,2027-08-03,0,False,Merignac,Road,Passed,
+VL0080000027,SD00000054,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,2,2,2020-06-03,2020-06-03,0,False,Nagpur,Sea Freight,Conditional,
+VL0080000028,SD00000057,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,8,7,2025-05-30,2025-05-30,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000029,SD00000058,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F3-R,9,7,2020-03-27,2021-03-27,365,True,Nagpur,Road,Passed,CRITICAL_DELAY_365D
+VL0080000030,SD00000059,CUST-IND-002,Indian Navy,India,Falcon 8X,4,3,2021-02-15,2021-01-16,-30,False,Bordeaux,Road,Passed,
+VL0080000031,SD00000061,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F3-R,5,5,2023-10-03,2024-01-01,90,True,Merignac,Sea Freight,Passed,DELAY_90D
+VL0080000032,SD00000062,CUST-GRC-001,Hellenic Air Force,Greece,Spare_Parts_Bundle,1,0,2022-04-08,2022-05-08,30,True,Merignac,Sea Freight,Passed,
+VL0080000033,SD00000064,CUST-UAE-001,UAE Air Force,UAE,Falcon 10X,10,8,2024-01-05,2024-01-05,0,False,Merignac,Air Freight,Passed,
+VL0080000034,SD00000066,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 8X,1,0,2022-06-22,2022-07-22,30,True,Merignac,Air Freight,Passed,
+VL0080000035,SD00000067,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Spare_Parts_Bundle,1,1,2026-11-25,2026-12-25,30,True,Merignac,Road,Passed,
+VL0080000036,SD00000068,CUST-IND-002,Indian Navy,India,Falcon 10X,2,2,2023-01-18,2023-02-17,30,True,Nagpur,Sea Freight,Passed,
+VL0080000037,SD00000069,CUST-PRIV-004,Total Energies,France,Spare_Parts_Bundle,1,1,2023-07-20,2023-09-18,60,True,Bordeaux,Sea Freight,Passed,DELAY_60D
+VL0080000038,SD00000072,CUST-PRIV-002,Reliance Industries,India,Spare_Parts_Bundle,1,1,2021-11-01,2021-12-31,60,True,Merignac,Sea Freight,Passed,DELAY_60D
+VL0080000039,SD00000073,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 10X,10,8,2022-01-10,2022-02-09,30,True,Nagpur,Sea Freight,Passed,
+VL0080000040,SD00000074,CUST-IND-002,Indian Navy,India,Falcon 10X,2,2,2026-01-11,2026-01-11,0,False,Merignac,Air Freight,Passed,
+VL0080000041,SD00000075,CUST-HRV-001,Croatian Air Force,Croatia,Spare_Parts_Bundle,1,1,2026-09-07,2027-03-06,180,True,Merignac,Road,Passed,CRITICAL_DELAY_180D
+VL0080000042,SD00000076,CUST-PRIV-002,Reliance Industries,India,Training_Package,1,0,2026-04-24,2026-04-24,0,False,Merignac,Sea Freight,Conditional,
+VL0080000043,SD00000078,CUST-PRIV-003,Air France,France,Training_Package,1,1,2023-05-25,2023-07-24,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000044,SD00000079,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F4,7,7,2020-06-17,2020-08-16,60,True,Bordeaux,Sea Freight,Passed,DELAY_60D
+VL0080000045,SD00000082,CUST-HRV-001,Croatian Air Force,Croatia,Spare_Parts_Bundle,1,1,2020-11-19,2020-11-19,0,False,Nagpur,Air Freight,Conditional,
+VL0080000046,SD00000083,CUST-HRV-001,Croatian Air Force,Croatia,MRO_Package_Annual,1,0,2025-05-14,2025-06-13,30,True,Bordeaux,Road,Passed,
+VL0080000047,SD00000086,CUST-UAE-001,UAE Air Force,UAE,Rafale F3-R,1,1,2024-02-29,2024-02-14,-15,False,Merignac,Sea Freight,Passed,
+VL0080000048,SD00000089,CUST-IND-001,Indian Air Force,India,Rafale F3-R,2,1,2026-07-03,2026-07-03,0,False,Nagpur,Sea Freight,Conditional,
+VL0080000049,SD00000090,CUST-EGY-001,Egyptian Air Force,Egypt,MRO_Package_Annual,1,0,2020-03-05,2020-06-03,90,True,Merignac,Road,Failed,DELAY_90D
+VL0080000050,SD00000092,CUST-PRIV-004,Total Energies,France,Spare_Parts_Bundle,1,0,2024-09-24,2024-12-23,90,True,Nagpur,Air Freight,Passed,DELAY_90D
+VL0080000051,SD00000094,CUST-PRIV-003,Air France,France,Spare_Parts_Bundle,1,1,2024-03-18,2024-03-18,0,False,Bordeaux,Road,Passed,
+VL0080000052,SD00000096,CUST-IDN-001,Indonesian Air Force,Indonesia,Spare_Parts_Bundle,1,1,2022-11-11,2023-02-09,90,True,Nagpur,Air Freight,Passed,DELAY_90D
+VL0080000053,SD00000099,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 8X,5,5,2022-12-02,2023-01-31,60,True,Merignac,Air Freight,Passed,DELAY_60D
+VL0080000054,SD00000100,CUST-IND-002,Indian Navy,India,Spare_Parts_Bundle,1,0,2025-10-06,2025-10-06,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000055,SD00000101,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 10X,11,9,2022-11-23,2022-12-23,30,True,Nagpur,Road,Passed,
+VL0080000056,SD00000102,CUST-PRIV-002,Reliance Industries,India,Falcon 6X,8,8,2019-10-12,2020-01-10,90,True,Merignac,Road,Passed,DELAY_90D
+VL0080000057,SD00000103,CUST-EGY-001,Egyptian Air Force,Egypt,Training_Package,1,1,2025-09-03,2025-10-03,30,True,Nagpur,Road,Passed,
+VL0080000058,SD00000104,CUST-PRIV-002,Reliance Industries,India,Falcon 8X,12,6,2023-09-09,2023-09-09,0,False,Bordeaux,Air Freight,Passed,
+VL0080000059,SD00000105,CUST-IDN-001,Indonesian Air Force,Indonesia,Falcon 8X,5,5,2019-05-28,2019-05-13,-15,False,Bordeaux,Sea Freight,Conditional,
+VL0080000060,SD00000106,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 6X,9,7,2024-06-12,2024-06-12,0,False,Bordeaux,Air Freight,Passed,
+VL0080000061,SD00000111,CUST-UAE-001,UAE Air Force,UAE,Falcon 10X,6,3,2022-10-02,2022-11-01,30,True,Nagpur,Air Freight,Passed,
+VL0080000062,SD00000114,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F4,6,4,2021-06-14,2021-06-14,0,False,Merignac,Air Freight,Passed,
+VL0080000063,SD00000115,CUST-IND-001,Indian Air Force,India,Spare_Parts_Bundle,1,1,2022-05-02,2022-06-01,30,True,Merignac,Sea Freight,Passed,
+VL0080000064,SD00000116,CUST-GRC-001,Hellenic Air Force,Greece,Rafale F4,7,4,2024-12-22,2024-12-22,0,False,Merignac,Sea Freight,Conditional,
+VL0080000065,SD00000117,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 6X,5,5,2025-09-22,2025-09-22,0,False,Bordeaux,Air Freight,Passed,
+VL0080000066,SD00000119,CUST-GRC-001,Hellenic Air Force,Greece,Spare_Parts_Bundle,1,0,2024-01-05,2024-04-04,90,True,Bordeaux,Road,Passed,DELAY_90D
+VL0080000067,SD00000120,CUST-IND-001,Indian Air Force,India,Rafale F4,3,3,2025-01-22,2025-04-22,90,True,Nagpur,Road,Passed,DELAY_90D
+VL0080000068,SD00000121,CUST-PRIV-001,Tata Sons Ltd,India,Rafale F3-R,10,10,2020-06-18,2020-08-17,60,True,Bordeaux,Road,Passed,DELAY_60D
+VL0080000069,SD00000122,CUST-IND-002,Indian Navy,India,Training_Package,1,1,2022-04-05,2022-03-21,-15,False,Bordeaux,Road,Conditional,
+VL0080000070,SD00000124,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 8X,10,8,2025-02-11,2025-02-11,0,False,Bordeaux,Air Freight,Passed,
+VL0080000071,SD00000125,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,9,8,2023-11-16,2023-12-16,30,True,Bordeaux,Sea Freight,Passed,
+VL0080000072,SD00000126,CUST-IND-001,Indian Air Force,India,Falcon 8X,3,3,2025-05-24,2025-07-23,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000073,SD00000131,CUST-IND-002,Indian Navy,India,Rafale F4,6,6,2019-08-24,2019-08-24,0,False,Merignac,Sea Freight,Conditional,
+VL0080000074,SD00000133,CUST-PRIV-003,Air France,France,Rafale F4,9,9,2025-02-22,2025-04-23,60,True,Merignac,Sea Freight,Failed,DELAY_60D
+VL0080000075,SD00000138,CUST-IND-001,Indian Air Force,India,Spare_Parts_Bundle,1,1,2023-08-05,2023-09-04,30,True,Bordeaux,Air Freight,Passed,
+VL0080000076,SD00000139,CUST-PRIV-004,Total Energies,France,Falcon 10X,5,2,2025-03-25,2025-04-24,30,True,Bordeaux,Sea Freight,Passed,
+VL0080000077,SD00000143,CUST-PRIV-003,Air France,France,Rafale F4,4,3,2019-12-28,2020-02-26,60,True,Merignac,Sea Freight,Failed,DELAY_60D
+VL0080000078,SD00000145,CUST-PRIV-002,Reliance Industries,India,MRO_Package_Annual,1,1,2023-07-12,2024-07-11,365,True,Nagpur,Road,Passed,CRITICAL_DELAY_365D
+VL0080000079,SD00000149,CUST-EGY-001,Egyptian Air Force,Egypt,Training_Package,1,1,2021-01-11,2021-03-12,60,True,Merignac,Sea Freight,Passed,DELAY_60D
+VL0080000080,SD00000151,CUST-PRIV-002,Reliance Industries,India,Rafale F4,1,1,2020-01-31,2020-01-31,0,False,Merignac,Air Freight,Passed,
+VL0080000081,SD00000153,CUST-PRIV-002,Reliance Industries,India,Falcon 8X,9,9,2023-04-27,2023-06-26,60,True,Bordeaux,Sea Freight,Passed,DELAY_60D
+VL0080000082,SD00000156,CUST-PRIV-003,Air France,France,Falcon 8X,12,7,2022-01-08,2021-12-24,-15,False,Bordeaux,Sea Freight,Passed,
+VL0080000083,SD00000157,CUST-UAE-001,UAE Air Force,UAE,Rafale F3-R,1,1,2025-09-30,2025-09-30,0,False,Merignac,Air Freight,Conditional,
+VL0080000084,SD00000159,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 10X,2,1,2022-05-19,2022-07-18,60,True,Nagpur,Sea Freight,Passed,DELAY_60D
+VL0080000085,SD00000160,CUST-UAE-001,UAE Air Force,UAE,Falcon 10X,6,6,2019-05-12,2019-08-10,90,True,Bordeaux,Air Freight,Passed,DELAY_90D
+VL0080000086,SD00000164,CUST-IND-001,Indian Air Force,India,Falcon 6X,4,4,2020-07-19,2020-07-19,0,False,Nagpur,Road,Conditional,
+VL0080000087,SD00000165,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,5,5,2023-10-29,2023-10-29,0,False,Bordeaux,Air Freight,Passed,
+VL0080000088,SD00000167,CUST-GRC-001,Hellenic Air Force,Greece,Rafale F4,9,9,2023-12-31,2024-02-29,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000089,SD00000168,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 6X,9,9,2022-09-16,2022-09-16,0,False,Nagpur,Sea Freight,Conditional,
+VL0080000090,SD00000169,CUST-PRIV-004,Total Energies,France,Rafale F4,7,7,2019-04-11,2019-04-11,0,False,Merignac,Air Freight,Conditional,
+VL0080000091,SD00000173,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F4,5,5,2022-10-20,2022-10-20,0,False,Merignac,Air Freight,Passed,
+VL0080000092,SD00000175,CUST-UAE-001,UAE Air Force,UAE,Falcon 8X,3,3,2026-02-02,2026-03-04,30,True,Bordeaux,Air Freight,Conditional,
+VL0080000093,SD00000177,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 6X,1,1,2021-01-25,2021-03-26,60,True,Nagpur,Sea Freight,Passed,DELAY_60D
+VL0080000094,SD00000178,CUST-HRV-001,Croatian Air Force,Croatia,Rafale F4,10,10,2020-05-15,2020-05-15,0,False,Nagpur,Air Freight,Failed,
+VL0080000095,SD00000179,CUST-PRIV-003,Air France,France,Rafale F4,8,5,2019-11-04,2020-01-03,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000096,SD00000181,CUST-IND-001,Indian Air Force,India,Rafale F3-R,6,6,2024-12-19,2025-02-17,60,True,Bordeaux,Air Freight,Passed,DELAY_60D
+VL0080000097,SD00000182,CUST-PRIV-004,Total Energies,France,Spare_Parts_Bundle,1,0,2022-08-20,2022-09-19,30,True,Nagpur,Sea Freight,Passed,
+VL0080000098,SD00000184,CUST-PRIV-004,Total Energies,France,Falcon 6X,10,10,2020-04-13,2020-06-12,60,True,Merignac,Air Freight,Passed,DELAY_60D
+VL0080000099,SD00000186,CUST-EGY-001,Egyptian Air Force,Egypt,MRO_Package_Annual,1,1,2023-08-01,2023-07-17,-15,False,Merignac,Air Freight,Conditional,
+VL0080000100,SD00000190,CUST-PRIV-004,Total Energies,France,MRO_Package_Annual,1,0,2027-03-23,2027-05-22,60,True,Merignac,Sea Freight,Passed,DELAY_60D
+VL0080000101,SD00000192,CUST-PRIV-003,Air France,France,MRO_Package_Annual,1,0,2023-11-18,2023-11-18,0,False,Merignac,Sea Freight,Passed,
+VL0080000102,SD00000197,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F3-R,11,11,2022-01-27,2022-01-27,0,False,Nagpur,Road,Passed,
+VL0080000103,SD00000198,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 6X,12,10,2026-09-30,2026-09-30,0,False,Nagpur,Sea Freight,Conditional,
+VL0080000104,SD00000206,CUST-HRV-001,Croatian Air Force,Croatia,Rafale F3-R,10,10,2021-02-04,2021-03-06,30,True,Nagpur,Road,Passed,
+VL0080000105,SD00000207,CUST-IND-002,Indian Navy,India,Falcon 6X,7,5,2023-04-17,2023-04-17,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000106,SD00000208,CUST-EGY-001,Egyptian Air Force,Egypt,Training_Package,1,1,2023-01-24,2023-01-24,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000107,SD00000209,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 8X,11,11,2024-09-23,2024-10-23,30,True,Nagpur,Road,Passed,
+VL0080000108,SD00000213,CUST-IND-002,Indian Navy,India,MRO_Package_Annual,1,1,2024-02-12,2024-05-12,90,True,Merignac,Sea Freight,Passed,DELAY_90D
+VL0080000109,SD00000214,CUST-PRIV-003,Air France,France,Spare_Parts_Bundle,1,1,2024-06-04,2024-05-05,-30,False,Nagpur,Road,Passed,
+VL0080000110,SD00000218,CUST-UAE-001,UAE Air Force,UAE,Training_Package,1,1,2021-08-11,2021-08-11,0,False,Bordeaux,Air Freight,Failed,
+VL0080000111,SD00000219,CUST-PRIV-003,Air France,France,Training_Package,1,0,2021-03-05,2021-03-05,0,False,Merignac,Sea Freight,Passed,
+VL0080000112,SD00000220,CUST-IND-002,Indian Navy,India,MRO_Package_Annual,1,1,2020-07-12,2021-01-08,180,True,Merignac,Air Freight,Conditional,CRITICAL_DELAY_180D
+VL0080000113,SD00000223,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F4,2,1,2024-03-06,2024-04-05,30,True,Merignac,Road,Passed,
+VL0080000114,SD00000224,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 6X,10,10,2026-01-25,2026-01-25,0,False,Bordeaux,Road,Passed,
+VL0080000115,SD00000225,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 8X,7,7,2019-01-22,2019-02-21,30,True,Bordeaux,Air Freight,Passed,
+VL0080000116,SD00000226,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F4,4,3,2026-10-17,2026-10-17,0,False,Nagpur,Air Freight,Passed,
+VL0080000117,SD00000228,CUST-IND-001,Indian Air Force,India,Training_Package,1,1,2027-06-10,2027-12-07,180,True,Merignac,Road,Passed,CRITICAL_DELAY_180D
+VL0080000118,SD00000233,CUST-IDN-001,Indonesian Air Force,Indonesia,Training_Package,1,1,2021-11-04,2021-10-20,-15,False,Bordeaux,Road,Conditional,
+VL0080000119,SD00000234,CUST-GRC-001,Hellenic Air Force,Greece,Rafale F3-R,1,1,2024-03-19,2024-03-19,0,False,Merignac,Air Freight,Passed,
+VL0080000120,SD00000235,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 10X,10,6,2023-03-10,2023-03-10,0,False,Nagpur,Road,Passed,
+VL0080000121,SD00000236,CUST-PRIV-002,Reliance Industries,India,Spare_Parts_Bundle,1,1,2021-01-29,2021-01-29,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000122,SD00000237,CUST-GRC-001,Hellenic Air Force,Greece,MRO_Package_Annual,1,0,2025-04-29,2025-07-28,90,True,Merignac,Air Freight,Passed,DELAY_90D
+VL0080000123,SD00000239,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 10X,5,5,2023-05-21,2023-06-20,30,True,Nagpur,Air Freight,Passed,
+VL0080000124,SD00000240,CUST-PRIV-002,Reliance Industries,India,Falcon 6X,10,8,2022-12-08,2023-03-08,90,True,Merignac,Sea Freight,Passed,DELAY_90D
+VL0080000125,SD00000242,CUST-PRIV-004,Total Energies,France,Training_Package,1,1,2024-03-03,2024-03-03,0,False,Merignac,Sea Freight,Passed,
+VL0080000126,SD00000250,CUST-PRIV-004,Total Energies,France,Falcon 8X,1,0,2022-06-01,2022-11-28,180,True,Bordeaux,Road,Passed,CRITICAL_DELAY_180D
+VL0080000127,SD00000251,CUST-PRIV-003,Air France,France,Rafale F4,1,0,2026-10-18,2026-10-18,0,False,Merignac,Air Freight,Conditional,
+VL0080000128,SD00000252,CUST-PRIV-001,Tata Sons Ltd,India,MRO_Package_Annual,1,1,2023-04-06,2023-03-22,-15,False,Bordeaux,Road,Passed,
+VL0080000129,SD00000253,CUST-PRIV-003,Air France,France,Rafale F4,11,11,2026-05-31,2026-06-30,30,True,Bordeaux,Sea Freight,Passed,
+VL0080000130,SD00000255,CUST-PRIV-002,Reliance Industries,India,Falcon 10X,7,7,2023-01-15,2023-02-14,30,True,Bordeaux,Sea Freight,Passed,
+VL0080000131,SD00000258,CUST-HRV-001,Croatian Air Force,Croatia,Training_Package,1,1,2021-01-24,2021-01-24,0,False,Nagpur,Air Freight,Failed,
+VL0080000132,SD00000261,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F4,10,5,2019-03-10,2019-03-10,0,False,Merignac,Air Freight,Conditional,
+VL0080000133,SD00000262,CUST-GRC-001,Hellenic Air Force,Greece,Rafale F3-R,8,8,2024-08-01,2024-08-31,30,True,Nagpur,Road,Passed,
+VL0080000134,SD00000264,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 6X,9,9,2024-04-19,2024-03-20,-30,False,Bordeaux,Road,Passed,
+VL0080000135,SD00000265,CUST-IND-002,Indian Navy,India,Falcon 8X,3,3,2022-03-22,2022-03-22,0,False,Nagpur,Sea Freight,Passed,
+VL0080000136,SD00000266,CUST-PRIV-004,Total Energies,France,Falcon 10X,9,7,2021-07-13,2021-07-13,0,False,Nagpur,Sea Freight,Passed,
+VL0080000137,SD00000267,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,3,2,2019-09-10,2019-11-09,60,True,Merignac,Sea Freight,Failed,DELAY_60D
+VL0080000138,SD00000268,CUST-PRIV-004,Total Energies,France,Rafale F3-R,11,11,2021-11-13,2021-11-13,0,False,Merignac,Road,Passed,
+VL0080000139,SD00000270,CUST-IND-002,Indian Navy,India,Falcon 8X,3,3,2026-03-10,2026-03-10,0,False,Merignac,Sea Freight,Conditional,
+VL0080000140,SD00000272,CUST-PRIV-003,Air France,France,Spare_Parts_Bundle,1,1,2021-09-28,2021-11-27,60,True,Merignac,Sea Freight,Passed,DELAY_60D
+VL0080000141,SD00000273,CUST-UAE-001,UAE Air Force,UAE,Falcon 10X,5,4,2020-05-29,2020-07-28,60,True,Merignac,Air Freight,Conditional,DELAY_60D
+VL0080000142,SD00000274,CUST-IND-001,Indian Air Force,India,Falcon 10X,8,8,2020-05-31,2020-05-16,-15,False,Merignac,Road,Passed,
+VL0080000143,SD00000275,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 6X,11,11,2024-11-16,2025-01-15,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000144,SD00000276,CUST-PRIV-002,Reliance Industries,India,MRO_Package_Annual,1,0,2022-07-14,2022-07-14,0,False,Merignac,Sea Freight,Conditional,
+VL0080000145,SD00000278,CUST-PRIV-002,Reliance Industries,India,Falcon 8X,1,0,2021-02-08,2021-03-10,30,True,Nagpur,Road,Failed,
+VL0080000146,SD00000279,CUST-UAE-001,UAE Air Force,UAE,Rafale F3-R,3,2,2025-04-18,2025-04-18,0,False,Bordeaux,Air Freight,Passed,
+VL0080000147,SD00000280,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 8X,10,8,2020-09-30,2020-12-29,90,True,Merignac,Road,Passed,DELAY_90D
+VL0080000148,SD00000282,CUST-UAE-001,UAE Air Force,UAE,Falcon 8X,2,2,2020-06-03,2020-07-03,30,True,Merignac,Air Freight,Conditional,
+VL0080000149,SD00000283,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F4,12,9,2022-08-28,2022-10-27,60,True,Bordeaux,Sea Freight,Passed,DELAY_60D
+VL0080000150,SD00000285,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 8X,10,10,2026-07-22,2026-09-20,60,True,Bordeaux,Air Freight,Passed,DELAY_60D
+VL0080000151,SD00000286,CUST-PRIV-004,Total Energies,France,Spare_Parts_Bundle,1,1,2023-11-22,2023-12-22,30,True,Nagpur,Air Freight,Passed,
+VL0080000152,SD00000287,CUST-UAE-001,UAE Air Force,UAE,Falcon 10X,11,11,2022-07-09,2022-07-09,0,False,Nagpur,Sea Freight,Passed,
+VL0080000153,SD00000289,CUST-PRIV-004,Total Energies,France,Rafale F4,2,2,2024-05-11,2024-05-11,0,False,Nagpur,Sea Freight,Passed,
+VL0080000154,SD00000290,CUST-PRIV-002,Reliance Industries,India,Falcon 10X,10,9,2020-06-23,2020-09-21,90,True,Bordeaux,Air Freight,Conditional,DELAY_90D
+VL0080000155,SD00000291,CUST-IND-001,Indian Air Force,India,Falcon 6X,7,7,2019-09-02,2019-12-01,90,True,Merignac,Air Freight,Failed,DELAY_90D
+VL0080000156,SD00000292,CUST-EGY-001,Egyptian Air Force,Egypt,MRO_Package_Annual,1,1,2023-12-29,2024-03-28,90,True,Merignac,Air Freight,Failed,DELAY_90D
+VL0080000157,SD00000293,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 6X,9,8,2020-07-03,2020-08-02,30,True,Nagpur,Road,Passed,
+VL0080000158,SD00000297,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F4,1,1,2021-06-28,2021-09-26,90,True,Bordeaux,Sea Freight,Conditional,DELAY_90D
+VL0080000159,SD00000298,CUST-IND-002,Indian Navy,India,Falcon 6X,6,6,2027-01-10,2027-02-09,30,True,Nagpur,Road,Passed,
+VL0080000160,SD00000300,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F3-R,11,11,2024-11-30,2024-11-30,0,False,Nagpur,Road,Failed,
+VL0080000161,SD00000304,CUST-EGY-001,Egyptian Air Force,Egypt,MRO_Package_Annual,1,0,2025-05-28,2025-07-27,60,True,Bordeaux,Road,Passed,DELAY_60D
+VL0080000162,SD00000305,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Spare_Parts_Bundle,1,1,2021-01-31,2022-01-31,365,True,Nagpur,Sea Freight,Passed,CRITICAL_DELAY_365D
+VL0080000163,SD00000306,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Training_Package,1,0,2025-06-26,2025-08-25,60,True,Bordeaux,Sea Freight,Passed,DELAY_60D
+VL0080000164,SD00000307,CUST-HRV-001,Croatian Air Force,Croatia,Training_Package,1,1,2021-08-21,2021-11-19,90,True,Nagpur,Sea Freight,Passed,DELAY_90D
+VL0080000165,SD00000308,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 10X,7,7,2025-04-15,2025-07-14,90,True,Merignac,Road,Passed,DELAY_90D
+VL0080000166,SD00000310,CUST-IND-001,Indian Air Force,India,Falcon 10X,5,5,2023-04-01,2023-05-31,60,True,Merignac,Sea Freight,Conditional,DELAY_60D
+VL0080000167,SD00000312,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 8X,5,3,2023-05-03,2023-05-03,0,False,Nagpur,Road,Passed,
+VL0080000168,SD00000317,CUST-PRIV-001,Tata Sons Ltd,India,Training_Package,1,0,2019-05-17,2019-05-02,-15,False,Nagpur,Air Freight,Passed,
+VL0080000169,SD00000319,CUST-PRIV-002,Reliance Industries,India,Rafale F3-R,7,5,2024-09-14,2024-09-14,0,False,Merignac,Sea Freight,Passed,
+VL0080000170,SD00000322,CUST-UAE-001,UAE Air Force,UAE,Falcon 6X,11,11,2024-04-06,2024-04-06,0,False,Nagpur,Road,Passed,
+VL0080000171,SD00000325,CUST-PRIV-004,Total Energies,France,Rafale F3-R,1,1,2023-08-19,2023-09-18,30,True,Merignac,Sea Freight,Passed,
+VL0080000172,SD00000326,CUST-PRIV-003,Air France,France,Falcon 8X,11,7,2024-12-02,2024-11-17,-15,False,Bordeaux,Air Freight,Passed,
+VL0080000173,SD00000328,CUST-PRIV-003,Air France,France,MRO_Package_Annual,1,0,2022-07-26,2022-10-24,90,True,Nagpur,Road,Failed,DELAY_90D
+VL0080000174,SD00000329,CUST-IND-002,Indian Navy,India,Training_Package,1,0,2022-07-21,2022-06-21,-30,False,Nagpur,Air Freight,Conditional,
+VL0080000175,SD00000331,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Training_Package,1,1,2022-06-09,2022-07-09,30,True,Merignac,Air Freight,Passed,
+VL0080000176,SD00000333,CUST-PRIV-001,Tata Sons Ltd,India,Rafale F3-R,4,2,2025-08-27,2025-09-26,30,True,Merignac,Sea Freight,Passed,
+VL0080000177,SD00000334,CUST-PRIV-003,Air France,France,Falcon 8X,7,5,2026-11-27,2026-12-27,30,True,Bordeaux,Air Freight,Passed,
+VL0080000178,SD00000336,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,8,8,2024-11-27,2024-11-27,0,False,Nagpur,Sea Freight,Failed,
+VL0080000179,SD00000337,CUST-IND-001,Indian Air Force,India,Rafale F4,9,5,2021-09-10,2021-10-10,30,True,Merignac,Road,Conditional,
+VL0080000180,SD00000338,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F4,12,10,2023-08-26,2023-08-26,0,False,Merignac,Sea Freight,Passed,
+VL0080000181,SD00000339,CUST-UAE-001,UAE Air Force,UAE,Spare_Parts_Bundle,1,1,2023-06-26,2023-07-26,30,True,Merignac,Road,Passed,
+VL0080000182,SD00000340,CUST-PRIV-002,Reliance Industries,India,Rafale F3-R,12,9,2022-01-07,2022-03-08,60,True,Bordeaux,Sea Freight,Passed,DELAY_60D
+VL0080000183,SD00000341,CUST-IND-001,Indian Air Force,India,Falcon 6X,11,11,2020-11-10,2020-10-26,-15,False,Nagpur,Sea Freight,Passed,
+VL0080000184,SD00000343,CUST-PRIV-001,Tata Sons Ltd,India,MRO_Package_Annual,1,1,2025-10-31,2025-10-31,0,False,Bordeaux,Road,Passed,
+VL0080000185,SD00000344,CUST-PRIV-004,Total Energies,France,Rafale F4,10,8,2020-07-02,2020-06-17,-15,False,Merignac,Air Freight,Passed,
+VL0080000186,SD00000346,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 10X,5,5,2021-02-03,2021-02-03,0,False,Bordeaux,Road,Passed,
+VL0080000187,SD00000350,CUST-UAE-001,UAE Air Force,UAE,MRO_Package_Annual,1,0,2024-10-31,2024-10-31,0,False,Nagpur,Sea Freight,Passed,
+VL0080000188,SD00000352,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 8X,10,10,2022-09-11,2022-09-11,0,False,Merignac,Road,Passed,
+VL0080000189,SD00000358,CUST-PRIV-003,Air France,France,MRO_Package_Annual,1,0,2024-01-18,2023-12-19,-30,False,Merignac,Air Freight,Passed,
+VL0080000190,SD00000360,CUST-EGY-001,Egyptian Air Force,Egypt,Training_Package,1,0,2023-04-28,2023-06-27,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000191,SD00000363,CUST-GRC-001,Hellenic Air Force,Greece,Rafale F4,1,0,2019-04-08,2019-05-08,30,True,Merignac,Sea Freight,Passed,
+VL0080000192,SD00000365,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 6X,10,9,2020-12-25,2021-01-24,30,True,Bordeaux,Road,Passed,
+VL0080000193,SD00000366,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F3-R,10,10,2027-03-04,2027-03-04,0,False,Merignac,Air Freight,Passed,
+VL0080000194,SD00000367,CUST-GRC-001,Hellenic Air Force,Greece,MRO_Package_Annual,1,0,2022-12-30,2022-12-30,0,False,Merignac,Road,Passed,
+VL0080000195,SD00000374,CUST-IND-001,Indian Air Force,India,Training_Package,1,0,2022-02-07,2022-02-07,0,False,Merignac,Sea Freight,Passed,
+VL0080000196,SD00000376,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F3-R,10,10,2024-08-30,2024-07-31,-30,False,Merignac,Sea Freight,Passed,
+VL0080000197,SD00000377,CUST-EGY-001,Egyptian Air Force,Egypt,MRO_Package_Annual,1,1,2025-09-23,2025-12-22,90,True,Nagpur,Road,Passed,DELAY_90D
+VL0080000198,SD00000378,CUST-PRIV-003,Air France,France,Falcon 6X,3,3,2022-09-10,2022-09-10,0,False,Nagpur,Sea Freight,Passed,
+VL0080000199,SD00000384,CUST-PRIV-002,Reliance Industries,India,Rafale F3-R,12,10,2021-07-11,2021-07-11,0,False,Nagpur,Sea Freight,Failed,
+VL0080000200,SD00000386,CUST-IDN-001,Indonesian Air Force,Indonesia,Falcon 10X,5,5,2019-11-28,2019-12-28,30,True,Bordeaux,Sea Freight,Conditional,
+VL0080000201,SD00000389,CUST-PRIV-003,Air France,France,MRO_Package_Annual,1,0,2021-09-29,2021-10-29,30,True,Bordeaux,Sea Freight,Passed,
+VL0080000202,SD00000390,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F3-R,11,8,2024-05-16,2024-06-15,30,True,Bordeaux,Road,Passed,
+VL0080000203,SD00000391,CUST-IND-002,Indian Navy,India,Rafale F4,10,5,2025-02-01,2025-02-01,0,False,Bordeaux,Road,Conditional,
+VL0080000204,SD00000392,CUST-PRIV-004,Total Energies,France,Falcon 10X,12,8,2024-07-24,2024-09-22,60,True,Bordeaux,Sea Freight,Conditional,DELAY_60D
+VL0080000205,SD00000393,CUST-UAE-001,UAE Air Force,UAE,Training_Package,1,0,2019-03-16,2019-03-16,0,False,Merignac,Sea Freight,Passed,
+VL0080000206,SD00000395,CUST-PRIV-002,Reliance Industries,India,Falcon 8X,2,1,2019-04-07,2019-04-07,0,False,Nagpur,Road,Conditional,
+VL0080000207,SD00000398,CUST-IND-002,Indian Navy,India,Falcon 8X,4,4,2024-11-01,2024-11-01,0,False,Nagpur,Air Freight,Passed,
+VL0080000208,SD00000400,CUST-PRIV-002,Reliance Industries,India,Rafale F4,10,7,2027-03-16,2027-06-14,90,True,Bordeaux,Road,Passed,DELAY_90D
+VL0080000209,SD00000401,CUST-HRV-001,Croatian Air Force,Croatia,Rafale F3-R,1,0,2021-09-07,2021-09-07,0,False,Bordeaux,Road,Passed,
+VL0080000210,SD00000407,CUST-IDN-001,Indonesian Air Force,Indonesia,MRO_Package_Annual,1,0,2022-11-21,2022-11-21,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000211,SD00000408,CUST-PRIV-004,Total Energies,France,Rafale F3-R,2,2,2021-07-15,2022-01-11,180,True,Bordeaux,Road,Passed,CRITICAL_DELAY_180D
+VL0080000212,SD00000409,CUST-PRIV-004,Total Energies,France,Falcon 8X,3,2,2026-10-02,2026-10-02,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000213,SD00000412,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,9,8,2022-10-25,2022-10-25,0,False,Nagpur,Sea Freight,Passed,
+VL0080000214,SD00000413,CUST-PRIV-002,Reliance Industries,India,Rafale F3-R,5,5,2023-08-05,2023-10-04,60,True,Nagpur,Sea Freight,Passed,DELAY_60D
+VL0080000215,SD00000416,CUST-IND-002,Indian Navy,India,Falcon 8X,1,1,2024-06-11,2024-07-11,30,True,Merignac,Road,Conditional,
+VL0080000216,SD00000417,CUST-UAE-001,UAE Air Force,UAE,Falcon 10X,5,5,2020-09-20,2020-09-20,0,False,Merignac,Road,Passed,
+VL0080000217,SD00000418,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Spare_Parts_Bundle,1,1,2019-05-18,2019-06-17,30,True,Bordeaux,Road,Passed,
+VL0080000218,SD00000420,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 8X,3,3,2020-05-03,2020-04-03,-30,False,Nagpur,Sea Freight,Passed,
+VL0080000219,SD00000422,CUST-IND-002,Indian Navy,India,Training_Package,1,0,2026-02-19,2026-02-04,-15,False,Merignac,Road,Passed,
+VL0080000220,SD00000427,CUST-PRIV-003,Air France,France,Rafale F4,2,1,2025-02-12,2025-02-12,0,False,Nagpur,Air Freight,Passed,
+VL0080000221,SD00000429,CUST-IND-002,Indian Navy,India,Falcon 10X,10,5,2021-01-09,2021-01-09,0,False,Nagpur,Air Freight,Passed,
+VL0080000222,SD00000434,CUST-UAE-001,UAE Air Force,UAE,Rafale F4,12,12,2022-11-28,2022-12-28,30,True,Bordeaux,Air Freight,Conditional,
+VL0080000223,SD00000435,CUST-GRC-001,Hellenic Air Force,Greece,Rafale F3-R,12,12,2022-11-10,2022-11-10,0,False,Merignac,Road,Passed,
+VL0080000224,SD00000437,CUST-IDN-001,Indonesian Air Force,Indonesia,Falcon 8X,9,9,2026-05-26,2026-06-25,30,True,Bordeaux,Road,Passed,
+VL0080000225,SD00000438,CUST-PRIV-004,Total Energies,France,Falcon 6X,8,4,2023-09-29,2023-10-29,30,True,Merignac,Air Freight,Passed,
+VL0080000226,SD00000439,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 6X,11,10,2024-03-17,2024-03-17,0,False,Merignac,Sea Freight,Passed,
+VL0080000227,SD00000446,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 6X,12,10,2023-03-25,2023-03-25,0,False,Merignac,Sea Freight,Failed,
+VL0080000228,SD00000447,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F4,4,4,2022-06-22,2022-05-23,-30,False,Merignac,Road,Passed,
+VL0080000229,SD00000448,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,6,6,2025-05-23,2025-05-23,0,False,Merignac,Air Freight,Passed,
+VL0080000230,SD00000450,CUST-IND-002,Indian Navy,India,Falcon 10X,8,5,2022-12-26,2022-12-26,0,False,Nagpur,Road,Passed,
+VL0080000231,SD00000451,CUST-PRIV-001,Tata Sons Ltd,India,MRO_Package_Annual,1,0,2020-07-04,2020-07-04,0,False,Bordeaux,Road,Conditional,
+VL0080000232,SD00000454,CUST-IDN-001,Indonesian Air Force,Indonesia,Training_Package,1,0,2022-11-14,2023-01-13,60,True,Nagpur,Road,Conditional,DELAY_60D
+VL0080000233,SD00000455,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F4,6,3,2024-02-22,2024-02-22,0,False,Bordeaux,Road,Passed,
+VL0080000234,SD00000458,CUST-PRIV-003,Air France,France,Spare_Parts_Bundle,1,0,2024-08-03,2025-08-03,365,True,Bordeaux,Air Freight,Conditional,CRITICAL_DELAY_365D
+VL0080000235,SD00000460,CUST-PRIV-004,Total Energies,France,Spare_Parts_Bundle,1,1,2022-01-19,2022-03-20,60,True,Merignac,Road,Passed,DELAY_60D
+VL0080000236,SD00000461,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F3-R,7,6,2020-04-22,2020-05-22,30,True,Nagpur,Sea Freight,Passed,
+VL0080000237,SD00000464,CUST-IND-001,Indian Air Force,India,MRO_Package_Annual,1,0,2024-05-28,2024-05-13,-15,False,Merignac,Road,Passed,
+VL0080000238,SD00000465,CUST-PRIV-004,Total Energies,France,MRO_Package_Annual,1,1,2022-09-20,2022-11-19,60,True,Bordeaux,Sea Freight,Passed,DELAY_60D
+VL0080000239,SD00000466,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 8X,8,5,2023-09-26,2024-03-24,180,True,Bordeaux,Air Freight,Passed,CRITICAL_DELAY_180D
+VL0080000240,SD00000467,CUST-PRIV-003,Air France,France,Falcon 8X,8,8,2021-12-09,2022-02-07,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000241,SD00000468,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F4,7,7,2022-09-05,2022-09-05,0,False,Merignac,Sea Freight,Passed,
+VL0080000242,SD00000471,CUST-IND-002,Indian Navy,India,Rafale F3-R,7,4,2021-10-26,2022-01-24,90,True,Bordeaux,Sea Freight,Passed,DELAY_90D
+VL0080000243,SD00000472,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F3-R,6,4,2020-06-29,2020-06-29,0,False,Merignac,Sea Freight,Passed,
+VL0080000244,SD00000475,CUST-GRC-001,Hellenic Air Force,Greece,Rafale F4,12,11,2021-09-23,2021-09-23,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000245,SD00000477,CUST-HRV-001,Croatian Air Force,Croatia,Training_Package,1,0,2023-03-03,2023-03-03,0,False,Merignac,Air Freight,Passed,
+VL0080000246,SD00000478,CUST-PRIV-002,Reliance Industries,India,Training_Package,1,0,2022-10-24,2022-12-23,60,True,Bordeaux,Road,Passed,DELAY_60D
+VL0080000247,SD00000479,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F3-R,7,7,2024-11-18,2025-02-16,90,True,Merignac,Sea Freight,Passed,DELAY_90D
+VL0080000248,SD00000483,CUST-IND-002,Indian Navy,India,Falcon 6X,6,6,2020-02-18,2020-02-18,0,False,Bordeaux,Air Freight,Passed,
+VL0080000249,SD00000486,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 8X,1,0,2023-12-31,2024-01-30,30,True,Nagpur,Sea Freight,Passed,
+VL0080000250,SD00000490,CUST-PRIV-001,Tata Sons Ltd,India,Spare_Parts_Bundle,1,1,2020-06-10,2020-05-11,-30,False,Nagpur,Air Freight,Passed,
+VL0080000251,SD00000494,CUST-PRIV-002,Reliance Industries,India,Training_Package,1,1,2024-01-12,2024-01-12,0,False,Nagpur,Sea Freight,Passed,
+VL0080000252,SD00000495,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,9,9,2023-02-23,2023-04-24,60,True,Merignac,Road,Passed,DELAY_60D
+VL0080000253,SD00000496,CUST-PRIV-001,Tata Sons Ltd,India,Training_Package,1,1,2026-02-04,2026-08-03,180,True,Bordeaux,Road,Passed,CRITICAL_DELAY_180D
+VL0080000254,SD00000498,CUST-PRIV-003,Air France,France,Falcon 10X,7,7,2026-03-11,2026-02-24,-15,False,Bordeaux,Air Freight,Passed,
+VL0080000255,SD00000499,CUST-UAE-001,UAE Air Force,UAE,Falcon 8X,6,5,2024-08-10,2024-10-09,60,True,Nagpur,Air Freight,Conditional,DELAY_60D
+VL0080000256,SD00000502,CUST-EGY-001,Egyptian Air Force,Egypt,MRO_Package_Annual,1,1,2023-12-26,2023-12-26,0,False,Nagpur,Road,Passed,
+VL0080000257,SD00000503,CUST-UAE-001,UAE Air Force,UAE,Falcon 10X,3,3,2020-06-17,2020-06-17,0,False,Nagpur,Air Freight,Conditional,
+VL0080000258,SD00000504,CUST-PRIV-002,Reliance Industries,India,Falcon 8X,10,10,2022-01-15,2022-07-14,180,True,Merignac,Sea Freight,Passed,CRITICAL_DELAY_180D
+VL0080000259,SD00000505,CUST-IND-001,Indian Air Force,India,Falcon 8X,7,7,2023-05-10,2023-07-09,60,True,Nagpur,Road,Passed,DELAY_60D
+VL0080000260,SD00000506,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F4,8,8,2019-01-15,2018-12-31,-15,False,Nagpur,Sea Freight,Conditional,
+VL0080000261,SD00000509,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Spare_Parts_Bundle,1,0,2023-06-28,2023-06-13,-15,False,Merignac,Air Freight,Passed,
+VL0080000262,SD00000510,CUST-PRIV-004,Total Energies,France,MRO_Package_Annual,1,0,2023-06-04,2023-07-04,30,True,Bordeaux,Sea Freight,Passed,
+VL0080000263,SD00000514,CUST-IDN-001,Indonesian Air Force,Indonesia,Spare_Parts_Bundle,1,1,2021-03-19,2021-04-18,30,True,Nagpur,Air Freight,Passed,
+VL0080000264,SD00000516,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F3-R,2,2,2027-07-07,2027-07-07,0,False,Merignac,Sea Freight,Passed,
+VL0080000265,SD00000517,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 10X,9,9,2023-06-10,2023-06-10,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000266,SD00000518,CUST-GRC-001,Hellenic Air Force,Greece,Spare_Parts_Bundle,1,1,2023-07-04,2023-07-04,0,False,Nagpur,Air Freight,Passed,
+VL0080000267,SD00000519,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 10X,9,9,2023-02-22,2023-02-22,0,False,Nagpur,Air Freight,Passed,
+VL0080000268,SD00000520,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Training_Package,1,1,2026-09-16,2026-10-16,30,True,Merignac,Air Freight,Passed,
+VL0080000269,SD00000521,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 6X,9,9,2024-09-13,2024-11-12,60,True,Nagpur,Sea Freight,Passed,DELAY_60D
+VL0080000270,SD00000522,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 6X,6,4,2018-11-08,2019-02-06,90,True,Merignac,Air Freight,Passed,DELAY_90D
+VL0080000271,SD00000523,CUST-PRIV-003,Air France,France,Spare_Parts_Bundle,1,1,2026-04-10,2026-07-09,90,True,Nagpur,Road,Passed,DELAY_90D
+VL0080000272,SD00000524,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 10X,5,5,2021-04-15,2021-04-15,0,False,Nagpur,Air Freight,Passed,
+VL0080000273,SD00000525,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 10X,7,7,2022-02-21,2022-02-21,0,False,Nagpur,Road,Passed,
+VL0080000274,SD00000526,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F4,9,6,2027-09-17,2027-10-17,30,True,Merignac,Sea Freight,Conditional,
+VL0080000275,SD00000529,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 6X,4,4,2026-05-18,2026-11-14,180,True,Merignac,Sea Freight,Passed,CRITICAL_DELAY_180D
+VL0080000276,SD00000531,CUST-IDN-001,Indonesian Air Force,Indonesia,Spare_Parts_Bundle,1,1,2025-12-21,2025-12-21,0,False,Merignac,Sea Freight,Passed,
+VL0080000277,SD00000532,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 6X,5,5,2023-04-11,2023-05-11,30,True,Nagpur,Air Freight,Passed,
+VL0080000278,SD00000533,CUST-GRC-001,Hellenic Air Force,Greece,Rafale F3-R,11,11,2020-10-26,2020-10-26,0,False,Nagpur,Air Freight,Passed,
+VL0080000279,SD00000534,CUST-PRIV-004,Total Energies,France,Rafale F4,9,5,2023-08-16,2023-09-15,30,True,Nagpur,Air Freight,Passed,
+VL0080000280,SD00000536,CUST-PRIV-002,Reliance Industries,India,Falcon 8X,8,8,2022-07-26,2022-07-26,0,False,Nagpur,Sea Freight,Passed,
+VL0080000281,SD00000541,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 6X,1,1,2021-12-13,2021-12-13,0,False,Merignac,Sea Freight,Passed,
+VL0080000282,SD00000542,CUST-HRV-001,Croatian Air Force,Croatia,Spare_Parts_Bundle,1,1,2022-10-11,2022-11-10,30,True,Bordeaux,Sea Freight,Passed,
+VL0080000283,SD00000545,CUST-IND-001,Indian Air Force,India,Falcon 6X,1,1,2021-09-30,2021-10-30,30,True,Bordeaux,Road,Passed,
+VL0080000284,SD00000546,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 8X,10,10,2022-02-07,2022-04-08,60,True,Merignac,Sea Freight,Conditional,DELAY_60D
+VL0080000285,SD00000547,CUST-EGY-001,Egyptian Air Force,Egypt,MRO_Package_Annual,1,1,2023-03-05,2023-02-18,-15,False,Bordeaux,Sea Freight,Passed,
+VL0080000286,SD00000549,CUST-PRIV-001,Tata Sons Ltd,India,Rafale F3-R,9,9,2020-01-10,2020-03-10,60,True,Merignac,Air Freight,Passed,DELAY_60D
+VL0080000287,SD00000553,CUST-IND-001,Indian Air Force,India,Falcon 8X,9,9,2025-10-28,2025-11-27,30,True,Nagpur,Road,Passed,
+VL0080000288,SD00000555,CUST-GRC-001,Hellenic Air Force,Greece,Falcon 6X,12,12,2024-03-03,2024-03-03,0,False,Nagpur,Air Freight,Conditional,
+VL0080000289,SD00000556,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 10X,9,9,2021-10-19,2021-12-18,60,True,Bordeaux,Road,Passed,DELAY_60D
+VL0080000290,SD00000560,CUST-HRV-001,Croatian Air Force,Croatia,Spare_Parts_Bundle,1,0,2026-10-09,2026-09-24,-15,False,Nagpur,Sea Freight,Passed,
+VL0080000291,SD00000563,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 8X,1,1,2024-09-21,2024-09-21,0,False,Merignac,Road,Passed,
+VL0080000292,SD00000565,CUST-IND-001,Indian Air Force,India,Training_Package,1,1,2023-08-07,2023-08-07,0,False,Nagpur,Road,Passed,
+VL0080000293,SD00000566,CUST-PRIV-004,Total Energies,France,Rafale F4,4,3,2019-10-29,2019-10-29,0,False,Bordeaux,Road,Passed,
+VL0080000294,SD00000567,CUST-IDN-001,Indonesian Air Force,Indonesia,Falcon 8X,1,1,2025-03-15,2025-04-14,30,True,Nagpur,Road,Passed,
+VL0080000295,SD00000568,CUST-IND-001,Indian Air Force,India,MRO_Package_Annual,1,0,2020-07-01,2020-07-01,0,False,Nagpur,Air Freight,Passed,
+VL0080000296,SD00000571,CUST-PRIV-002,Reliance Industries,India,Spare_Parts_Bundle,1,0,2026-10-22,2027-01-20,90,True,Nagpur,Air Freight,Passed,DELAY_90D
+VL0080000297,SD00000577,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Training_Package,1,0,2026-06-20,2026-06-05,-15,False,Bordeaux,Air Freight,Passed,
+VL0080000298,SD00000579,CUST-GRC-001,Hellenic Air Force,Greece,Rafale F4,8,4,2023-05-18,2023-05-18,0,False,Nagpur,Sea Freight,Passed,
+VL0080000299,SD00000582,CUST-IND-001,Indian Air Force,India,Rafale F3-R,5,5,2021-04-26,2021-03-27,-30,False,Merignac,Road,Passed,
+VL0080000300,SD00000585,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F3-R,3,3,2023-09-01,2023-09-01,0,False,Merignac,Air Freight,Passed,
+VL0080000301,SD00000587,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 10X,1,1,2024-06-24,2024-07-24,30,True,Merignac,Road,Passed,
+VL0080000302,SD00000589,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 10X,4,4,2021-07-18,2021-10-16,90,True,Nagpur,Sea Freight,Passed,DELAY_90D
+VL0080000303,SD00000592,CUST-IND-001,Indian Air Force,India,Training_Package,1,1,2023-08-03,2023-10-02,60,True,Nagpur,Sea Freight,Passed,DELAY_60D
+VL0080000304,SD00000593,CUST-PRIV-003,Air France,France,Falcon 8X,11,11,2021-11-16,2022-01-15,60,True,Merignac,Road,Passed,DELAY_60D
+VL0080000305,SD00000594,CUST-PRIV-002,Reliance Industries,India,MRO_Package_Annual,1,1,2023-11-28,2023-12-28,30,True,Merignac,Road,Conditional,
+VL0080000306,SD00000600,CUST-EGY-001,Egyptian Air Force,Egypt,Rafale F3-R,10,10,2021-05-21,2021-05-21,0,False,Merignac,Road,Passed,
+VL0080000307,SD00000601,CUST-PRIV-002,Reliance Industries,India,MRO_Package_Annual,1,1,2022-12-21,2022-11-21,-30,False,Nagpur,Road,Passed,
+VL0080000308,SD00000604,CUST-IND-001,Indian Air Force,India,Rafale F4,12,12,2024-10-22,2024-10-22,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000309,SD00000608,CUST-IND-001,Indian Air Force,India,Rafale F4,6,3,2018-12-02,2018-11-17,-15,False,Merignac,Air Freight,Passed,
+VL0080000310,SD00000610,CUST-PRIV-002,Reliance Industries,India,MRO_Package_Annual,1,1,2021-10-13,2021-12-12,60,True,Merignac,Sea Freight,Conditional,DELAY_60D
+VL0080000311,SD00000612,CUST-PRIV-001,Tata Sons Ltd,India,Spare_Parts_Bundle,1,0,2024-02-17,2024-02-17,0,False,Bordeaux,Road,Passed,
+VL0080000312,SD00000613,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 6X,4,4,2025-07-10,2025-09-08,60,True,Nagpur,Road,Passed,DELAY_60D
+VL0080000313,SD00000616,CUST-UAE-001,UAE Air Force,UAE,Falcon 8X,12,12,2025-01-21,2025-02-20,30,True,Merignac,Air Freight,Passed,
+VL0080000314,SD00000618,CUST-PRIV-002,Reliance Industries,India,Falcon 8X,5,5,2025-02-16,2025-01-17,-30,False,Bordeaux,Air Freight,Passed,
+VL0080000315,SD00000619,CUST-PRIV-003,Air France,France,Falcon 8X,1,0,2020-08-28,2020-11-26,90,True,Merignac,Road,Passed,DELAY_90D
+VL0080000316,SD00000621,CUST-IND-002,Indian Navy,India,Falcon 8X,10,10,2025-10-08,2025-11-07,30,True,Bordeaux,Sea Freight,Conditional,
+VL0080000317,SD00000622,CUST-HRV-001,Croatian Air Force,Croatia,Rafale F3-R,8,5,2020-05-27,2020-05-27,0,False,Nagpur,Sea Freight,Passed,
+VL0080000318,SD00000623,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 10X,4,4,2021-04-05,2021-04-05,0,False,Merignac,Road,Passed,
+VL0080000319,SD00000624,CUST-IDN-001,Indonesian Air Force,Indonesia,Training_Package,1,0,2021-03-14,2021-03-14,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000320,SD00000626,CUST-PRIV-002,Reliance Industries,India,Falcon 10X,3,3,2019-08-27,2019-10-26,60,True,Nagpur,Road,Passed,DELAY_60D
+VL0080000321,SD00000627,CUST-IDN-001,Indonesian Air Force,Indonesia,Falcon 10X,1,1,2026-01-07,2026-01-07,0,False,Merignac,Sea Freight,Passed,
+VL0080000322,SD00000628,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 8X,6,6,2020-12-05,2020-12-05,0,False,Merignac,Air Freight,Passed,
+VL0080000323,SD00000630,CUST-QAT-001,Qatar Emiri Air Force,Qatar,MRO_Package_Annual,1,0,2021-06-02,2021-08-01,60,True,Bordeaux,Road,Passed,DELAY_60D
+VL0080000324,SD00000632,CUST-GRC-001,Hellenic Air Force,Greece,MRO_Package_Annual,1,1,2025-01-02,2024-12-03,-30,False,Bordeaux,Sea Freight,Passed,
+VL0080000325,SD00000634,CUST-PRIV-001,Tata Sons Ltd,India,Rafale F4,11,11,2021-07-05,2021-06-20,-15,False,Nagpur,Road,Passed,
+VL0080000326,SD00000636,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 8X,11,11,2025-07-15,2025-07-15,0,False,Merignac,Air Freight,Passed,
+VL0080000327,SD00000638,CUST-HRV-001,Croatian Air Force,Croatia,Rafale F4,12,12,2024-08-01,2024-08-01,0,False,Nagpur,Road,Passed,
+VL0080000328,SD00000639,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 10X,7,4,2025-01-08,2025-01-08,0,False,Merignac,Sea Freight,Passed,
+VL0080000329,SD00000640,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 6X,11,11,2022-01-06,2022-01-06,0,False,Bordeaux,Air Freight,Passed,
+VL0080000330,SD00000644,CUST-IND-001,Indian Air Force,India,Rafale F3-R,1,0,2025-05-23,2025-05-23,0,False,Bordeaux,Road,Passed,
+VL0080000331,SD00000647,CUST-HRV-001,Croatian Air Force,Croatia,Rafale F3-R,9,9,2024-09-11,2024-11-10,60,True,Bordeaux,Air Freight,Passed,DELAY_60D
+VL0080000332,SD00000650,CUST-PRIV-003,Air France,France,Rafale F3-R,10,8,2022-08-22,2022-08-22,0,False,Bordeaux,Air Freight,Passed,
+VL0080000333,SD00000656,CUST-IND-002,Indian Navy,India,Training_Package,1,0,2025-05-18,2025-05-18,0,False,Nagpur,Road,Passed,
+VL0080000334,SD00000658,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 8X,10,10,2026-07-18,2026-10-16,90,True,Bordeaux,Sea Freight,Passed,DELAY_90D
+VL0080000335,SD00000662,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 10X,3,2,2024-06-15,2024-08-14,60,True,Bordeaux,Road,Failed,DELAY_60D
+VL0080000336,SD00000663,CUST-HRV-001,Croatian Air Force,Croatia,Falcon 8X,4,4,2021-05-06,2021-05-06,0,False,Nagpur,Sea Freight,Conditional,
+VL0080000337,SD00000664,CUST-IND-001,Indian Air Force,India,Falcon 8X,3,3,2019-04-30,2019-04-30,0,False,Nagpur,Road,Passed,
+VL0080000338,SD00000668,CUST-IND-001,Indian Air Force,India,Falcon 10X,6,3,2023-10-24,2023-10-24,0,False,Nagpur,Air Freight,Passed,
+VL0080000339,SD00000671,CUST-PRIV-001,Tata Sons Ltd,India,Rafale F4,3,3,2026-07-12,2026-08-11,30,True,Nagpur,Air Freight,Passed,
+VL0080000340,SD00000672,CUST-PRIV-003,Air France,France,Training_Package,1,1,2025-03-04,2025-03-04,0,False,Merignac,Sea Freight,Passed,
+VL0080000341,SD00000673,CUST-PRIV-002,Reliance Industries,India,Falcon 8X,4,3,2023-06-12,2023-06-12,0,False,Nagpur,Road,Passed,
+VL0080000342,SD00000674,CUST-UAE-001,UAE Air Force,UAE,Falcon 10X,12,12,2025-02-03,2025-03-05,30,True,Bordeaux,Air Freight,Passed,
+VL0080000343,SD00000675,CUST-HRV-001,Croatian Air Force,Croatia,Training_Package,1,0,2027-09-01,2027-10-01,30,True,Merignac,Sea Freight,Passed,
+VL0080000344,SD00000676,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F3-R,8,8,2020-08-02,2020-10-01,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000345,SD00000677,CUST-PRIV-003,Air France,France,Rafale F3-R,11,11,2024-07-12,2024-06-27,-15,False,Bordeaux,Air Freight,Passed,
+VL0080000346,SD00000680,CUST-PRIV-003,Air France,France,MRO_Package_Annual,1,0,2022-12-18,2022-12-18,0,False,Nagpur,Air Freight,Passed,
+VL0080000347,SD00000681,CUST-PRIV-001,Tata Sons Ltd,India,Rafale F4,12,12,2025-12-05,2026-01-04,30,True,Bordeaux,Road,Passed,
+VL0080000348,SD00000682,CUST-PRIV-003,Air France,France,Falcon 10X,6,4,2023-03-30,2024-03-29,365,True,Merignac,Sea Freight,Passed,CRITICAL_DELAY_365D
+VL0080000349,SD00000683,CUST-UAE-001,UAE Air Force,UAE,Spare_Parts_Bundle,1,1,2024-12-15,2024-12-15,0,False,Nagpur,Road,Passed,
+VL0080000350,SD00000684,CUST-GRC-001,Hellenic Air Force,Greece,Training_Package,1,1,2026-12-03,2027-02-01,60,True,Nagpur,Sea Freight,Conditional,DELAY_60D
+VL0080000351,SD00000687,CUST-IND-002,Indian Navy,India,Spare_Parts_Bundle,1,0,2023-01-23,2023-01-23,0,False,Nagpur,Sea Freight,Passed,
+VL0080000352,SD00000688,CUST-HRV-001,Croatian Air Force,Croatia,Rafale F3-R,8,8,2023-06-29,2023-06-14,-15,False,Merignac,Air Freight,Passed,
+VL0080000353,SD00000691,CUST-PRIV-003,Air France,France,Rafale F4,7,7,2020-11-27,2020-11-27,0,False,Bordeaux,Road,Conditional,
+VL0080000354,SD00000693,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Rafale F3-R,12,11,2022-11-26,2023-01-25,60,True,Bordeaux,Road,Passed,DELAY_60D
+VL0080000355,SD00000694,CUST-PRIV-003,Air France,France,MRO_Package_Annual,1,1,2022-01-18,2022-02-17,30,True,Nagpur,Road,Passed,
+VL0080000356,SD00000695,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 6X,7,6,2024-05-03,2024-10-30,180,True,Bordeaux,Air Freight,Passed,CRITICAL_DELAY_180D
+VL0080000357,SD00000697,CUST-PRIV-004,Total Energies,France,Falcon 6X,5,5,2019-05-06,2019-06-05,30,True,Nagpur,Road,Passed,
+VL0080000358,SD00000698,CUST-PRIV-001,Tata Sons Ltd,India,Falcon 6X,7,3,2019-03-15,2019-06-13,90,True,Bordeaux,Air Freight,Conditional,DELAY_90D
+VL0080000359,SD00000702,CUST-GRC-001,Hellenic Air Force,Greece,MRO_Package_Annual,1,0,2021-04-15,2021-04-15,0,False,Bordeaux,Sea Freight,Passed,
+VL0080000360,SD00000706,CUST-UAE-001,UAE Air Force,UAE,Falcon 8X,6,5,2024-09-17,2024-09-17,0,False,Bordeaux,Air Freight,Passed,
+VL0080000361,SD00000710,CUST-PRIV-001,Tata Sons Ltd,India,Spare_Parts_Bundle,1,0,2019-09-28,2019-09-28,0,False,Bordeaux,Road,Passed,
+VL0080000362,SD00000716,CUST-PRIV-002,Reliance Industries,India,Falcon 8X,1,1,2025-05-18,2025-05-03,-15,False,Merignac,Road,Conditional,
+VL0080000363,SD00000722,CUST-PRIV-004,Total Energies,France,Rafale F3-R,12,9,2023-11-17,2024-01-16,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000364,SD00000724,CUST-GRC-001,Hellenic Air Force,Greece,MRO_Package_Annual,1,0,2020-09-25,2021-03-24,180,True,Merignac,Air Freight,Passed,CRITICAL_DELAY_180D
+VL0080000365,SD00000728,CUST-EGY-001,Egyptian Air Force,Egypt,Falcon 10X,2,2,2020-04-15,2020-05-15,30,True,Merignac,Sea Freight,Passed,
+VL0080000366,SD00000729,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 6X,11,11,2024-12-24,2025-12-24,365,True,Bordeaux,Air Freight,Passed,CRITICAL_DELAY_365D
+VL0080000367,SD00000730,CUST-IND-002,Indian Navy,India,Spare_Parts_Bundle,1,0,2021-10-20,2021-11-19,30,True,Merignac,Road,Passed,
+VL0080000368,SD00000733,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Spare_Parts_Bundle,1,1,2021-10-28,2022-01-26,90,True,Merignac,Air Freight,Passed,DELAY_90D
+VL0080000369,SD00000734,CUST-IND-002,Indian Navy,India,Falcon 8X,2,1,2024-01-23,2024-04-22,90,True,Nagpur,Air Freight,Passed,DELAY_90D
+VL0080000370,SD00000735,CUST-PRIV-003,Air France,France,Falcon 10X,3,3,2022-07-07,2022-06-22,-15,False,Nagpur,Road,Conditional,
+VL0080000371,SD00000737,CUST-PRIV-003,Air France,France,Spare_Parts_Bundle,1,0,2024-06-05,2024-06-05,0,False,Nagpur,Sea Freight,Passed,
+VL0080000372,SD00000739,CUST-IND-002,Indian Navy,India,Falcon 8X,6,5,2019-06-09,2019-06-09,0,False,Nagpur,Air Freight,Passed,
+VL0080000373,SD00000743,CUST-PRIV-002,Reliance Industries,India,Rafale F4,1,1,2022-11-22,2022-11-22,0,False,Merignac,Road,Passed,
+VL0080000374,SD00000745,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Falcon 8X,2,1,2022-03-10,2022-04-09,30,True,Merignac,Air Freight,Passed,
+VL0080000375,SD00000746,CUST-IND-001,Indian Air Force,India,Falcon 6X,6,6,2023-08-10,2023-08-10,0,False,Nagpur,Air Freight,Passed,
+VL0080000376,SD00000749,CUST-PRIV-001,Tata Sons Ltd,India,Rafale F4,5,4,2022-12-20,2022-12-20,0,False,Bordeaux,Air Freight,Passed,
+VL0080000377,SD00000750,CUST-PRIV-004,Total Energies,France,Rafale F4,10,10,2026-01-20,2026-01-20,0,False,Nagpur,Road,Passed,
+VL0080000378,SD00000752,CUST-HRV-001,Croatian Air Force,Croatia,Rafale F4,10,10,2021-10-15,2021-10-15,0,False,Merignac,Road,Passed,
+VL0080000379,SD00000757,CUST-UAE-001,UAE Air Force,UAE,Rafale F3-R,1,0,2024-09-27,2025-09-27,365,True,Bordeaux,Sea Freight,Conditional,CRITICAL_DELAY_365D
+VL0080000380,SD00000759,CUST-IND-001,Indian Air Force,India,Falcon 10X,7,7,2023-12-18,2024-03-17,90,True,Merignac,Road,Failed,DELAY_90D
+VL0080000381,SD00000762,CUST-IND-001,Indian Air Force,India,Training_Package,1,1,2023-06-18,2023-08-17,60,True,Bordeaux,Air Freight,Passed,DELAY_60D
+VL0080000382,SD00000767,CUST-PRIV-003,Air France,France,MRO_Package_Annual,1,1,2022-04-23,2022-05-23,30,True,Merignac,Road,Passed,
+VL0080000383,SD00000773,CUST-PRIV-004,Total Energies,France,Rafale F3-R,9,9,2023-10-25,2023-10-25,0,False,Merignac,Air Freight,Passed,
+VL0080000384,SD00000774,CUST-PRIV-002,Reliance Industries,India,Rafale F3-R,12,12,2023-02-15,2023-03-17,30,True,Bordeaux,Air Freight,Passed,
+VL0080000385,SD00000780,CUST-IND-002,Indian Navy,India,Training_Package,1,1,2022-07-25,2022-07-25,0,False,Merignac,Road,Passed,
+VL0080000386,SD00000784,CUST-IND-001,Indian Air Force,India,Falcon 10X,1,0,2023-06-15,2023-09-13,90,True,Nagpur,Sea Freight,Passed,DELAY_90D
+VL0080000387,SD00000787,CUST-IND-001,Indian Air Force,India,Spare_Parts_Bundle,1,1,2021-11-23,2022-01-22,60,True,Nagpur,Air Freight,Passed,DELAY_60D
+VL0080000388,SD00000790,CUST-PRIV-002,Reliance Industries,India,Rafale F3-R,1,1,2019-10-07,2019-10-07,0,False,Nagpur,Sea Freight,Passed,
+VL0080000389,SD00000799,CUST-IDN-001,Indonesian Air Force,Indonesia,Rafale F4,9,9,2020-08-20,2020-10-19,60,True,Nagpur,Sea Freight,Passed,DELAY_60D

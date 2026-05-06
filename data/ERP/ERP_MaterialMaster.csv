@@ -1,0 +1,21 @@
+MATNR,Description,Category,UOM,Unit_Price_EUR,Plant
+MAT-RAFx-001,Fuselage_Section_Avant_Rafale,Airframe,EA,4200000,Nagpur
+MAT-RAFx-002,Voilure_Composite_Rafale,Airframe,EA,1800000,Hyderabad
+MAT-RAFx-003,Train_Atterrissage_Principal,Landing Gear,EA,950000,Bangalore
+MAT-RAFx-004,Moteur_M88_2E,Engine,EA,5500000,Paris
+MAT-RAFx-005,Radar_RBE2_AESA,Avionics,EA,4100000,Bordeaux
+MAT-RAFx-006,Systeme_EW_Spectra,Avionics,EA,3700000,Bordeaux
+MAT-RAFx-007,Pylones_Emport_Armement,Structure,EA,210000,Nagpur
+MAT-RAFx-008,Reserve_Combustible_Conforme,Fuel System,EA,380000,Hyderabad
+MAT-RAFx-009,Ejection_Seat_Martin_Baker,Safety,EA,780000,UK
+MAT-RAFx-010,HUD_Display_Avionics,Avionics,EA,620000,Toulouse
+MAT-FAL8-001,Fuselage_Falcon_8X,Airframe,EA,9500000,Bordeaux
+MAT-FAL8-002,Porte_Cabin_Falcon_8X,Airframe,EA,320000,Nagpur
+MAT-FAL8-003,Moteur_PW307D,Engine,EA,2800000,USA
+MAT-FAL8-004,Avionics_Suite_EASy_II,Avionics,EA,1900000,Bordeaux
+MAT-FAL8-005,Interior_VIP_Package,Interior,EA,4200000,Paris
+MAT-MRO-001,Kit_Maintenance_C_Check,MRO,KIT,75000,Merignac
+MAT-MRO-002,Hydraulic_Fluid_Skydrol,MRO,L,45,Multiple
+MAT-MRO-003,Seals_Kit_Engine,MRO,KIT,8200,Merignac
+MAT-MRO-004,Brake_Assembly_Rafale,MRO,EA,92000,UK
+MAT-MRO-005,Avionics_LRU_Spare,MRO,EA,185000,Bordeaux

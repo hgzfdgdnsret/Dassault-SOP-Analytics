@@ -1,0 +1,801 @@
+VBELN,CustomerId,CustomerName,Country,Segment,Product,Qty_Ordered,Unit_Price_EUR,Net_Value_EUR,Currency,SO_Date,Requested_Delivery_Date,Incoterms,Payment_Terms,Status,SalesOffice,SalesRep,Offset_Obligation_Pct
+SD00000001,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,2,45000000,90232448.97,EUR,2019-12-10,2023-06-24,DAP,L/C 90 days,Fully Delivered,New Delhi,Sophie Leclerc,0
+SD00000002,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 6X,10,45000000,433944567.36,EUR,2018-01-30,2020-04-13,DAP,Milestone-based,Fully Delivered,Paris,Jean-Pierre Martin,50
+SD00000003,CUST-UAE-001,UAE Air Force,UAE,Government,Spare_Parts_Bundle,1,2500000,2440597.59,EUR,2019-10-18,2021-06-06,CIF,Milestone-based,Fully Delivered,Paris,Antoine Morel,0
+SD00000004,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2504670.33,EUR,2018-12-23,2022-01-09,DDP,Milestone-based,In Production,Cairo,Isabelle Bernard,30
+SD00000005,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,MRO_Package_Annual,1,5000000,5031020.65,EUR,2020-12-24,2024-03-08,DDP,L/C 90 days,Open,Paris,Marc Dupont,0
+SD00000006,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F4,9,95000000,882075114.18,EUR,2023-02-01,2025-09-21,DDP,L/C 90 days,Fully Delivered,Paris,Isabelle Bernard,0
+SD00000007,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,12,60000000,715646629.37,EUR,2019-05-11,2022-06-24,CIF,L/C 90 days,In Production,New Delhi,Sophie Leclerc,50
+SD00000008,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,10,45000000,456992823.86,EUR,2020-02-02,2020-09-28,DDP,"30% advance, 70% on delivery",In Production,Singapore,Antoine Morel,0
+SD00000009,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,12,45000000,535244774.89,EUR,2019-12-03,2020-12-23,EXW,L/C 90 days,Fully Delivered,Singapore,Jean-Pierre Martin,0
+SD00000010,CUST-PRIV-003,Air France,France,Commercial,Falcon 10X,4,75000000,301594091.93,EUR,2019-08-13,2021-06-07,EXW,L/C 90 days,Fully Delivered,Abu Dhabi,Sophie Leclerc,0
+SD00000011,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,6,45000000,271510491.69,EUR,2021-06-15,2023-06-11,CIF,L/C 90 days,Partially Delivered,Cairo,Isabelle Bernard,0
+SD00000012,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 8X,7,60000000,411173397.34,EUR,2018-03-22,2021-11-30,EXW,L/C 90 days,In Production,Cairo,Antoine Morel,50
+SD00000013,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,3,95000000,296208249.27,EUR,2022-12-03,2023-06-06,DDP,Milestone-based,In Production,Paris,Sophie Leclerc,0
+SD00000014,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4873244.68,EUR,2023-04-04,2026-09-14,DAP,"30% advance, 70% on delivery",Cancelled,Cairo,Marc Dupont,0
+SD00000015,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,3,45000000,130264734.3,EUR,2019-02-08,2020-05-08,CIF,L/C 90 days,Fully Delivered,Paris,Antoine Morel,0
+SD00000016,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 8X,1,60000000,62300228.88,EUR,2020-12-22,2024-07-29,CIF,L/C 90 days,Partially Delivered,Singapore,Antoine Morel,50
+SD00000017,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,MRO_Package_Annual,1,5000000,5091798.65,EUR,2022-03-05,2025-07-20,DDP,L/C 90 days,In Production,Singapore,Isabelle Bernard,0
+SD00000018,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,1,45000000,44001585.85,EUR,2021-05-22,2023-03-16,DAP,L/C 90 days,Cancelled,Singapore,Marc Dupont,0
+SD00000019,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,6,95000000,589105492.64,EUR,2019-10-30,2021-07-01,DAP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Antoine Morel,0
+SD00000020,CUST-PRIV-004,Total Energies,France,Commercial,MRO_Package_Annual,1,5000000,5082004.18,EUR,2019-01-14,2021-03-24,EXW,L/C 90 days,In Production,Singapore,Sophie Leclerc,0
+SD00000021,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,1,45000000,45344471.29,EUR,2023-04-10,2024-03-24,CIF,"30% advance, 70% on delivery",In Production,Singapore,Jean-Pierre Martin,0
+SD00000022,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,11,90000000,955442240.42,EUR,2019-09-14,2020-11-03,DAP,L/C 90 days,In Production,Cairo,Isabelle Bernard,50
+SD00000023,CUST-PRIV-003,Air France,France,Commercial,Falcon 8X,1,60000000,57690995.5,EUR,2019-01-01,2020-02-22,CIF,"30% advance, 70% on delivery",Open,New Delhi,Sophie Leclerc,0
+SD00000024,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,10,95000000,971058715.31,EUR,2023-01-03,2024-04-05,CIF,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Antoine Morel,50
+SD00000025,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,1,45000000,44071255.01,EUR,2020-02-28,2023-01-26,DDP,L/C 90 days,In Production,Paris,Sophie Leclerc,0
+SD00000026,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 10X,9,75000000,648244995.83,EUR,2021-03-01,2022-08-23,EXW,"30% advance, 70% on delivery",Open,Singapore,Isabelle Bernard,50
+SD00000027,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 8X,6,60000000,372954378.34,EUR,2021-08-30,2022-11-28,EXW,Milestone-based,In Production,New Delhi,Jean-Pierre Martin,0
+SD00000028,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,12,45000000,558731146.99,EUR,2021-12-04,2024-07-20,DAP,L/C 90 days,Fully Delivered,Paris,Sophie Leclerc,0
+SD00000029,CUST-PRIV-004,Total Energies,France,Commercial,MRO_Package_Annual,1,5000000,4814101.67,EUR,2023-07-27,2024-02-26,DDP,Milestone-based,Fully Delivered,Paris,Sophie Leclerc,0
+SD00000030,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,7,45000000,328707818.78,EUR,2021-08-30,2025-03-07,EXW,"30% advance, 70% on delivery",In Production,New Delhi,Jean-Pierre Martin,30
+SD00000031,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,1,60000000,57845074.97,EUR,2023-05-28,2024-03-13,EXW,L/C 90 days,Partially Delivered,New Delhi,Isabelle Bernard,0
+SD00000032,CUST-PRIV-001,Tata Sons Ltd,India,Private,Training_Package,1,3000000,2933379.23,EUR,2019-11-13,2023-09-19,CIF,L/C 90 days,Fully Delivered,Paris,Isabelle Bernard,0
+SD00000033,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,7,90000000,612876678.67,EUR,2019-06-03,2021-06-28,DAP,Milestone-based,Partially Delivered,Abu Dhabi,Marc Dupont,0
+SD00000034,CUST-PRIV-003,Air France,France,Commercial,Rafale F3-R,4,90000000,367243236.17,EUR,2021-03-15,2021-11-16,DAP,"30% advance, 70% on delivery",In Production,Singapore,Marc Dupont,0
+SD00000035,CUST-HRV-001,Croatian Air Force,Croatia,Government,Training_Package,1,3000000,3019328.49,EUR,2023-01-24,2025-08-15,EXW,L/C 90 days,Partially Delivered,Paris,Marc Dupont,50
+SD00000036,CUST-PRIV-002,Reliance Industries,India,Private,MRO_Package_Annual,1,5000000,4935984.9,EUR,2022-10-08,2024-03-24,EXW,Milestone-based,Cancelled,Paris,Sophie Leclerc,0
+SD00000037,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Training_Package,1,3000000,2980255.46,EUR,2019-03-29,2019-12-24,DAP,L/C 90 days,Partially Delivered,Paris,Jean-Pierre Martin,0
+SD00000038,CUST-IND-001,Indian Air Force,India,Government,Spare_Parts_Bundle,1,2500000,2513460.84,EUR,2019-02-16,2022-02-20,DAP,Milestone-based,In Production,New Delhi,Isabelle Bernard,50
+SD00000039,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,9,90000000,777391694.56,EUR,2022-02-09,2025-02-10,DAP,L/C 90 days,Open,Paris,Marc Dupont,50
+SD00000040,CUST-IND-001,Indian Air Force,India,Government,Training_Package,1,3000000,2875330.5,EUR,2023-09-14,2024-06-06,DAP,"30% advance, 70% on delivery",Partially Delivered,Paris,Isabelle Bernard,50
+SD00000041,CUST-UAE-001,UAE Air Force,UAE,Government,MRO_Package_Annual,1,5000000,4789853.79,EUR,2018-07-15,2020-08-22,EXW,Milestone-based,In Production,Abu Dhabi,Sophie Leclerc,50
+SD00000042,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,12,95000000,1105407109.04,EUR,2018-03-13,2021-11-09,EXW,L/C 90 days,Partially Delivered,Singapore,Marc Dupont,50
+SD00000043,CUST-HRV-001,Croatian Air Force,Croatia,Government,Spare_Parts_Bundle,1,2500000,2524040.07,EUR,2023-07-26,2024-03-22,DAP,Milestone-based,In Production,New Delhi,Sophie Leclerc,50
+SD00000044,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,8,60000000,500254524.08,EUR,2022-11-27,2025-08-09,DDP,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Antoine Morel,0
+SD00000045,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,3,45000000,137692942.93,EUR,2023-04-30,2023-12-04,EXW,Milestone-based,Open,Cairo,Isabelle Bernard,0
+SD00000046,CUST-IND-002,Indian Navy,India,Government,Falcon 10X,6,75000000,455707694.04,EUR,2018-04-13,2019-02-25,DAP,Milestone-based,Fully Delivered,Singapore,Isabelle Bernard,50
+SD00000047,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,5,95000000,453024159.99,EUR,2020-12-11,2024-09-20,DAP,L/C 90 days,In Production,Singapore,Marc Dupont,50
+SD00000048,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4874645.26,EUR,2018-09-27,2021-01-02,DAP,Milestone-based,Fully Delivered,Singapore,Antoine Morel,50
+SD00000049,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,11,75000000,852235803.71,EUR,2023-07-29,2026-04-12,CIF,L/C 90 days,Fully Delivered,New Delhi,Jean-Pierre Martin,0
+SD00000050,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Training_Package,1,3000000,3055546.71,EUR,2022-08-26,2025-04-14,EXW,"30% advance, 70% on delivery",Fully Delivered,Cairo,Isabelle Bernard,0
+SD00000051,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 6X,8,45000000,352319581.11,EUR,2018-07-21,2021-10-06,EXW,"30% advance, 70% on delivery",Partially Delivered,New Delhi,Sophie Leclerc,30
+SD00000052,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,4,60000000,245687231.13,EUR,2023-10-13,2027-08-03,DAP,L/C 90 days,Partially Delivered,Cairo,Jean-Pierre Martin,0
+SD00000053,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 10X,3,75000000,233627062.34,EUR,2019-07-26,2020-03-15,DAP,L/C 90 days,In Production,Cairo,Antoine Morel,0
+SD00000054,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,2,95000000,188304096.45,EUR,2019-10-11,2020-06-03,EXW,"30% advance, 70% on delivery",Fully Delivered,Singapore,Jean-Pierre Martin,0
+SD00000055,CUST-GRC-001,Hellenic Air Force,Greece,Government,Training_Package,1,3000000,3120249.74,EUR,2019-04-04,2020-03-20,DAP,L/C 90 days,Cancelled,Singapore,Antoine Morel,50
+SD00000056,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 10X,11,75000000,825677943.66,EUR,2018-10-17,2022-05-08,EXW,Milestone-based,Cancelled,Singapore,Sophie Leclerc,0
+SD00000057,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,8,95000000,793957037.83,EUR,2021-12-29,2025-05-30,DDP,L/C 90 days,Partially Delivered,Cairo,Antoine Morel,30
+SD00000058,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,9,90000000,783478577.81,EUR,2018-04-16,2020-03-27,CIF,Milestone-based,Partially Delivered,Abu Dhabi,Isabelle Bernard,50
+SD00000059,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,4,60000000,237125997.76,EUR,2018-12-15,2021-02-15,DAP,L/C 90 days,Partially Delivered,Paris,Sophie Leclerc,50
+SD00000060,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 10X,3,75000000,227247788.5,EUR,2022-10-01,2026-05-19,DDP,Milestone-based,Cancelled,Cairo,Antoine Morel,50
+SD00000061,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,5,90000000,429441061.22,EUR,2021-12-23,2023-10-03,EXW,"30% advance, 70% on delivery",Fully Delivered,Singapore,Isabelle Bernard,0
+SD00000062,CUST-GRC-001,Hellenic Air Force,Greece,Government,Spare_Parts_Bundle,1,2500000,2386005.3,EUR,2020-10-13,2022-04-08,DDP,Milestone-based,Partially Delivered,Cairo,Marc Dupont,0
+SD00000063,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2420431.31,EUR,2018-07-05,2022-05-23,EXW,L/C 90 days,Cancelled,Cairo,Isabelle Bernard,50
+SD00000064,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,10,75000000,744698118.25,EUR,2020-12-24,2024-01-05,DDP,"30% advance, 70% on delivery",Partially Delivered,Cairo,Jean-Pierre Martin,0
+SD00000065,CUST-PRIV-001,Tata Sons Ltd,India,Private,MRO_Package_Annual,1,5000000,4801104.84,EUR,2019-08-07,2020-12-26,EXW,L/C 90 days,Cancelled,New Delhi,Isabelle Bernard,0
+SD00000066,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,1,60000000,60015197.08,EUR,2020-06-28,2022-06-22,DDP,L/C 90 days,Partially Delivered,Paris,Isabelle Bernard,0
+SD00000067,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Spare_Parts_Bundle,1,2500000,2494880.9,EUR,2023-11-30,2026-11-25,DAP,Milestone-based,Fully Delivered,Paris,Antoine Morel,0
+SD00000068,CUST-IND-002,Indian Navy,India,Government,Falcon 10X,2,75000000,145716776.96,EUR,2019-04-08,2023-01-18,DDP,Milestone-based,Fully Delivered,Singapore,Sophie Leclerc,0
+SD00000069,CUST-PRIV-004,Total Energies,France,Commercial,Spare_Parts_Bundle,1,2500000,2401990.12,EUR,2020-05-23,2023-07-20,DAP,Milestone-based,Fully Delivered,New Delhi,Sophie Leclerc,0
+SD00000070,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,6,75000000,452533219.85,EUR,2019-01-22,2021-10-18,DAP,"30% advance, 70% on delivery",In Production,Abu Dhabi,Marc Dupont,30
+SD00000071,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,5,60000000,288737079.94,EUR,2019-02-03,2021-12-27,DAP,"30% advance, 70% on delivery",In Production,Abu Dhabi,Marc Dupont,0
+SD00000072,CUST-PRIV-002,Reliance Industries,India,Private,Spare_Parts_Bundle,1,2500000,2475516.19,EUR,2018-09-16,2021-11-01,CIF,L/C 90 days,Fully Delivered,Paris,Antoine Morel,0
+SD00000073,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 10X,10,75000000,752868010.98,EUR,2018-06-21,2022-01-10,DAP,Milestone-based,Partially Delivered,Cairo,Antoine Morel,0
+SD00000074,CUST-IND-002,Indian Navy,India,Government,Falcon 10X,2,75000000,149142764.46,EUR,2022-08-22,2026-01-11,DAP,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Antoine Morel,0
+SD00000075,CUST-HRV-001,Croatian Air Force,Croatia,Government,Spare_Parts_Bundle,1,2500000,2611796.23,EUR,2022-09-26,2026-09-07,DDP,L/C 90 days,Fully Delivered,Singapore,Isabelle Bernard,50
+SD00000076,CUST-PRIV-002,Reliance Industries,India,Private,Training_Package,1,3000000,2943484.74,EUR,2023-09-07,2026-04-24,DAP,Milestone-based,Partially Delivered,Abu Dhabi,Antoine Morel,0
+SD00000077,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,MRO_Package_Annual,1,5000000,5151789.65,EUR,2018-07-21,2019-08-31,DDP,L/C 90 days,Open,Singapore,Sophie Leclerc,0
+SD00000078,CUST-PRIV-003,Air France,France,Commercial,Training_Package,1,3000000,3148405.21,EUR,2020-10-06,2023-05-25,DAP,Milestone-based,Fully Delivered,Paris,Jean-Pierre Martin,0
+SD00000079,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,7,95000000,677153942.69,EUR,2018-09-11,2020-06-17,CIF,"30% advance, 70% on delivery",Fully Delivered,Cairo,Marc Dupont,0
+SD00000080,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,2,60000000,120176013.4,EUR,2020-11-30,2023-03-31,DAP,Milestone-based,In Production,Cairo,Jean-Pierre Martin,0
+SD00000081,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,3,75000000,220471050.94,EUR,2020-10-21,2022-04-20,CIF,Milestone-based,Open,Abu Dhabi,Antoine Morel,50
+SD00000082,CUST-HRV-001,Croatian Air Force,Croatia,Government,Spare_Parts_Bundle,1,2500000,2499375.86,EUR,2018-07-24,2020-11-19,EXW,"30% advance, 70% on delivery",Fully Delivered,Paris,Marc Dupont,30
+SD00000083,CUST-HRV-001,Croatian Air Force,Croatia,Government,MRO_Package_Annual,1,5000000,4995014.65,EUR,2022-12-20,2025-05-14,DAP,L/C 90 days,Partially Delivered,Cairo,Marc Dupont,30
+SD00000084,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 6X,9,45000000,417363217.37,EUR,2018-04-29,2021-03-14,EXW,Milestone-based,Open,Cairo,Isabelle Bernard,0
+SD00000085,CUST-PRIV-003,Air France,France,Commercial,Falcon 8X,7,60000000,413133307.99,EUR,2021-03-30,2022-01-14,EXW,L/C 90 days,Open,Singapore,Marc Dupont,0
+SD00000086,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,1,90000000,91753132.98,EUR,2022-10-09,2024-02-29,DAP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Marc Dupont,0
+SD00000087,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2616083.49,EUR,2023-05-14,2026-07-07,DDP,Milestone-based,In Production,Singapore,Jean-Pierre Martin,50
+SD00000088,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,2,95000000,183860672.8,EUR,2019-02-14,2020-02-18,EXW,L/C 90 days,In Production,Singapore,Isabelle Bernard,0
+SD00000089,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,2,90000000,179542535.92,EUR,2023-10-16,2026-07-03,CIF,L/C 90 days,Partially Delivered,New Delhi,Sophie Leclerc,0
+SD00000090,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,4972044.17,EUR,2018-02-25,2020-03-05,CIF,Milestone-based,Partially Delivered,New Delhi,Isabelle Bernard,0
+SD00000091,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,3,95000000,272273929.67,EUR,2023-12-06,2025-10-30,CIF,Milestone-based,In Production,New Delhi,Isabelle Bernard,30
+SD00000092,CUST-PRIV-004,Total Energies,France,Commercial,Spare_Parts_Bundle,1,2500000,2591599.59,EUR,2023-12-21,2024-09-24,EXW,L/C 90 days,Partially Delivered,New Delhi,Marc Dupont,0
+SD00000093,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,5,60000000,288837501.06,EUR,2020-08-10,2023-12-04,EXW,Milestone-based,In Production,Abu Dhabi,Jean-Pierre Martin,0
+SD00000094,CUST-PRIV-003,Air France,France,Commercial,Spare_Parts_Bundle,1,2500000,2438616.17,EUR,2022-02-13,2024-03-18,EXW,L/C 90 days,Fully Delivered,New Delhi,Sophie Leclerc,0
+SD00000095,CUST-IND-002,Indian Navy,India,Government,Rafale F4,3,95000000,297667233.54,EUR,2019-09-24,2022-09-24,CIF,L/C 90 days,In Production,Singapore,Jean-Pierre Martin,50
+SD00000096,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2566039.32,EUR,2020-09-21,2022-11-11,DDP,Milestone-based,Fully Delivered,New Delhi,Jean-Pierre Martin,0
+SD00000097,CUST-PRIV-001,Tata Sons Ltd,India,Private,Spare_Parts_Bundle,1,2500000,2546270.75,EUR,2018-10-26,2021-12-21,DAP,L/C 90 days,In Production,Singapore,Jean-Pierre Martin,0
+SD00000098,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2615579.05,EUR,2018-06-20,2020-05-22,DDP,"30% advance, 70% on delivery",In Production,Cairo,Antoine Morel,0
+SD00000099,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 8X,5,60000000,303723868.78,EUR,2020-07-28,2022-12-02,EXW,"30% advance, 70% on delivery",Fully Delivered,Paris,Jean-Pierre Martin,50
+SD00000100,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2485135.4,EUR,2023-09-01,2025-10-06,DAP,Milestone-based,Partially Delivered,Abu Dhabi,Sophie Leclerc,30
+SD00000101,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 10X,11,75000000,862579699.21,EUR,2020-12-07,2022-11-23,DDP,L/C 90 days,Partially Delivered,Abu Dhabi,Jean-Pierre Martin,50
+SD00000102,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,8,45000000,367364764.93,EUR,2019-03-15,2019-10-12,EXW,"30% advance, 70% on delivery",Fully Delivered,Singapore,Jean-Pierre Martin,0
+SD00000103,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Training_Package,1,3000000,3138103.5,EUR,2023-10-01,2025-09-03,CIF,L/C 90 days,Fully Delivered,Singapore,Antoine Morel,50
+SD00000104,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,12,60000000,727117230.92,EUR,2021-06-07,2023-09-09,DDP,Milestone-based,Partially Delivered,Paris,Marc Dupont,0
+SD00000105,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,5,60000000,296305264.96,EUR,2018-05-30,2019-05-28,CIF,L/C 90 days,Fully Delivered,Abu Dhabi,Sophie Leclerc,30
+SD00000106,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 6X,9,45000000,411022248.03,EUR,2023-01-16,2024-06-12,DDP,L/C 90 days,Partially Delivered,Paris,Sophie Leclerc,0
+SD00000107,CUST-PRIV-003,Air France,France,Commercial,Training_Package,1,3000000,2859025.07,EUR,2019-10-06,2023-06-07,DDP,L/C 90 days,In Production,Singapore,Jean-Pierre Martin,0
+SD00000108,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,3,45000000,130217026.66,EUR,2018-07-03,2019-08-26,DDP,"30% advance, 70% on delivery",Open,Paris,Jean-Pierre Martin,0
+SD00000109,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2490327.28,EUR,2022-04-04,2023-05-23,DAP,L/C 90 days,Open,Singapore,Antoine Morel,50
+SD00000110,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2405425.68,EUR,2018-12-09,2021-02-01,CIF,"30% advance, 70% on delivery",In Production,Abu Dhabi,Jean-Pierre Martin,50
+SD00000111,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,6,75000000,456744403.92,EUR,2018-12-15,2022-10-02,DAP,Milestone-based,Partially Delivered,Abu Dhabi,Isabelle Bernard,50
+SD00000112,CUST-PRIV-003,Air France,France,Commercial,Falcon 8X,4,60000000,235556684.07,EUR,2022-08-01,2026-05-17,DAP,"30% advance, 70% on delivery",In Production,Paris,Sophie Leclerc,0
+SD00000113,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,8,90000000,744141677.54,EUR,2022-07-14,2024-01-18,EXW,Milestone-based,Open,Singapore,Isabelle Bernard,0
+SD00000114,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,6,95000000,542614074.09,EUR,2018-07-08,2021-06-14,CIF,Milestone-based,Partially Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000115,CUST-IND-001,Indian Air Force,India,Government,Spare_Parts_Bundle,1,2500000,2604034.97,EUR,2021-05-10,2022-05-02,DDP,Milestone-based,Fully Delivered,Paris,Isabelle Bernard,50
+SD00000116,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F4,7,95000000,672588880.26,EUR,2021-01-06,2024-12-22,DAP,Milestone-based,Partially Delivered,Singapore,Sophie Leclerc,50
+SD00000117,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,5,45000000,226214124.57,EUR,2022-03-28,2025-09-22,CIF,"30% advance, 70% on delivery",Fully Delivered,Cairo,Antoine Morel,50
+SD00000118,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,9,45000000,402304685.88,EUR,2023-11-01,2027-07-01,CIF,L/C 90 days,Open,Paris,Marc Dupont,0
+SD00000119,CUST-GRC-001,Hellenic Air Force,Greece,Government,Spare_Parts_Bundle,1,2500000,2420152.52,EUR,2023-02-01,2024-01-05,CIF,"30% advance, 70% on delivery",Partially Delivered,Singapore,Sophie Leclerc,0
+SD00000120,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,3,95000000,283050969.15,EUR,2022-01-08,2025-01-22,DDP,Milestone-based,Fully Delivered,Paris,Marc Dupont,0
+SD00000121,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F3-R,10,90000000,888168939.61,EUR,2019-07-25,2020-06-18,EXW,Milestone-based,Fully Delivered,Singapore,Marc Dupont,0
+SD00000122,CUST-IND-002,Indian Navy,India,Government,Training_Package,1,3000000,2995997.37,EUR,2021-04-06,2022-04-05,DDP,Milestone-based,Fully Delivered,Abu Dhabi,Isabelle Bernard,50
+SD00000123,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,2,95000000,190794402.66,EUR,2019-08-16,2021-09-08,CIF,"30% advance, 70% on delivery",Open,Cairo,Marc Dupont,0
+SD00000124,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,10,60000000,626581507.84,EUR,2021-10-01,2025-02-11,CIF,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Marc Dupont,30
+SD00000125,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,9,95000000,841885278.57,EUR,2021-04-17,2023-11-16,DAP,Milestone-based,Partially Delivered,Cairo,Antoine Morel,0
+SD00000126,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,3,60000000,186202153.56,EUR,2022-02-12,2025-05-24,DAP,L/C 90 days,Fully Delivered,Paris,Jean-Pierre Martin,50
+SD00000127,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,12,45000000,561517726.92,EUR,2022-08-07,2024-08-19,CIF,"30% advance, 70% on delivery",Cancelled,New Delhi,Sophie Leclerc,30
+SD00000128,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,9,60000000,521799570.02,EUR,2021-09-05,2023-09-28,DAP,Milestone-based,Open,Singapore,Antoine Morel,0
+SD00000129,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 10X,12,75000000,895736156.86,EUR,2019-01-05,2020-04-08,DAP,Milestone-based,Cancelled,Singapore,Marc Dupont,0
+SD00000130,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,1,95000000,97719861.24,EUR,2018-08-30,2019-09-01,EXW,"30% advance, 70% on delivery",Open,Singapore,Sophie Leclerc,50
+SD00000131,CUST-IND-002,Indian Navy,India,Government,Rafale F4,6,95000000,552097997.37,EUR,2018-11-28,2019-08-24,DDP,Milestone-based,Fully Delivered,Paris,Antoine Morel,0
+SD00000132,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,1,90000000,89661379.1,EUR,2022-10-29,2026-08-24,DAP,"30% advance, 70% on delivery",In Production,Cairo,Marc Dupont,50
+SD00000133,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,9,95000000,861327213.35,EUR,2021-07-03,2025-02-22,EXW,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Antoine Morel,0
+SD00000134,CUST-PRIV-001,Tata Sons Ltd,India,Private,Training_Package,1,3000000,2973961.31,EUR,2020-05-23,2023-03-13,EXW,Milestone-based,In Production,Cairo,Jean-Pierre Martin,0
+SD00000135,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F4,10,95000000,977837995.73,EUR,2023-10-10,2025-01-21,DDP,Milestone-based,Cancelled,Singapore,Jean-Pierre Martin,0
+SD00000136,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,1,95000000,92699260.82,EUR,2018-07-05,2019-11-11,CIF,"30% advance, 70% on delivery",In Production,New Delhi,Jean-Pierre Martin,0
+SD00000137,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 10X,4,75000000,314124606.08,EUR,2022-01-14,2024-12-25,DDP,Milestone-based,In Production,New Delhi,Isabelle Bernard,50
+SD00000138,CUST-IND-001,Indian Air Force,India,Government,Spare_Parts_Bundle,1,2500000,2590511.05,EUR,2022-11-19,2023-08-05,CIF,"30% advance, 70% on delivery",Fully Delivered,Singapore,Antoine Morel,0
+SD00000139,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 10X,5,75000000,391160585.23,EUR,2023-08-24,2025-03-25,DDP,Milestone-based,Partially Delivered,New Delhi,Isabelle Bernard,0
+SD00000140,CUST-PRIV-003,Air France,France,Commercial,Falcon 10X,7,75000000,546787736.26,EUR,2018-07-14,2020-11-17,CIF,Milestone-based,In Production,Abu Dhabi,Jean-Pierre Martin,0
+SD00000141,CUST-HRV-001,Croatian Air Force,Croatia,Government,MRO_Package_Annual,1,5000000,4974492.82,EUR,2021-10-06,2024-03-25,CIF,"30% advance, 70% on delivery",Open,New Delhi,Antoine Morel,0
+SD00000142,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,10,90000000,858061287.32,EUR,2021-09-27,2024-01-19,CIF,L/C 90 days,Open,Abu Dhabi,Jean-Pierre Martin,0
+SD00000143,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,4,95000000,364789735.17,EUR,2018-12-08,2019-12-28,CIF,"30% advance, 70% on delivery",Partially Delivered,Singapore,Jean-Pierre Martin,0
+SD00000144,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,5152720.65,EUR,2022-12-29,2025-08-31,DDP,"30% advance, 70% on delivery",Open,Paris,Isabelle Bernard,50
+SD00000145,CUST-PRIV-002,Reliance Industries,India,Private,MRO_Package_Annual,1,5000000,5209688.63,EUR,2021-07-14,2023-07-12,DAP,L/C 90 days,Fully Delivered,New Delhi,Jean-Pierre Martin,0
+SD00000146,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,3,60000000,178879272.88,EUR,2021-07-09,2025-03-08,DAP,"30% advance, 70% on delivery",In Production,New Delhi,Isabelle Bernard,50
+SD00000147,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,6,95000000,547826646.46,EUR,2020-05-28,2021-12-03,EXW,L/C 90 days,Cancelled,Singapore,Marc Dupont,50
+SD00000148,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,4765995.31,EUR,2021-03-03,2021-11-27,CIF,"30% advance, 70% on delivery",Cancelled,Cairo,Sophie Leclerc,0
+SD00000149,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Training_Package,1,3000000,3028488.14,EUR,2018-07-22,2021-01-11,EXW,L/C 90 days,Fully Delivered,Paris,Sophie Leclerc,50
+SD00000150,CUST-IND-002,Indian Navy,India,Government,Rafale F3-R,1,90000000,94343104.55,EUR,2021-03-25,2025-03-17,EXW,L/C 90 days,In Production,Paris,Sophie Leclerc,50
+SD00000151,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F4,1,95000000,92885624.43,EUR,2019-06-01,2020-01-31,CIF,"30% advance, 70% on delivery",Fully Delivered,Singapore,Antoine Morel,0
+SD00000152,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 10X,2,75000000,143580129.77,EUR,2021-05-13,2025-04-18,DDP,L/C 90 days,Cancelled,Abu Dhabi,Antoine Morel,0
+SD00000153,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,9,60000000,532395405.3,EUR,2020-09-24,2023-04-27,EXW,"30% advance, 70% on delivery",Fully Delivered,Paris,Marc Dupont,0
+SD00000154,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F4,1,95000000,90813586.35,EUR,2023-06-18,2027-02-23,DAP,L/C 90 days,Cancelled,Paris,Isabelle Bernard,50
+SD00000155,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,2,90000000,180841235.75,EUR,2022-12-05,2026-02-04,DDP,Milestone-based,In Production,Singapore,Marc Dupont,50
+SD00000156,CUST-PRIV-003,Air France,France,Commercial,Falcon 8X,12,60000000,748062967.99,EUR,2020-06-11,2022-01-08,EXW,Milestone-based,Partially Delivered,Singapore,Marc Dupont,0
+SD00000157,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,1,90000000,89033674.56,EUR,2023-02-21,2025-09-30,DDP,Milestone-based,Fully Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000158,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,5164221.13,EUR,2018-10-26,2022-01-28,CIF,Milestone-based,In Production,Abu Dhabi,Sophie Leclerc,50
+SD00000159,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 10X,2,75000000,149390677.61,EUR,2020-11-09,2022-05-19,DDP,L/C 90 days,Partially Delivered,Singapore,Sophie Leclerc,0
+SD00000160,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,6,75000000,466020515.97,EUR,2018-10-13,2019-05-12,DAP,L/C 90 days,Fully Delivered,Paris,Isabelle Bernard,50
+SD00000161,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4872142.65,EUR,2022-08-23,2025-12-30,DAP,"30% advance, 70% on delivery",In Production,Paris,Jean-Pierre Martin,50
+SD00000162,CUST-HRV-001,Croatian Air Force,Croatia,Government,Training_Package,1,3000000,2915983.22,EUR,2019-07-12,2023-06-23,EXW,L/C 90 days,Cancelled,Abu Dhabi,Isabelle Bernard,30
+SD00000163,CUST-PRIV-002,Reliance Industries,India,Private,Training_Package,1,3000000,2946983.29,EUR,2020-02-02,2021-01-26,CIF,Milestone-based,In Production,New Delhi,Isabelle Bernard,0
+SD00000164,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,4,45000000,178543444.86,EUR,2020-01-04,2020-07-19,DDP,Milestone-based,Fully Delivered,Abu Dhabi,Marc Dupont,50
+SD00000165,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,5,95000000,473192327.91,EUR,2023-03-13,2023-10-29,DDP,"30% advance, 70% on delivery",Fully Delivered,Cairo,Jean-Pierre Martin,0
+SD00000166,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 8X,4,60000000,245128662.18,EUR,2018-01-26,2019-07-30,DDP,"30% advance, 70% on delivery",In Production,Singapore,Sophie Leclerc,0
+SD00000167,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F4,9,95000000,861228737.06,EUR,2023-06-26,2023-12-31,DAP,Milestone-based,Fully Delivered,Paris,Jean-Pierre Martin,50
+SD00000168,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,9,45000000,399792849.41,EUR,2018-12-01,2022-09-16,CIF,L/C 90 days,Fully Delivered,Cairo,Sophie Leclerc,50
+SD00000169,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,7,95000000,668724862.48,EUR,2018-07-02,2019-04-11,EXW,"30% advance, 70% on delivery",Fully Delivered,Cairo,Antoine Morel,0
+SD00000170,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,2,45000000,90427400.08,EUR,2022-03-18,2026-02-11,CIF,"30% advance, 70% on delivery",Cancelled,Singapore,Marc Dupont,0
+SD00000171,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,1,75000000,76180173.98,EUR,2023-10-06,2025-01-10,CIF,"30% advance, 70% on delivery",In Production,Paris,Jean-Pierre Martin,0
+SD00000172,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,10,45000000,440754549.42,EUR,2019-06-07,2023-06-06,DDP,"30% advance, 70% on delivery",Cancelled,New Delhi,Jean-Pierre Martin,0
+SD00000173,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,5,95000000,464490369.06,EUR,2021-02-15,2022-10-20,DAP,"30% advance, 70% on delivery",Fully Delivered,Cairo,Marc Dupont,50
+SD00000174,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,12,45000000,513551225.61,EUR,2019-06-03,2019-12-26,DDP,"30% advance, 70% on delivery",Open,Abu Dhabi,Sophie Leclerc,0
+SD00000175,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 8X,3,60000000,183904911.35,EUR,2023-08-02,2026-02-02,DDP,L/C 90 days,Fully Delivered,Paris,Sophie Leclerc,30
+SD00000176,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,1,45000000,46793300.16,EUR,2019-06-20,2022-10-12,EXW,"30% advance, 70% on delivery",Open,Cairo,Marc Dupont,0
+SD00000177,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,1,45000000,45819818.69,EUR,2018-08-24,2021-01-25,DDP,Milestone-based,Fully Delivered,Cairo,Isabelle Bernard,30
+SD00000178,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F4,10,95000000,953540561.88,EUR,2019-06-25,2020-05-15,DDP,L/C 90 days,Fully Delivered,Paris,Isabelle Bernard,50
+SD00000179,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,8,95000000,744688885.9,EUR,2018-06-17,2019-11-04,DDP,"30% advance, 70% on delivery",Partially Delivered,Paris,Marc Dupont,0
+SD00000180,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,2,75000000,151801331.16,EUR,2022-05-25,2023-10-19,DAP,"30% advance, 70% on delivery",In Production,Paris,Isabelle Bernard,50
+SD00000181,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,6,90000000,534916591.47,EUR,2022-02-18,2024-12-19,CIF,Milestone-based,Fully Delivered,Paris,Isabelle Bernard,0
+SD00000182,CUST-PRIV-004,Total Energies,France,Commercial,Spare_Parts_Bundle,1,2500000,2607465.39,EUR,2018-12-11,2022-08-20,CIF,Milestone-based,Partially Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000183,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 10X,5,75000000,367518866.06,EUR,2018-05-29,2021-05-16,CIF,"30% advance, 70% on delivery",Cancelled,Abu Dhabi,Antoine Morel,0
+SD00000184,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,10,45000000,446257451.85,EUR,2018-02-04,2020-04-13,CIF,"30% advance, 70% on delivery",Fully Delivered,Cairo,Sophie Leclerc,0
+SD00000185,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,7,60000000,404656964.56,EUR,2019-04-27,2020-04-22,DDP,Milestone-based,In Production,New Delhi,Isabelle Bernard,50
+SD00000186,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,5220419.17,EUR,2021-08-06,2023-08-01,DAP,L/C 90 days,Fully Delivered,Singapore,Antoine Morel,50
+SD00000187,CUST-IND-001,Indian Air Force,India,Government,Training_Package,1,3000000,3134743.06,EUR,2019-02-06,2023-01-31,DDP,L/C 90 days,Cancelled,New Delhi,Marc Dupont,50
+SD00000188,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2440917.43,EUR,2020-04-03,2023-11-20,DDP,"30% advance, 70% on delivery",In Production,Abu Dhabi,Isabelle Bernard,0
+SD00000189,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F3-R,6,90000000,541707952.61,EUR,2020-07-10,2022-05-23,DDP,"30% advance, 70% on delivery",In Production,New Delhi,Jean-Pierre Martin,0
+SD00000190,CUST-PRIV-004,Total Energies,France,Commercial,MRO_Package_Annual,1,5000000,5174169.74,EUR,2023-12-07,2027-03-23,EXW,L/C 90 days,Partially Delivered,Abu Dhabi,Marc Dupont,0
+SD00000191,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2604034.4,EUR,2021-01-05,2024-04-21,CIF,Milestone-based,In Production,Singapore,Marc Dupont,50
+SD00000192,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,5223494.72,EUR,2022-01-16,2023-11-18,CIF,Milestone-based,Partially Delivered,Cairo,Isabelle Bernard,0
+SD00000193,CUST-PRIV-004,Total Energies,France,Commercial,Spare_Parts_Bundle,1,2500000,2615568.78,EUR,2018-09-18,2021-08-15,EXW,"30% advance, 70% on delivery",In Production,Paris,Sophie Leclerc,0
+SD00000194,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,6,75000000,428495670.36,EUR,2018-02-02,2021-10-16,EXW,L/C 90 days,In Production,Paris,Marc Dupont,0
+SD00000195,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,6,60000000,370314985.68,EUR,2022-03-01,2025-11-19,EXW,Milestone-based,In Production,New Delhi,Jean-Pierre Martin,0
+SD00000196,CUST-IND-001,Indian Air Force,India,Government,Training_Package,1,3000000,3111034.72,EUR,2021-02-05,2022-05-10,DAP,Milestone-based,In Production,New Delhi,Isabelle Bernard,0
+SD00000197,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F3-R,11,90000000,1034912037.42,EUR,2020-03-11,2022-01-27,DDP,Milestone-based,Fully Delivered,Paris,Marc Dupont,30
+SD00000198,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,12,45000000,556718034.87,EUR,2023-01-29,2026-09-30,CIF,"30% advance, 70% on delivery",Partially Delivered,Paris,Jean-Pierre Martin,0
+SD00000199,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F4,8,95000000,793451147.77,EUR,2021-12-30,2023-06-05,DAP,"30% advance, 70% on delivery",Open,Abu Dhabi,Antoine Morel,0
+SD00000200,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,9,95000000,836262788.01,EUR,2019-10-03,2021-06-02,EXW,L/C 90 days,In Production,New Delhi,Isabelle Bernard,50
+SD00000201,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 10X,5,75000000,387905307.49,EUR,2023-08-03,2024-05-08,DDP,L/C 90 days,Open,New Delhi,Jean-Pierre Martin,50
+SD00000202,CUST-PRIV-001,Tata Sons Ltd,India,Private,Spare_Parts_Bundle,1,2500000,2574158.16,EUR,2019-08-28,2021-05-24,CIF,Milestone-based,Cancelled,New Delhi,Antoine Morel,0
+SD00000203,CUST-HRV-001,Croatian Air Force,Croatia,Government,Spare_Parts_Bundle,1,2500000,2545492.14,EUR,2022-07-24,2024-02-09,DAP,"30% advance, 70% on delivery",In Production,Abu Dhabi,Jean-Pierre Martin,50
+SD00000204,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,5157645.55,EUR,2022-12-05,2026-06-06,EXW,Milestone-based,Open,Singapore,Jean-Pierre Martin,0
+SD00000205,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,8,60000000,497104073.41,EUR,2019-12-31,2021-03-17,DDP,Milestone-based,Open,Cairo,Sophie Leclerc,0
+SD00000206,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,10,90000000,882101152.69,EUR,2019-05-21,2021-02-04,DAP,Milestone-based,Fully Delivered,New Delhi,Jean-Pierre Martin,0
+SD00000207,CUST-IND-002,Indian Navy,India,Government,Falcon 6X,7,45000000,318856682.74,EUR,2021-12-08,2023-04-17,CIF,"30% advance, 70% on delivery",Partially Delivered,Paris,Antoine Morel,50
+SD00000208,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Training_Package,1,3000000,3085227.91,EUR,2021-11-09,2023-01-24,EXW,L/C 90 days,Fully Delivered,New Delhi,Sophie Leclerc,0
+SD00000209,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,11,60000000,672752850.14,EUR,2022-12-19,2024-09-23,DDP,L/C 90 days,Fully Delivered,Singapore,Antoine Morel,0
+SD00000210,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,6,75000000,465878884.39,EUR,2020-06-28,2022-12-20,DDP,Milestone-based,In Production,Cairo,Jean-Pierre Martin,50
+SD00000211,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F3-R,8,90000000,712590913.17,EUR,2018-07-20,2022-02-17,DAP,L/C 90 days,Cancelled,New Delhi,Isabelle Bernard,50
+SD00000212,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,9,95000000,881242154.38,EUR,2020-03-29,2022-11-14,DAP,Milestone-based,Open,Paris,Sophie Leclerc,50
+SD00000213,CUST-IND-002,Indian Navy,India,Government,MRO_Package_Annual,1,5000000,5072403.08,EUR,2020-06-29,2024-02-12,DDP,L/C 90 days,Fully Delivered,Paris,Isabelle Bernard,50
+SD00000214,CUST-PRIV-003,Air France,France,Commercial,Spare_Parts_Bundle,1,2500000,2605760.72,EUR,2020-12-09,2024-06-04,CIF,Milestone-based,Fully Delivered,New Delhi,Marc Dupont,0
+SD00000215,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 10X,3,75000000,217015843.65,EUR,2020-06-06,2021-10-11,DDP,L/C 90 days,Open,Singapore,Jean-Pierre Martin,50
+SD00000216,CUST-IND-002,Indian Navy,India,Government,Falcon 10X,5,75000000,393642685.42,EUR,2021-11-18,2025-07-07,DDP,L/C 90 days,Cancelled,New Delhi,Sophie Leclerc,50
+SD00000217,CUST-GRC-001,Hellenic Air Force,Greece,Government,Spare_Parts_Bundle,1,2500000,2389289.98,EUR,2020-01-20,2024-01-04,EXW,"30% advance, 70% on delivery",Cancelled,Abu Dhabi,Jean-Pierre Martin,50
+SD00000218,CUST-UAE-001,UAE Air Force,UAE,Government,Training_Package,1,3000000,3109347.97,EUR,2020-09-29,2021-08-11,DAP,L/C 90 days,Fully Delivered,Paris,Marc Dupont,50
+SD00000219,CUST-PRIV-003,Air France,France,Commercial,Training_Package,1,3000000,2932733.91,EUR,2020-08-25,2021-03-05,EXW,"30% advance, 70% on delivery",Partially Delivered,Singapore,Marc Dupont,0
+SD00000220,CUST-IND-002,Indian Navy,India,Government,MRO_Package_Annual,1,5000000,4824248.57,EUR,2018-10-21,2020-07-12,DDP,Milestone-based,Fully Delivered,Paris,Antoine Morel,30
+SD00000221,CUST-PRIV-003,Air France,France,Commercial,Spare_Parts_Bundle,1,2500000,2432309.65,EUR,2023-04-24,2025-11-07,EXW,L/C 90 days,In Production,Abu Dhabi,Isabelle Bernard,0
+SD00000222,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4909210.22,EUR,2018-10-25,2020-04-13,DAP,Milestone-based,Cancelled,Paris,Isabelle Bernard,50
+SD00000223,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,2,95000000,191258302.28,EUR,2021-11-02,2024-03-06,DAP,L/C 90 days,Partially Delivered,Paris,Antoine Morel,50
+SD00000224,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,10,45000000,441946824.83,EUR,2023-07-28,2026-01-25,DAP,Milestone-based,Fully Delivered,Paris,Sophie Leclerc,0
+SD00000225,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,7,60000000,440008564.85,EUR,2018-03-03,2019-01-22,CIF,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Jean-Pierre Martin,0
+SD00000226,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,4,95000000,382719797.72,EUR,2022-10-28,2026-10-17,CIF,Milestone-based,Partially Delivered,Paris,Antoine Morel,50
+SD00000227,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 6X,2,45000000,86984763.18,EUR,2023-07-03,2026-09-15,DDP,"30% advance, 70% on delivery",In Production,Cairo,Isabelle Bernard,50
+SD00000228,CUST-IND-001,Indian Air Force,India,Government,Training_Package,1,3000000,3137743.15,EUR,2023-12-13,2027-06-10,CIF,Milestone-based,Fully Delivered,New Delhi,Sophie Leclerc,50
+SD00000229,CUST-PRIV-003,Air France,France,Commercial,Falcon 10X,4,75000000,288458644.06,EUR,2019-01-11,2021-08-30,DDP,"30% advance, 70% on delivery",In Production,Singapore,Antoine Morel,0
+SD00000230,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,4840844.5,EUR,2019-05-26,2020-09-13,DAP,L/C 90 days,Open,Paris,Marc Dupont,0
+SD00000231,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4993144.98,EUR,2022-03-29,2024-04-04,CIF,Milestone-based,Cancelled,Cairo,Jean-Pierre Martin,50
+SD00000232,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,3,90000000,267863352.16,EUR,2023-03-17,2025-12-01,CIF,Milestone-based,In Production,Cairo,Marc Dupont,50
+SD00000233,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Training_Package,1,3000000,3127007.17,EUR,2018-12-31,2021-11-04,CIF,Milestone-based,Fully Delivered,Cairo,Jean-Pierre Martin,30
+SD00000234,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F3-R,1,90000000,89160354.4,EUR,2021-12-16,2024-03-19,CIF,"30% advance, 70% on delivery",Fully Delivered,Paris,Antoine Morel,50
+SD00000235,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 10X,10,75000000,744496848.96,EUR,2020-02-03,2023-03-10,DAP,L/C 90 days,Partially Delivered,Singapore,Marc Dupont,0
+SD00000236,CUST-PRIV-002,Reliance Industries,India,Private,Spare_Parts_Bundle,1,2500000,2430685.04,EUR,2020-04-23,2021-01-29,CIF,L/C 90 days,Fully Delivered,Paris,Sophie Leclerc,0
+SD00000237,CUST-GRC-001,Hellenic Air Force,Greece,Government,MRO_Package_Annual,1,5000000,4805060.98,EUR,2023-12-07,2025-04-29,DDP,Milestone-based,Partially Delivered,Abu Dhabi,Sophie Leclerc,0
+SD00000238,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,9,75000000,683151632.43,EUR,2021-10-05,2025-09-06,EXW,Milestone-based,In Production,Cairo,Sophie Leclerc,30
+SD00000239,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,5,75000000,384199838.96,EUR,2021-06-13,2023-05-21,EXW,L/C 90 days,Fully Delivered,Paris,Isabelle Bernard,50
+SD00000240,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,10,45000000,438410612.66,EUR,2020-11-24,2022-12-08,EXW,"30% advance, 70% on delivery",Partially Delivered,Singapore,Marc Dupont,0
+SD00000241,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 10X,1,75000000,75193684.03,EUR,2019-12-03,2021-03-26,EXW,L/C 90 days,In Production,Cairo,Sophie Leclerc,50
+SD00000242,CUST-PRIV-004,Total Energies,France,Commercial,Training_Package,1,3000000,3067063.81,EUR,2020-06-14,2024-03-03,EXW,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Sophie Leclerc,0
+SD00000243,CUST-IND-002,Indian Navy,India,Government,Rafale F3-R,10,90000000,895098875.33,EUR,2018-09-08,2020-02-24,CIF,"30% advance, 70% on delivery",Open,Cairo,Marc Dupont,30
+SD00000244,CUST-PRIV-001,Tata Sons Ltd,India,Private,MRO_Package_Annual,1,5000000,4846358.2,EUR,2022-08-18,2025-03-13,DDP,"30% advance, 70% on delivery",In Production,Paris,Sophie Leclerc,0
+SD00000245,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,5,90000000,440016194.96,EUR,2022-11-08,2025-01-19,DAP,"30% advance, 70% on delivery",In Production,Singapore,Sophie Leclerc,50
+SD00000246,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,3,90000000,280725449.11,EUR,2021-12-28,2023-01-30,DAP,"30% advance, 70% on delivery",Open,Cairo,Marc Dupont,50
+SD00000247,CUST-GRC-001,Hellenic Air Force,Greece,Government,Spare_Parts_Bundle,1,2500000,2422578.65,EUR,2021-10-13,2024-12-01,CIF,"30% advance, 70% on delivery",Cancelled,Singapore,Antoine Morel,0
+SD00000248,CUST-IND-002,Indian Navy,India,Government,Falcon 10X,12,75000000,887444659.1,EUR,2021-05-07,2022-11-25,EXW,Milestone-based,In Production,Cairo,Sophie Leclerc,0
+SD00000249,CUST-IND-002,Indian Navy,India,Government,Falcon 6X,9,45000000,407054567.72,EUR,2018-07-16,2020-03-06,DDP,"30% advance, 70% on delivery",In Production,Cairo,Sophie Leclerc,50
+SD00000250,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 8X,1,60000000,62147851.57,EUR,2020-03-09,2022-06-01,DDP,Milestone-based,Partially Delivered,Cairo,Sophie Leclerc,0
+SD00000251,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,1,95000000,93111949.3,EUR,2023-01-21,2026-10-18,CIF,L/C 90 days,Partially Delivered,Paris,Jean-Pierre Martin,0
+SD00000252,CUST-PRIV-001,Tata Sons Ltd,India,Private,MRO_Package_Annual,1,5000000,5105377.81,EUR,2019-07-31,2023-04-06,CIF,L/C 90 days,Fully Delivered,Paris,Sophie Leclerc,0
+SD00000253,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,11,95000000,1061998406.27,EUR,2023-06-19,2026-05-31,DAP,Milestone-based,Fully Delivered,Abu Dhabi,Sophie Leclerc,0
+SD00000254,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,4,75000000,310244171.69,EUR,2018-08-28,2020-01-07,EXW,"30% advance, 70% on delivery",In Production,New Delhi,Sophie Leclerc,50
+SD00000255,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 10X,7,75000000,519269280.92,EUR,2020-01-13,2023-01-15,DDP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Sophie Leclerc,0
+SD00000256,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 8X,10,60000000,617592471.35,EUR,2018-02-08,2019-05-13,EXW,Milestone-based,Open,Singapore,Jean-Pierre Martin,0
+SD00000257,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 6X,1,45000000,43783748.2,EUR,2020-06-17,2022-01-22,CIF,Milestone-based,In Production,Paris,Jean-Pierre Martin,50
+SD00000258,CUST-HRV-001,Croatian Air Force,Croatia,Government,Training_Package,1,3000000,2959560.03,EUR,2018-02-13,2021-01-24,DDP,Milestone-based,Fully Delivered,Singapore,Antoine Morel,30
+SD00000259,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 6X,12,45000000,516059938.81,EUR,2021-02-12,2023-09-08,DAP,"30% advance, 70% on delivery",In Production,New Delhi,Antoine Morel,50
+SD00000260,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Training_Package,1,3000000,2901188.2,EUR,2018-04-29,2020-01-12,DDP,"30% advance, 70% on delivery",In Production,New Delhi,Antoine Morel,30
+SD00000261,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,10,95000000,979402445.45,EUR,2018-03-09,2019-03-10,DDP,"30% advance, 70% on delivery",Partially Delivered,New Delhi,Marc Dupont,0
+SD00000262,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F3-R,8,90000000,742631342.88,EUR,2022-08-22,2024-08-01,CIF,L/C 90 days,Fully Delivered,Paris,Isabelle Bernard,50
+SD00000263,CUST-PRIV-003,Air France,France,Commercial,Training_Package,1,3000000,2946334.48,EUR,2020-12-02,2023-09-25,DDP,Milestone-based,Open,Paris,Isabelle Bernard,0
+SD00000264,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 6X,9,45000000,420082085.34,EUR,2022-12-11,2024-04-19,CIF,L/C 90 days,Fully Delivered,New Delhi,Marc Dupont,50
+SD00000265,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,3,60000000,176699842.16,EUR,2018-06-14,2022-03-22,EXW,Milestone-based,Fully Delivered,Cairo,Antoine Morel,30
+SD00000266,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 10X,9,75000000,690167728.9,EUR,2019-08-27,2021-07-13,DDP,Milestone-based,Partially Delivered,Singapore,Jean-Pierre Martin,0
+SD00000267,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,3,95000000,273159285.39,EUR,2018-07-13,2019-09-10,DAP,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Antoine Morel,50
+SD00000268,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,11,90000000,1031216747.59,EUR,2018-10-30,2021-11-13,CIF,Milestone-based,Fully Delivered,Paris,Sophie Leclerc,0
+SD00000269,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,6,60000000,345728484.19,EUR,2020-10-28,2023-04-22,EXW,L/C 90 days,In Production,Paris,Isabelle Bernard,0
+SD00000270,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,3,60000000,173557889.55,EUR,2023-07-10,2026-03-10,DDP,"30% advance, 70% on delivery",Fully Delivered,Singapore,Isabelle Bernard,0
+SD00000271,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F3-R,6,90000000,559286370.66,EUR,2019-09-05,2020-12-23,DDP,Milestone-based,Open,Abu Dhabi,Marc Dupont,50
+SD00000272,CUST-PRIV-003,Air France,France,Commercial,Spare_Parts_Bundle,1,2500000,2587499.34,EUR,2020-02-27,2021-09-28,DAP,L/C 90 days,Fully Delivered,Singapore,Sophie Leclerc,0
+SD00000273,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,5,75000000,367576572.05,EUR,2018-03-17,2020-05-29,CIF,L/C 90 days,Partially Delivered,Singapore,Antoine Morel,30
+SD00000274,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,8,75000000,571248573.57,EUR,2019-11-12,2020-05-31,CIF,L/C 90 days,Fully Delivered,Abu Dhabi,Jean-Pierre Martin,50
+SD00000275,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 6X,11,45000000,492435654.67,EUR,2020-11-20,2024-11-16,DDP,Milestone-based,Fully Delivered,Cairo,Sophie Leclerc,0
+SD00000276,CUST-PRIV-002,Reliance Industries,India,Private,MRO_Package_Annual,1,5000000,4957057.42,EUR,2021-01-02,2022-07-14,CIF,Milestone-based,Partially Delivered,Abu Dhabi,Sophie Leclerc,0
+SD00000277,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,5033619.36,EUR,2018-03-13,2021-01-12,CIF,Milestone-based,Open,Singapore,Jean-Pierre Martin,0
+SD00000278,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,1,60000000,60924718.98,EUR,2019-10-08,2021-02-08,DAP,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Isabelle Bernard,0
+SD00000279,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,3,90000000,272468134.33,EUR,2021-07-17,2025-04-18,CIF,"30% advance, 70% on delivery",Partially Delivered,Cairo,Sophie Leclerc,50
+SD00000280,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,10,60000000,613363191.92,EUR,2020-01-07,2020-09-30,DAP,Milestone-based,Partially Delivered,Abu Dhabi,Antoine Morel,50
+SD00000281,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4798548.02,EUR,2020-04-18,2021-05-22,DAP,"30% advance, 70% on delivery",In Production,Abu Dhabi,Antoine Morel,50
+SD00000282,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 8X,2,60000000,123827064.57,EUR,2018-12-09,2020-06-03,DAP,"30% advance, 70% on delivery",Fully Delivered,Paris,Marc Dupont,50
+SD00000283,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,12,95000000,1125463800.57,EUR,2019-09-22,2022-08-28,CIF,Milestone-based,Partially Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000284,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F4,9,95000000,840184270.9,EUR,2018-08-28,2021-05-01,EXW,"30% advance, 70% on delivery",In Production,Paris,Jean-Pierre Martin,0
+SD00000285,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,10,60000000,625684118.94,EUR,2023-08-02,2026-07-22,CIF,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Antoine Morel,30
+SD00000286,CUST-PRIV-004,Total Energies,France,Commercial,Spare_Parts_Bundle,1,2500000,2534451.47,EUR,2021-02-28,2023-11-22,DAP,L/C 90 days,Fully Delivered,Cairo,Sophie Leclerc,0
+SD00000287,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,11,75000000,798624139.48,EUR,2019-08-01,2022-07-09,DDP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Sophie Leclerc,0
+SD00000288,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,1,95000000,92951060.01,EUR,2020-11-02,2024-04-24,DAP,Milestone-based,In Production,Cairo,Antoine Morel,50
+SD00000289,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,2,95000000,189450129.37,EUR,2023-01-03,2024-05-11,CIF,L/C 90 days,Fully Delivered,Singapore,Antoine Morel,0
+SD00000290,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 10X,10,75000000,764299101.86,EUR,2019-01-31,2020-06-23,DDP,"30% advance, 70% on delivery",Partially Delivered,Singapore,Jean-Pierre Martin,0
+SD00000291,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,7,45000000,312550822.61,EUR,2018-03-27,2019-09-02,DAP,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Sophie Leclerc,50
+SD00000292,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,4846695.89,EUR,2022-06-11,2023-12-29,DAP,Milestone-based,Fully Delivered,Paris,Marc Dupont,0
+SD00000293,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,9,45000000,421165350.83,EUR,2018-01-08,2020-07-03,DDP,Milestone-based,Partially Delivered,Singapore,Sophie Leclerc,50
+SD00000294,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,1,90000000,89559916.78,EUR,2023-12-28,2026-11-27,CIF,Milestone-based,In Production,New Delhi,Sophie Leclerc,0
+SD00000295,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 6X,9,45000000,409431258.37,EUR,2022-04-28,2023-12-16,CIF,Milestone-based,In Production,Paris,Antoine Morel,30
+SD00000296,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,11,95000000,1093433145.33,EUR,2022-07-07,2023-12-31,DAP,"30% advance, 70% on delivery",In Production,Cairo,Antoine Morel,0
+SD00000297,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,1,95000000,99494901.22,EUR,2020-02-17,2021-06-28,DDP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Antoine Morel,0
+SD00000298,CUST-IND-002,Indian Navy,India,Government,Falcon 6X,6,45000000,280738210.55,EUR,2023-03-04,2027-01-10,DAP,L/C 90 days,Fully Delivered,Cairo,Marc Dupont,50
+SD00000299,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,7,90000000,658518057.9,EUR,2023-05-30,2026-08-31,DAP,Milestone-based,In Production,Abu Dhabi,Antoine Morel,0
+SD00000300,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F3-R,11,90000000,1029486541.76,EUR,2023-11-11,2024-11-30,EXW,"30% advance, 70% on delivery",Fully Delivered,Paris,Antoine Morel,0
+SD00000301,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Training_Package,1,3000000,3136956.75,EUR,2019-04-24,2022-05-21,DAP,Milestone-based,Cancelled,Singapore,Isabelle Bernard,50
+SD00000302,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,9,45000000,412807553.7,EUR,2021-12-04,2025-03-16,DAP,L/C 90 days,In Production,New Delhi,Isabelle Bernard,0
+SD00000303,CUST-HRV-001,Croatian Air Force,Croatia,Government,MRO_Package_Annual,1,5000000,5097965.58,EUR,2022-06-24,2025-12-18,DDP,L/C 90 days,In Production,Abu Dhabi,Antoine Morel,0
+SD00000304,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,4974108.69,EUR,2021-06-15,2025-05-28,DDP,Milestone-based,Partially Delivered,Abu Dhabi,Sophie Leclerc,50
+SD00000305,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Spare_Parts_Bundle,1,2500000,2532068.64,EUR,2018-02-06,2021-01-31,DDP,L/C 90 days,Fully Delivered,Singapore,Jean-Pierre Martin,50
+SD00000306,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Training_Package,1,3000000,2892815.82,EUR,2022-08-15,2025-06-26,EXW,"30% advance, 70% on delivery",Partially Delivered,Cairo,Antoine Morel,50
+SD00000307,CUST-HRV-001,Croatian Air Force,Croatia,Government,Training_Package,1,3000000,2856478.11,EUR,2018-01-16,2021-08-21,CIF,Milestone-based,Fully Delivered,Cairo,Marc Dupont,50
+SD00000308,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,7,75000000,513229479.54,EUR,2023-09-17,2025-04-15,EXW,"30% advance, 70% on delivery",Fully Delivered,Cairo,Isabelle Bernard,0
+SD00000309,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Training_Package,1,3000000,3005696.27,EUR,2021-11-07,2023-07-02,DAP,Milestone-based,In Production,Abu Dhabi,Antoine Morel,50
+SD00000310,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,5,75000000,368101391.11,EUR,2019-11-14,2023-04-01,DAP,Milestone-based,Fully Delivered,New Delhi,Jean-Pierre Martin,0
+SD00000311,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Spare_Parts_Bundle,1,2500000,2409885.25,EUR,2023-02-22,2023-11-09,EXW,L/C 90 days,In Production,Singapore,Jean-Pierre Martin,0
+SD00000312,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 8X,5,60000000,301039238.61,EUR,2020-10-31,2023-05-03,DDP,"30% advance, 70% on delivery",Partially Delivered,Singapore,Antoine Morel,0
+SD00000313,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,11,45000000,510072645.58,EUR,2021-09-13,2024-11-24,DDP,L/C 90 days,In Production,Singapore,Isabelle Bernard,0
+SD00000314,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,9,95000000,841972620.21,EUR,2020-08-26,2021-03-23,CIF,Milestone-based,Open,Paris,Jean-Pierre Martin,0
+SD00000315,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,11,90000000,974646428.68,EUR,2022-05-18,2025-02-16,EXW,L/C 90 days,Open,New Delhi,Jean-Pierre Martin,30
+SD00000316,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 10X,2,75000000,150869372.26,EUR,2020-02-24,2023-02-05,EXW,Milestone-based,Cancelled,Cairo,Antoine Morel,0
+SD00000317,CUST-PRIV-001,Tata Sons Ltd,India,Private,Training_Package,1,3000000,3124194.18,EUR,2018-03-21,2019-05-17,DDP,Milestone-based,Partially Delivered,Paris,Jean-Pierre Martin,0
+SD00000318,CUST-IND-002,Indian Navy,India,Government,Falcon 6X,7,45000000,310979378.89,EUR,2019-05-19,2020-02-20,EXW,Milestone-based,In Production,Abu Dhabi,Sophie Leclerc,50
+SD00000319,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,7,90000000,628988721.77,EUR,2021-11-05,2024-09-14,CIF,Milestone-based,Partially Delivered,New Delhi,Marc Dupont,0
+SD00000320,CUST-IND-001,Indian Air Force,India,Government,Spare_Parts_Bundle,1,2500000,2410440.85,EUR,2019-06-01,2020-07-24,EXW,L/C 90 days,In Production,Singapore,Isabelle Bernard,50
+SD00000321,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,5216219.45,EUR,2020-01-01,2021-07-11,DDP,"30% advance, 70% on delivery",Cancelled,Singapore,Jean-Pierre Martin,30
+SD00000322,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 6X,11,45000000,502302056.49,EUR,2021-04-22,2024-04-06,EXW,Milestone-based,Fully Delivered,Abu Dhabi,Isabelle Bernard,50
+SD00000323,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 10X,11,75000000,848551057.72,EUR,2022-03-06,2026-01-07,CIF,Milestone-based,In Production,New Delhi,Jean-Pierre Martin,0
+SD00000324,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,6,45000000,256664879.31,EUR,2018-12-02,2020-03-06,EXW,"30% advance, 70% on delivery",In Production,Paris,Sophie Leclerc,0
+SD00000325,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,1,90000000,92169200.88,EUR,2022-06-04,2023-08-19,DAP,"30% advance, 70% on delivery",Fully Delivered,Cairo,Sophie Leclerc,0
+SD00000326,CUST-PRIV-003,Air France,France,Commercial,Falcon 8X,11,60000000,691014096.83,EUR,2023-07-20,2024-12-02,EXW,L/C 90 days,Partially Delivered,Singapore,Sophie Leclerc,0
+SD00000327,CUST-PRIV-002,Reliance Industries,India,Private,MRO_Package_Annual,1,5000000,5027842.53,EUR,2021-08-08,2025-03-14,DDP,L/C 90 days,In Production,Abu Dhabi,Sophie Leclerc,0
+SD00000328,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,4819971.55,EUR,2021-07-04,2022-07-26,EXW,Milestone-based,Partially Delivered,Abu Dhabi,Antoine Morel,0
+SD00000329,CUST-IND-002,Indian Navy,India,Government,Training_Package,1,3000000,2869968.03,EUR,2021-10-08,2022-07-21,DAP,Milestone-based,Partially Delivered,Abu Dhabi,Antoine Morel,0
+SD00000330,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Training_Package,1,3000000,2986232.41,EUR,2021-01-07,2024-02-26,EXW,L/C 90 days,In Production,New Delhi,Marc Dupont,0
+SD00000331,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Training_Package,1,3000000,3112153.51,EUR,2021-04-26,2022-06-09,CIF,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Antoine Morel,30
+SD00000332,CUST-PRIV-004,Total Energies,France,Commercial,Training_Package,1,3000000,2909831.64,EUR,2021-03-31,2025-02-13,EXW,"30% advance, 70% on delivery",In Production,Cairo,Antoine Morel,0
+SD00000333,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F3-R,4,90000000,349028486.02,EUR,2023-12-11,2025-08-27,DAP,L/C 90 days,Partially Delivered,New Delhi,Sophie Leclerc,0
+SD00000334,CUST-PRIV-003,Air France,France,Commercial,Falcon 8X,7,60000000,438326241.7,EUR,2023-10-03,2026-11-27,DDP,L/C 90 days,Partially Delivered,Paris,Marc Dupont,0
+SD00000335,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Training_Package,1,3000000,3012991.52,EUR,2020-03-15,2020-09-30,CIF,"30% advance, 70% on delivery",In Production,Abu Dhabi,Jean-Pierre Martin,30
+SD00000336,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,8,95000000,774554722.18,EUR,2022-08-01,2024-11-27,DDP,Milestone-based,Fully Delivered,New Delhi,Isabelle Bernard,50
+SD00000337,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,9,95000000,860516892.57,EUR,2019-03-16,2021-09-10,CIF,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Marc Dupont,50
+SD00000338,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,12,95000000,1137627752.89,EUR,2022-04-01,2023-08-26,CIF,L/C 90 days,Partially Delivered,Paris,Marc Dupont,0
+SD00000339,CUST-UAE-001,UAE Air Force,UAE,Government,Spare_Parts_Bundle,1,2500000,2409137.93,EUR,2020-11-18,2023-06-26,CIF,Milestone-based,Fully Delivered,Abu Dhabi,Jean-Pierre Martin,50
+SD00000340,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,12,90000000,1029988569.89,EUR,2018-07-17,2022-01-07,EXW,Milestone-based,Partially Delivered,New Delhi,Antoine Morel,0
+SD00000341,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,11,45000000,505339076.98,EUR,2019-11-02,2020-11-10,CIF,L/C 90 days,Fully Delivered,Singapore,Marc Dupont,30
+SD00000342,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 10X,7,75000000,513289105.98,EUR,2023-10-09,2027-02-28,CIF,L/C 90 days,In Production,Abu Dhabi,Isabelle Bernard,0
+SD00000343,CUST-PRIV-001,Tata Sons Ltd,India,Private,MRO_Package_Annual,1,5000000,5161942.61,EUR,2023-07-02,2025-10-31,EXW,L/C 90 days,Fully Delivered,New Delhi,Antoine Morel,0
+SD00000344,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,10,95000000,907377502.45,EUR,2019-08-11,2020-07-02,CIF,L/C 90 days,Partially Delivered,Singapore,Antoine Morel,0
+SD00000345,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,3,95000000,279278332.27,EUR,2020-02-08,2024-01-04,CIF,"30% advance, 70% on delivery",Cancelled,Cairo,Jean-Pierre Martin,0
+SD00000346,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,5,75000000,390954020.15,EUR,2019-02-10,2021-02-03,DDP,Milestone-based,Fully Delivered,Cairo,Sophie Leclerc,50
+SD00000347,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F4,2,95000000,183962279.0,EUR,2020-06-10,2021-02-05,EXW,Milestone-based,In Production,Singapore,Jean-Pierre Martin,0
+SD00000348,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,10,45000000,471873217.37,EUR,2023-07-07,2027-01-10,EXW,L/C 90 days,Open,Paris,Jean-Pierre Martin,0
+SD00000349,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 8X,2,60000000,119343538.68,EUR,2018-07-12,2021-02-04,CIF,Milestone-based,In Production,Singapore,Sophie Leclerc,0
+SD00000350,CUST-UAE-001,UAE Air Force,UAE,Government,MRO_Package_Annual,1,5000000,4794715.13,EUR,2021-07-06,2024-10-31,DAP,L/C 90 days,Partially Delivered,Cairo,Jean-Pierre Martin,50
+SD00000351,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 6X,3,45000000,137340016.42,EUR,2018-03-23,2019-05-25,DDP,L/C 90 days,Open,Paris,Jean-Pierre Martin,0
+SD00000352,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 8X,10,60000000,629085532.34,EUR,2021-06-13,2022-09-11,EXW,Milestone-based,Fully Delivered,Paris,Sophie Leclerc,0
+SD00000353,CUST-PRIV-004,Total Energies,France,Commercial,Spare_Parts_Bundle,1,2500000,2385565.63,EUR,2018-08-30,2022-02-17,DAP,L/C 90 days,In Production,Paris,Jean-Pierre Martin,0
+SD00000354,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,MRO_Package_Annual,1,5000000,4780498.27,EUR,2019-07-10,2021-09-10,CIF,"30% advance, 70% on delivery",In Production,Cairo,Jean-Pierre Martin,30
+SD00000355,CUST-PRIV-004,Total Energies,France,Commercial,Training_Package,1,3000000,2911692.47,EUR,2022-07-05,2023-10-14,DAP,"30% advance, 70% on delivery",Cancelled,Abu Dhabi,Antoine Morel,0
+SD00000356,CUST-PRIV-004,Total Energies,France,Commercial,Spare_Parts_Bundle,1,2500000,2517087.48,EUR,2020-05-06,2022-10-26,DAP,L/C 90 days,In Production,Paris,Marc Dupont,0
+SD00000357,CUST-PRIV-001,Tata Sons Ltd,India,Private,MRO_Package_Annual,1,5000000,5237713.87,EUR,2022-10-29,2023-10-29,EXW,Milestone-based,In Production,New Delhi,Jean-Pierre Martin,0
+SD00000358,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,5180387.09,EUR,2022-03-19,2024-01-18,DDP,Milestone-based,Partially Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000359,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2447544.33,EUR,2022-05-29,2026-05-04,DDP,L/C 90 days,Open,New Delhi,Isabelle Bernard,50
+SD00000360,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Training_Package,1,3000000,2858451.91,EUR,2019-10-11,2023-04-28,CIF,Milestone-based,Partially Delivered,Paris,Marc Dupont,0
+SD00000361,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,9,60000000,517439167.38,EUR,2020-11-10,2022-10-16,CIF,"30% advance, 70% on delivery",Open,Paris,Jean-Pierre Martin,50
+SD00000362,CUST-PRIV-004,Total Energies,France,Commercial,Training_Package,1,3000000,3137669.89,EUR,2021-08-17,2023-04-08,EXW,Milestone-based,In Production,Abu Dhabi,Jean-Pierre Martin,0
+SD00000363,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F4,1,95000000,92044639.1,EUR,2018-01-06,2019-04-08,DDP,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Sophie Leclerc,50
+SD00000364,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,7,45000000,303481108.56,EUR,2023-09-17,2024-10-10,EXW,L/C 90 days,In Production,Abu Dhabi,Isabelle Bernard,0
+SD00000365,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,10,45000000,441764483.68,EUR,2020-05-15,2020-12-25,DAP,Milestone-based,Partially Delivered,Cairo,Isabelle Bernard,0
+SD00000366,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F3-R,10,90000000,870633036.09,EUR,2023-09-03,2027-03-04,EXW,L/C 90 days,Fully Delivered,Singapore,Isabelle Bernard,30
+SD00000367,CUST-GRC-001,Hellenic Air Force,Greece,Government,MRO_Package_Annual,1,5000000,4805942.91,EUR,2020-08-29,2022-12-30,CIF,"30% advance, 70% on delivery",Partially Delivered,Cairo,Jean-Pierre Martin,50
+SD00000368,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,1,45000000,45638115.73,EUR,2022-10-07,2026-05-11,DAP,"30% advance, 70% on delivery",Cancelled,Cairo,Marc Dupont,50
+SD00000369,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,5,45000000,235059998.11,EUR,2023-08-26,2027-01-27,CIF,"30% advance, 70% on delivery",Cancelled,Singapore,Isabelle Bernard,50
+SD00000370,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,5230900.29,EUR,2020-06-30,2022-04-20,EXW,Milestone-based,In Production,Cairo,Jean-Pierre Martin,0
+SD00000371,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,4,95000000,388263484.78,EUR,2018-02-21,2022-02-15,EXW,"30% advance, 70% on delivery",Cancelled,Singapore,Isabelle Bernard,0
+SD00000372,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,7,60000000,404596091.04,EUR,2020-12-19,2022-05-24,EXW,"30% advance, 70% on delivery",Cancelled,New Delhi,Sophie Leclerc,0
+SD00000373,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,12,90000000,1096456269.1,EUR,2023-01-19,2026-02-17,EXW,Milestone-based,Open,Paris,Jean-Pierre Martin,0
+SD00000374,CUST-IND-001,Indian Air Force,India,Government,Training_Package,1,3000000,3056840.11,EUR,2021-01-19,2022-02-07,DDP,Milestone-based,Partially Delivered,Abu Dhabi,Sophie Leclerc,50
+SD00000375,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,1,95000000,96153149.47,EUR,2021-06-21,2022-07-08,DDP,"30% advance, 70% on delivery",Cancelled,Abu Dhabi,Antoine Morel,0
+SD00000376,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,10,90000000,920717080.51,EUR,2023-04-29,2024-08-30,EXW,L/C 90 days,Fully Delivered,Cairo,Sophie Leclerc,0
+SD00000377,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,4789064.31,EUR,2023-07-25,2025-09-23,DDP,Milestone-based,Fully Delivered,Paris,Marc Dupont,50
+SD00000378,CUST-PRIV-003,Air France,France,Commercial,Falcon 6X,3,45000000,133909416.21,EUR,2019-03-18,2022-09-10,DAP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Marc Dupont,0
+SD00000379,CUST-HRV-001,Croatian Air Force,Croatia,Government,Spare_Parts_Bundle,1,2500000,2399804.19,EUR,2022-04-12,2023-12-23,DAP,"30% advance, 70% on delivery",Open,Singapore,Isabelle Bernard,50
+SD00000380,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 8X,1,60000000,62605500.69,EUR,2019-09-13,2020-05-21,EXW,"30% advance, 70% on delivery",Open,Cairo,Isabelle Bernard,0
+SD00000381,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 8X,2,60000000,120854894.88,EUR,2020-03-16,2022-12-29,DAP,"30% advance, 70% on delivery",Cancelled,Abu Dhabi,Isabelle Bernard,0
+SD00000382,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,MRO_Package_Annual,1,5000000,4765012.53,EUR,2019-01-28,2022-05-05,EXW,L/C 90 days,In Production,Paris,Jean-Pierre Martin,50
+SD00000383,CUST-UAE-001,UAE Air Force,UAE,Government,Training_Package,1,3000000,2876842.57,EUR,2018-05-22,2021-05-30,DAP,"30% advance, 70% on delivery",In Production,New Delhi,Antoine Morel,50
+SD00000384,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,12,90000000,1081006137.75,EUR,2018-11-06,2021-07-11,DDP,"30% advance, 70% on delivery",Partially Delivered,Paris,Marc Dupont,0
+SD00000385,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,12,75000000,891676141.03,EUR,2019-04-04,2022-07-12,DDP,L/C 90 days,Open,Paris,Isabelle Bernard,0
+SD00000386,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 10X,5,75000000,365432940.26,EUR,2018-08-09,2019-11-28,EXW,Milestone-based,Fully Delivered,New Delhi,Sophie Leclerc,30
+SD00000387,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,11,95000000,1034269042.54,EUR,2019-08-14,2022-01-11,EXW,"30% advance, 70% on delivery",In Production,New Delhi,Jean-Pierre Martin,50
+SD00000388,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 10X,12,75000000,929096355.59,EUR,2023-04-28,2024-10-28,DAP,"30% advance, 70% on delivery",In Production,New Delhi,Isabelle Bernard,50
+SD00000389,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,4907903.14,EUR,2020-07-09,2021-09-29,DAP,L/C 90 days,Partially Delivered,Cairo,Antoine Morel,0
+SD00000390,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F3-R,11,90000000,953759716.11,EUR,2021-11-13,2024-05-16,EXW,"30% advance, 70% on delivery",Partially Delivered,Cairo,Jean-Pierre Martin,0
+SD00000391,CUST-IND-002,Indian Navy,India,Government,Rafale F4,10,95000000,965904409.55,EUR,2021-08-02,2025-02-01,DAP,"30% advance, 70% on delivery",Partially Delivered,Cairo,Antoine Morel,50
+SD00000392,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 10X,12,75000000,909598527.57,EUR,2022-08-22,2024-07-24,CIF,L/C 90 days,Partially Delivered,Cairo,Sophie Leclerc,0
+SD00000393,CUST-UAE-001,UAE Air Force,UAE,Government,Training_Package,1,3000000,2963810.75,EUR,2018-08-29,2019-03-16,EXW,Milestone-based,Partially Delivered,Cairo,Marc Dupont,0
+SD00000394,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,8,45000000,371551117.57,EUR,2018-12-29,2022-08-26,DAP,Milestone-based,Open,Abu Dhabi,Antoine Morel,0
+SD00000395,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,2,60000000,119246198.62,EUR,2018-06-28,2019-04-07,DDP,Milestone-based,Partially Delivered,Singapore,Sophie Leclerc,0
+SD00000396,CUST-UAE-001,UAE Air Force,UAE,Government,MRO_Package_Annual,1,5000000,5239823.71,EUR,2021-02-15,2024-08-24,CIF,Milestone-based,In Production,Cairo,Jean-Pierre Martin,50
+SD00000397,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,4,95000000,382815201.85,EUR,2023-12-02,2026-09-17,CIF,"30% advance, 70% on delivery",In Production,New Delhi,Jean-Pierre Martin,0
+SD00000398,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,4,60000000,245843527.57,EUR,2023-07-07,2024-11-01,EXW,Milestone-based,Fully Delivered,Paris,Sophie Leclerc,0
+SD00000399,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,1,90000000,85663563.36,EUR,2023-10-27,2026-06-04,EXW,L/C 90 days,In Production,Cairo,Isabelle Bernard,0
+SD00000400,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F4,10,95000000,902958778.78,EUR,2023-10-16,2027-03-16,DAP,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000401,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,1,90000000,90716805.54,EUR,2019-01-14,2021-09-07,DDP,"30% advance, 70% on delivery",Partially Delivered,New Delhi,Isabelle Bernard,0
+SD00000402,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Training_Package,1,3000000,3072003.79,EUR,2018-07-03,2021-03-04,EXW,Milestone-based,Open,Singapore,Jean-Pierre Martin,50
+SD00000403,CUST-HRV-001,Croatian Air Force,Croatia,Government,Training_Package,1,3000000,3149992.48,EUR,2022-05-11,2024-03-22,DAP,L/C 90 days,Open,Singapore,Antoine Morel,30
+SD00000404,CUST-PRIV-003,Air France,France,Commercial,Falcon 6X,4,45000000,178822116.64,EUR,2019-02-01,2020-12-12,DAP,"30% advance, 70% on delivery",Cancelled,Singapore,Jean-Pierre Martin,0
+SD00000405,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F4,11,95000000,1055881486.54,EUR,2022-02-21,2024-02-01,DDP,L/C 90 days,In Production,Abu Dhabi,Sophie Leclerc,0
+SD00000406,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,11,75000000,784743159.01,EUR,2022-01-26,2023-09-14,DDP,Milestone-based,In Production,Cairo,Isabelle Bernard,0
+SD00000407,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,MRO_Package_Annual,1,5000000,4937530.91,EUR,2020-10-22,2022-11-21,EXW,Milestone-based,Partially Delivered,Cairo,Isabelle Bernard,0
+SD00000408,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,2,90000000,172054083.41,EUR,2019-07-20,2021-07-15,DAP,"30% advance, 70% on delivery",Fully Delivered,Singapore,Jean-Pierre Martin,0
+SD00000409,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 8X,3,60000000,182747128.7,EUR,2023-10-04,2026-10-02,EXW,"30% advance, 70% on delivery",Partially Delivered,New Delhi,Isabelle Bernard,0
+SD00000410,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F3-R,9,90000000,797578700.14,EUR,2018-10-14,2022-01-23,EXW,"30% advance, 70% on delivery",In Production,Cairo,Sophie Leclerc,30
+SD00000411,CUST-PRIV-003,Air France,France,Commercial,Falcon 6X,7,45000000,309064550.67,EUR,2020-06-29,2022-12-01,DAP,"30% advance, 70% on delivery",Cancelled,Abu Dhabi,Jean-Pierre Martin,0
+SD00000412,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,9,95000000,893510718.95,EUR,2021-09-21,2022-10-25,CIF,"30% advance, 70% on delivery",Partially Delivered,New Delhi,Marc Dupont,30
+SD00000413,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,5,90000000,457450138.25,EUR,2022-06-17,2023-08-05,DAP,Milestone-based,Fully Delivered,Singapore,Sophie Leclerc,0
+SD00000414,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,5,90000000,446691174.46,EUR,2018-04-07,2019-01-22,DDP,L/C 90 days,Open,New Delhi,Isabelle Bernard,0
+SD00000415,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,12,95000000,1183203571.52,EUR,2019-12-21,2021-08-02,DDP,L/C 90 days,Cancelled,Cairo,Jean-Pierre Martin,30
+SD00000416,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,1,60000000,60929183.76,EUR,2020-12-19,2024-06-11,DAP,Milestone-based,Fully Delivered,Cairo,Isabelle Bernard,30
+SD00000417,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,5,75000000,370568837.52,EUR,2018-07-08,2020-09-20,DDP,Milestone-based,Fully Delivered,Cairo,Sophie Leclerc,50
+SD00000418,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Spare_Parts_Bundle,1,2500000,2581304.36,EUR,2018-04-14,2019-05-18,EXW,"30% advance, 70% on delivery",Fully Delivered,Paris,Marc Dupont,50
+SD00000419,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,12,45000000,529692892.96,EUR,2019-09-02,2021-08-13,CIF,"30% advance, 70% on delivery",In Production,Cairo,Isabelle Bernard,0
+SD00000420,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 8X,3,60000000,187923622.59,EUR,2019-02-20,2020-05-03,DDP,Milestone-based,Fully Delivered,Cairo,Jean-Pierre Martin,0
+SD00000421,CUST-PRIV-001,Tata Sons Ltd,India,Private,Spare_Parts_Bundle,1,2500000,2586826.0,EUR,2022-05-06,2024-10-21,CIF,"30% advance, 70% on delivery",Cancelled,New Delhi,Marc Dupont,0
+SD00000422,CUST-IND-002,Indian Navy,India,Government,Training_Package,1,3000000,3115162.24,EUR,2022-08-02,2026-02-19,EXW,L/C 90 days,Partially Delivered,Abu Dhabi,Isabelle Bernard,50
+SD00000423,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,10,60000000,573605371.55,EUR,2020-04-30,2022-11-06,CIF,"30% advance, 70% on delivery",Open,Singapore,Marc Dupont,50
+SD00000424,CUST-PRIV-002,Reliance Industries,India,Private,Training_Package,1,3000000,3148026.52,EUR,2019-08-20,2020-10-30,EXW,"30% advance, 70% on delivery",In Production,Abu Dhabi,Jean-Pierre Martin,0
+SD00000425,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Spare_Parts_Bundle,1,2500000,2594676.28,EUR,2022-03-30,2025-10-21,DAP,"30% advance, 70% on delivery",In Production,Paris,Marc Dupont,50
+SD00000426,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 10X,10,75000000,767869109.34,EUR,2021-12-30,2023-05-29,DDP,"30% advance, 70% on delivery",In Production,Cairo,Marc Dupont,30
+SD00000427,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,2,95000000,182420431.63,EUR,2023-07-13,2025-02-12,DAP,L/C 90 days,Partially Delivered,New Delhi,Isabelle Bernard,0
+SD00000428,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,11,90000000,982974415.06,EUR,2021-06-10,2023-03-13,EXW,L/C 90 days,In Production,Singapore,Sophie Leclerc,50
+SD00000429,CUST-IND-002,Indian Navy,India,Government,Falcon 10X,10,75000000,772602806.29,EUR,2018-04-06,2021-01-09,DAP,Milestone-based,Partially Delivered,Paris,Jean-Pierre Martin,0
+SD00000430,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,3,95000000,293982559.79,EUR,2022-02-28,2024-05-24,EXW,"30% advance, 70% on delivery",In Production,New Delhi,Sophie Leclerc,0
+SD00000431,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2387739.43,EUR,2023-12-03,2026-10-16,DDP,Milestone-based,Open,New Delhi,Jean-Pierre Martin,50
+SD00000432,CUST-PRIV-004,Total Energies,France,Commercial,Spare_Parts_Bundle,1,2500000,2388217.85,EUR,2018-08-28,2020-04-13,DDP,"30% advance, 70% on delivery",In Production,Singapore,Isabelle Bernard,0
+SD00000433,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F3-R,2,90000000,172610378.02,EUR,2021-02-04,2021-10-08,DDP,Milestone-based,Cancelled,Cairo,Jean-Pierre Martin,0
+SD00000434,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F4,12,95000000,1139587546.72,EUR,2019-02-10,2022-11-28,CIF,"30% advance, 70% on delivery",Fully Delivered,Paris,Isabelle Bernard,0
+SD00000435,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F3-R,12,90000000,1080791288.61,EUR,2019-02-08,2022-11-10,CIF,L/C 90 days,Fully Delivered,Abu Dhabi,Marc Dupont,0
+SD00000436,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,2,95000000,184414627.54,EUR,2022-11-28,2025-04-23,DDP,L/C 90 days,In Production,Paris,Jean-Pierre Martin,0
+SD00000437,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,9,60000000,541538164.53,EUR,2022-12-23,2026-05-26,CIF,"30% advance, 70% on delivery",Fully Delivered,Cairo,Antoine Morel,0
+SD00000438,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,8,45000000,346030240.04,EUR,2022-08-29,2023-09-29,DAP,L/C 90 days,Partially Delivered,Cairo,Sophie Leclerc,0
+SD00000439,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 6X,11,45000000,499738233.66,EUR,2022-04-23,2024-03-17,DAP,L/C 90 days,Partially Delivered,New Delhi,Isabelle Bernard,30
+SD00000440,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,8,90000000,747238079.53,EUR,2019-03-11,2019-09-21,EXW,L/C 90 days,In Production,Paris,Antoine Morel,30
+SD00000441,CUST-GRC-001,Hellenic Air Force,Greece,Government,Training_Package,1,3000000,3110139.47,EUR,2023-08-13,2024-04-13,EXW,L/C 90 days,Open,Abu Dhabi,Sophie Leclerc,0
+SD00000442,CUST-UAE-001,UAE Air Force,UAE,Government,Spare_Parts_Bundle,1,2500000,2616002.19,EUR,2019-10-27,2020-12-28,DAP,Milestone-based,In Production,Singapore,Isabelle Bernard,50
+SD00000443,CUST-GRC-001,Hellenic Air Force,Greece,Government,Training_Package,1,3000000,2927874.48,EUR,2023-04-18,2023-11-24,CIF,L/C 90 days,In Production,Abu Dhabi,Jean-Pierre Martin,50
+SD00000444,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F4,4,95000000,382966439.12,EUR,2022-02-02,2023-05-18,DAP,L/C 90 days,Open,Paris,Isabelle Bernard,0
+SD00000445,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,7,60000000,402053384.41,EUR,2023-05-22,2023-12-07,EXW,"30% advance, 70% on delivery",In Production,Singapore,Marc Dupont,0
+SD00000446,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,12,45000000,553395110.48,EUR,2019-04-06,2023-03-25,DDP,L/C 90 days,Partially Delivered,New Delhi,Marc Dupont,50
+SD00000447,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,4,95000000,361896233.37,EUR,2021-05-19,2022-06-22,DAP,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Sophie Leclerc,0
+SD00000448,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,6,95000000,593460741.86,EUR,2022-03-25,2025-05-23,CIF,L/C 90 days,Fully Delivered,Abu Dhabi,Isabelle Bernard,50
+SD00000449,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 6X,11,45000000,513202929.98,EUR,2021-09-13,2023-07-01,DAP,"30% advance, 70% on delivery",In Production,Paris,Marc Dupont,0
+SD00000450,CUST-IND-002,Indian Navy,India,Government,Falcon 10X,8,75000000,595236666.91,EUR,2019-09-29,2022-12-26,CIF,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Isabelle Bernard,0
+SD00000451,CUST-PRIV-001,Tata Sons Ltd,India,Private,MRO_Package_Annual,1,5000000,4910475.81,EUR,2019-04-01,2020-07-04,DAP,Milestone-based,Partially Delivered,Cairo,Marc Dupont,0
+SD00000452,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,4,60000000,242214607.96,EUR,2023-08-01,2026-11-30,EXW,Milestone-based,Open,New Delhi,Isabelle Bernard,50
+SD00000453,CUST-IND-001,Indian Air Force,India,Government,Training_Package,1,3000000,2898232.85,EUR,2022-04-20,2022-11-24,EXW,Milestone-based,In Production,Abu Dhabi,Marc Dupont,50
+SD00000454,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Training_Package,1,3000000,2892403.93,EUR,2022-01-06,2022-11-14,DAP,Milestone-based,Partially Delivered,New Delhi,Jean-Pierre Martin,50
+SD00000455,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,6,95000000,563403622.5,EUR,2020-12-15,2024-02-22,DDP,Milestone-based,Partially Delivered,Paris,Sophie Leclerc,0
+SD00000456,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,MRO_Package_Annual,1,5000000,4903447.81,EUR,2020-07-23,2024-01-09,DDP,Milestone-based,Open,Abu Dhabi,Jean-Pierre Martin,30
+SD00000457,CUST-PRIV-001,Tata Sons Ltd,India,Private,MRO_Package_Annual,1,5000000,5102838.91,EUR,2020-01-12,2022-09-03,DDP,Milestone-based,Open,Abu Dhabi,Isabelle Bernard,0
+SD00000458,CUST-PRIV-003,Air France,France,Commercial,Spare_Parts_Bundle,1,2500000,2620316.29,EUR,2023-01-21,2024-08-03,EXW,"30% advance, 70% on delivery",Partially Delivered,Cairo,Isabelle Bernard,0
+SD00000459,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 10X,3,75000000,213981425.93,EUR,2022-03-26,2023-11-19,DAP,L/C 90 days,Open,New Delhi,Marc Dupont,0
+SD00000460,CUST-PRIV-004,Total Energies,France,Commercial,Spare_Parts_Bundle,1,2500000,2493972.0,EUR,2019-07-21,2022-01-19,DDP,L/C 90 days,Fully Delivered,Cairo,Antoine Morel,0
+SD00000461,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,7,90000000,654943012.95,EUR,2018-05-04,2020-04-22,CIF,L/C 90 days,Partially Delivered,New Delhi,Sophie Leclerc,0
+SD00000462,CUST-PRIV-004,Total Energies,France,Commercial,MRO_Package_Annual,1,5000000,5140086.05,EUR,2020-08-21,2022-08-02,DAP,L/C 90 days,Open,Singapore,Antoine Morel,0
+SD00000463,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Training_Package,1,3000000,2910004.44,EUR,2022-09-09,2023-08-26,EXW,L/C 90 days,Cancelled,Cairo,Isabelle Bernard,30
+SD00000464,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4845926.03,EUR,2021-08-10,2024-05-28,CIF,L/C 90 days,Partially Delivered,Singapore,Isabelle Bernard,50
+SD00000465,CUST-PRIV-004,Total Energies,France,Commercial,MRO_Package_Annual,1,5000000,4922130.95,EUR,2019-10-13,2022-09-20,DAP,"30% advance, 70% on delivery",Fully Delivered,Singapore,Marc Dupont,0
+SD00000466,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,8,60000000,466082778.76,EUR,2022-07-07,2023-09-26,DDP,"30% advance, 70% on delivery",Partially Delivered,Paris,Sophie Leclerc,0
+SD00000467,CUST-PRIV-003,Air France,France,Commercial,Falcon 8X,8,60000000,460957797.33,EUR,2018-11-04,2021-12-09,CIF,Milestone-based,Fully Delivered,Singapore,Jean-Pierre Martin,0
+SD00000468,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,7,95000000,642681381.44,EUR,2021-04-21,2022-09-05,EXW,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Marc Dupont,50
+SD00000469,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,1,45000000,44436586.04,EUR,2019-03-01,2022-01-14,DAP,"30% advance, 70% on delivery",Cancelled,Singapore,Sophie Leclerc,0
+SD00000470,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,12,60000000,713751024.3,EUR,2018-02-26,2019-03-08,EXW,"30% advance, 70% on delivery",Cancelled,Cairo,Marc Dupont,50
+SD00000471,CUST-IND-002,Indian Navy,India,Government,Rafale F3-R,7,90000000,632921132.56,EUR,2018-10-20,2021-10-26,DAP,"30% advance, 70% on delivery",Partially Delivered,Paris,Isabelle Bernard,0
+SD00000472,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,6,90000000,550003547.84,EUR,2018-05-15,2020-06-29,DDP,"30% advance, 70% on delivery",Partially Delivered,Cairo,Isabelle Bernard,0
+SD00000473,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 10X,7,75000000,529072534.55,EUR,2019-04-09,2022-03-26,EXW,Milestone-based,In Production,Cairo,Sophie Leclerc,50
+SD00000474,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,10,45000000,428963009.14,EUR,2022-06-17,2024-10-09,DDP,Milestone-based,In Production,Singapore,Antoine Morel,50
+SD00000475,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F4,12,95000000,1151813038.64,EUR,2020-07-10,2021-09-23,DDP,Milestone-based,Partially Delivered,New Delhi,Antoine Morel,0
+SD00000476,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,7,95000000,646526876.81,EUR,2018-07-15,2020-09-13,CIF,"30% advance, 70% on delivery",Cancelled,New Delhi,Isabelle Bernard,50
+SD00000477,CUST-HRV-001,Croatian Air Force,Croatia,Government,Training_Package,1,3000000,2968539.86,EUR,2021-09-18,2023-03-03,DDP,L/C 90 days,Partially Delivered,Abu Dhabi,Marc Dupont,0
+SD00000478,CUST-PRIV-002,Reliance Industries,India,Private,Training_Package,1,3000000,2929432.5,EUR,2022-03-11,2022-10-24,DAP,L/C 90 days,Partially Delivered,Singapore,Isabelle Bernard,0
+SD00000479,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F3-R,7,90000000,645635572.23,EUR,2022-01-28,2024-11-18,DAP,"30% advance, 70% on delivery",Fully Delivered,Paris,Antoine Morel,0
+SD00000480,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,10,95000000,993683900.24,EUR,2019-12-05,2023-10-03,DDP,"30% advance, 70% on delivery",Open,Abu Dhabi,Marc Dupont,0
+SD00000481,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,5,90000000,439157162.86,EUR,2018-05-22,2022-02-27,DDP,Milestone-based,In Production,New Delhi,Sophie Leclerc,0
+SD00000482,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F3-R,3,90000000,263106319.9,EUR,2018-10-03,2019-06-23,EXW,L/C 90 days,In Production,Abu Dhabi,Marc Dupont,0
+SD00000483,CUST-IND-002,Indian Navy,India,Government,Falcon 6X,6,45000000,264159357.44,EUR,2018-05-17,2020-02-18,EXW,L/C 90 days,Fully Delivered,New Delhi,Antoine Morel,0
+SD00000484,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 6X,3,45000000,132226333.88,EUR,2020-10-05,2023-06-19,CIF,"30% advance, 70% on delivery",Cancelled,Paris,Antoine Morel,0
+SD00000485,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 6X,2,45000000,86636930.45,EUR,2021-01-08,2023-01-11,DAP,Milestone-based,Open,Abu Dhabi,Antoine Morel,50
+SD00000486,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 8X,1,60000000,57707426.38,EUR,2020-09-21,2023-12-31,DAP,Milestone-based,Partially Delivered,Cairo,Marc Dupont,50
+SD00000487,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,3,75000000,215225246.96,EUR,2018-03-02,2020-10-23,EXW,L/C 90 days,In Production,Paris,Antoine Morel,0
+SD00000488,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,MRO_Package_Annual,1,5000000,5061067.06,EUR,2019-02-05,2022-11-16,CIF,Milestone-based,Open,Paris,Sophie Leclerc,0
+SD00000489,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,MRO_Package_Annual,1,5000000,4866059.57,EUR,2022-06-30,2023-09-15,EXW,Milestone-based,Cancelled,Abu Dhabi,Sophie Leclerc,50
+SD00000490,CUST-PRIV-001,Tata Sons Ltd,India,Private,Spare_Parts_Bundle,1,2500000,2437968.63,EUR,2019-02-26,2020-06-10,CIF,"30% advance, 70% on delivery",Fully Delivered,Cairo,Sophie Leclerc,0
+SD00000491,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,10,90000000,908378234.02,EUR,2023-12-24,2025-12-23,DDP,Milestone-based,In Production,Paris,Sophie Leclerc,0
+SD00000492,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,2,95000000,187222824.64,EUR,2020-08-01,2022-12-08,EXW,"30% advance, 70% on delivery",In Production,Abu Dhabi,Sophie Leclerc,0
+SD00000493,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 8X,2,60000000,120982640.29,EUR,2019-03-07,2021-05-08,DAP,L/C 90 days,In Production,Cairo,Isabelle Bernard,0
+SD00000494,CUST-PRIV-002,Reliance Industries,India,Private,Training_Package,1,3000000,3041313.38,EUR,2020-12-04,2024-01-12,DDP,Milestone-based,Fully Delivered,Abu Dhabi,Sophie Leclerc,0
+SD00000495,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,9,95000000,858869404.4,EUR,2020-11-07,2023-02-23,DAP,L/C 90 days,Fully Delivered,New Delhi,Jean-Pierre Martin,30
+SD00000496,CUST-PRIV-001,Tata Sons Ltd,India,Private,Training_Package,1,3000000,2997791.45,EUR,2022-11-03,2026-02-04,DDP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Sophie Leclerc,0
+SD00000497,CUST-PRIV-002,Reliance Industries,India,Private,Spare_Parts_Bundle,1,2500000,2463572.54,EUR,2022-01-06,2025-12-20,DDP,Milestone-based,Cancelled,Cairo,Antoine Morel,0
+SD00000498,CUST-PRIV-003,Air France,France,Commercial,Falcon 10X,7,75000000,513184198.59,EUR,2023-10-30,2026-03-11,EXW,L/C 90 days,Fully Delivered,Singapore,Antoine Morel,0
+SD00000499,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 8X,6,60000000,367180946.62,EUR,2023-05-12,2024-08-10,DDP,"30% advance, 70% on delivery",Partially Delivered,Singapore,Marc Dupont,50
+SD00000500,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,11,60000000,665577070.2,EUR,2019-11-21,2022-05-31,DDP,L/C 90 days,In Production,Abu Dhabi,Marc Dupont,0
+SD00000501,CUST-PRIV-002,Reliance Industries,India,Private,Spare_Parts_Bundle,1,2500000,2417193.25,EUR,2019-10-14,2021-03-30,EXW,"30% advance, 70% on delivery",In Production,Paris,Antoine Morel,0
+SD00000502,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,5114668.05,EUR,2022-07-20,2023-12-26,EXW,Milestone-based,Fully Delivered,New Delhi,Antoine Morel,50
+SD00000503,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,3,75000000,228287679.31,EUR,2019-01-07,2020-06-17,DDP,Milestone-based,Fully Delivered,Paris,Marc Dupont,50
+SD00000504,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,10,60000000,570686680.28,EUR,2018-02-25,2022-01-15,CIF,Milestone-based,Fully Delivered,New Delhi,Isabelle Bernard,0
+SD00000505,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,7,60000000,415737080.54,EUR,2020-12-10,2023-05-10,DAP,L/C 90 days,Fully Delivered,Abu Dhabi,Isabelle Bernard,0
+SD00000506,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,8,95000000,785532494.2,EUR,2018-06-11,2019-01-15,DAP,"30% advance, 70% on delivery",Fully Delivered,Paris,Antoine Morel,0
+SD00000507,CUST-UAE-001,UAE Air Force,UAE,Government,MRO_Package_Annual,1,5000000,5131507.76,EUR,2019-12-29,2021-03-28,CIF,"30% advance, 70% on delivery",In Production,Paris,Antoine Morel,0
+SD00000508,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,12,90000000,1031051906.15,EUR,2018-03-29,2021-09-12,CIF,L/C 90 days,Open,Paris,Marc Dupont,50
+SD00000509,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Spare_Parts_Bundle,1,2500000,2402724.32,EUR,2022-09-09,2023-06-28,CIF,"30% advance, 70% on delivery",Partially Delivered,Cairo,Marc Dupont,0
+SD00000510,CUST-PRIV-004,Total Energies,France,Commercial,MRO_Package_Annual,1,5000000,4755161.68,EUR,2021-08-26,2023-06-04,DDP,Milestone-based,Partially Delivered,Cairo,Jean-Pierre Martin,0
+SD00000511,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2539758.7,EUR,2020-07-02,2021-08-13,DDP,Milestone-based,In Production,Paris,Jean-Pierre Martin,50
+SD00000512,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 10X,5,75000000,382970673.62,EUR,2022-11-18,2025-01-19,DDP,L/C 90 days,Open,Paris,Isabelle Bernard,0
+SD00000513,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,5,75000000,360611407.62,EUR,2020-03-16,2023-04-11,CIF,L/C 90 days,In Production,Cairo,Antoine Morel,30
+SD00000514,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2598573.9,EUR,2018-05-10,2021-03-19,DDP,Milestone-based,Fully Delivered,Singapore,Marc Dupont,0
+SD00000515,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,5,90000000,467099977.8,EUR,2018-10-12,2021-12-04,EXW,"30% advance, 70% on delivery",In Production,Singapore,Antoine Morel,0
+SD00000516,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,2,90000000,186046081.98,EUR,2023-07-19,2027-07-07,DDP,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Sophie Leclerc,0
+SD00000517,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 10X,9,75000000,656045505.87,EUR,2021-06-14,2023-06-10,DAP,Milestone-based,Fully Delivered,New Delhi,Sophie Leclerc,30
+SD00000518,CUST-GRC-001,Hellenic Air Force,Greece,Government,Spare_Parts_Bundle,1,2500000,2570226.2,EUR,2020-03-15,2023-07-04,EXW,Milestone-based,Fully Delivered,Singapore,Jean-Pierre Martin,0
+SD00000519,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 10X,9,75000000,666206310.9,EUR,2020-07-12,2023-02-22,DDP,Milestone-based,Fully Delivered,Singapore,Antoine Morel,0
+SD00000520,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Training_Package,1,3000000,2901886.98,EUR,2023-10-14,2026-09-16,EXW,"30% advance, 70% on delivery",Fully Delivered,Paris,Jean-Pierre Martin,50
+SD00000521,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 6X,9,45000000,420163075.37,EUR,2021-07-05,2024-09-13,EXW,"30% advance, 70% on delivery",Fully Delivered,Paris,Isabelle Bernard,50
+SD00000522,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,6,45000000,277566206.51,EUR,2018-03-07,2018-11-08,DDP,Milestone-based,Partially Delivered,Singapore,Jean-Pierre Martin,30
+SD00000523,CUST-PRIV-003,Air France,France,Commercial,Spare_Parts_Bundle,1,2500000,2387477.74,EUR,2023-06-25,2026-04-10,EXW,"30% advance, 70% on delivery",Fully Delivered,Cairo,Antoine Morel,0
+SD00000524,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 10X,5,75000000,364210450.03,EUR,2018-07-29,2021-04-15,DAP,L/C 90 days,Fully Delivered,Cairo,Marc Dupont,0
+SD00000525,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 10X,7,75000000,543326682.39,EUR,2019-06-23,2022-02-21,CIF,L/C 90 days,Fully Delivered,Paris,Marc Dupont,50
+SD00000526,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,9,95000000,844121579.14,EUR,2023-10-21,2027-09-17,DAP,"30% advance, 70% on delivery",Partially Delivered,Cairo,Isabelle Bernard,50
+SD00000527,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,1,95000000,97632174.17,EUR,2021-06-15,2023-10-28,CIF,L/C 90 days,Open,Singapore,Isabelle Bernard,0
+SD00000528,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,6,45000000,267621231.12,EUR,2022-10-21,2023-06-26,DAP,"30% advance, 70% on delivery",In Production,New Delhi,Isabelle Bernard,30
+SD00000529,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,4,45000000,171486895.96,EUR,2023-06-02,2026-05-18,DAP,Milestone-based,Fully Delivered,Cairo,Jean-Pierre Martin,50
+SD00000530,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,12,60000000,697205521.57,EUR,2022-08-08,2025-10-04,EXW,"30% advance, 70% on delivery",Cancelled,Singapore,Jean-Pierre Martin,50
+SD00000531,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2457274.21,EUR,2023-08-20,2025-12-21,DAP,Milestone-based,Fully Delivered,Cairo,Sophie Leclerc,50
+SD00000532,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,5,45000000,229044089.55,EUR,2019-11-24,2023-04-11,CIF,Milestone-based,Fully Delivered,Paris,Marc Dupont,50
+SD00000533,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F3-R,11,90000000,1003543262.04,EUR,2019-07-20,2020-10-26,CIF,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Antoine Morel,50
+SD00000534,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,9,95000000,886149237.52,EUR,2022-12-19,2023-08-16,DDP,"30% advance, 70% on delivery",Partially Delivered,Paris,Jean-Pierre Martin,0
+SD00000535,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,10,60000000,625855953.53,EUR,2018-03-02,2021-04-26,DDP,L/C 90 days,In Production,Singapore,Jean-Pierre Martin,50
+SD00000536,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,8,60000000,461759905.66,EUR,2019-09-23,2022-07-26,DDP,"30% advance, 70% on delivery",Fully Delivered,Cairo,Jean-Pierre Martin,0
+SD00000537,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,9,90000000,803753980.06,EUR,2021-06-15,2025-05-15,CIF,L/C 90 days,In Production,Abu Dhabi,Sophie Leclerc,0
+SD00000538,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 6X,2,45000000,91571146.29,EUR,2020-08-30,2022-12-27,DAP,"30% advance, 70% on delivery",In Production,Abu Dhabi,Marc Dupont,50
+SD00000539,CUST-PRIV-002,Reliance Industries,India,Private,Spare_Parts_Bundle,1,2500000,2487410.29,EUR,2022-04-08,2026-02-12,EXW,L/C 90 days,In Production,Cairo,Sophie Leclerc,0
+SD00000540,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4879231.77,EUR,2023-12-13,2025-05-08,EXW,"30% advance, 70% on delivery",Cancelled,Singapore,Antoine Morel,50
+SD00000541,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,1,45000000,45888186.3,EUR,2018-11-05,2021-12-13,DAP,Milestone-based,Fully Delivered,Cairo,Antoine Morel,0
+SD00000542,CUST-HRV-001,Croatian Air Force,Croatia,Government,Spare_Parts_Bundle,1,2500000,2613462.04,EUR,2021-01-15,2022-10-11,EXW,L/C 90 days,Fully Delivered,Singapore,Antoine Morel,0
+SD00000543,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2537622.85,EUR,2020-10-31,2024-07-31,DDP,L/C 90 days,Cancelled,Singapore,Jean-Pierre Martin,30
+SD00000544,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,8,45000000,369889584.14,EUR,2019-04-14,2022-06-11,DDP,Milestone-based,Open,Abu Dhabi,Jean-Pierre Martin,50
+SD00000545,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,1,45000000,45059298.67,EUR,2018-05-09,2021-09-30,DAP,Milestone-based,Fully Delivered,New Delhi,Isabelle Bernard,0
+SD00000546,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 8X,10,60000000,626752150.84,EUR,2019-12-14,2022-02-07,EXW,"30% advance, 70% on delivery",Fully Delivered,Paris,Isabelle Bernard,0
+SD00000547,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,5225704.74,EUR,2020-01-24,2023-03-05,DAP,"30% advance, 70% on delivery",Fully Delivered,Cairo,Antoine Morel,0
+SD00000548,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F4,12,95000000,1151381850.82,EUR,2022-04-26,2023-06-05,CIF,Milestone-based,In Production,Cairo,Sophie Leclerc,0
+SD00000549,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F3-R,9,90000000,780310979.29,EUR,2018-03-10,2020-01-10,CIF,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Isabelle Bernard,0
+SD00000550,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,5,75000000,366349631.24,EUR,2021-08-28,2025-06-26,DDP,L/C 90 days,In Production,Abu Dhabi,Marc Dupont,50
+SD00000551,CUST-PRIV-003,Air France,France,Commercial,Training_Package,1,3000000,3119997.08,EUR,2018-11-29,2020-05-27,EXW,L/C 90 days,Open,New Delhi,Marc Dupont,0
+SD00000552,CUST-EGY-001,Egyptian Air Force,Egypt,Government,MRO_Package_Annual,1,5000000,4857474.81,EUR,2018-03-18,2021-12-26,DDP,"30% advance, 70% on delivery",Open,Cairo,Marc Dupont,0
+SD00000553,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,9,60000000,562111524.91,EUR,2023-01-23,2025-10-28,DAP,"30% advance, 70% on delivery",Fully Delivered,Singapore,Isabelle Bernard,50
+SD00000554,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,3,90000000,281293851.79,EUR,2021-04-17,2023-02-22,DDP,L/C 90 days,In Production,Abu Dhabi,Jean-Pierre Martin,30
+SD00000555,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 6X,12,45000000,554261307.25,EUR,2020-11-13,2024-03-03,CIF,Milestone-based,Fully Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000556,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 10X,9,75000000,678157943.62,EUR,2019-05-02,2021-10-19,CIF,Milestone-based,Fully Delivered,New Delhi,Antoine Morel,30
+SD00000557,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Spare_Parts_Bundle,1,2500000,2477778.47,EUR,2020-03-20,2021-06-03,DAP,Milestone-based,In Production,Cairo,Isabelle Bernard,50
+SD00000558,CUST-PRIV-002,Reliance Industries,India,Private,Spare_Parts_Bundle,1,2500000,2445925.95,EUR,2018-10-29,2020-01-16,EXW,L/C 90 days,In Production,Cairo,Sophie Leclerc,0
+SD00000559,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F3-R,5,90000000,435869786.5,EUR,2023-11-19,2026-07-18,CIF,L/C 90 days,In Production,Singapore,Sophie Leclerc,0
+SD00000560,CUST-HRV-001,Croatian Air Force,Croatia,Government,Spare_Parts_Bundle,1,2500000,2474538.78,EUR,2023-02-02,2026-10-09,DDP,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Isabelle Bernard,50
+SD00000561,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,10,60000000,624888789.09,EUR,2020-10-12,2022-06-25,CIF,Milestone-based,In Production,Singapore,Antoine Morel,0
+SD00000562,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Training_Package,1,3000000,2985281.94,EUR,2020-02-07,2022-09-06,CIF,"30% advance, 70% on delivery",Cancelled,Abu Dhabi,Jean-Pierre Martin,0
+SD00000563,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,1,60000000,60139543.89,EUR,2020-10-27,2024-09-21,DAP,Milestone-based,Fully Delivered,New Delhi,Antoine Morel,50
+SD00000564,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,10,45000000,431308700.64,EUR,2019-06-01,2022-03-01,DAP,"30% advance, 70% on delivery",Open,Abu Dhabi,Marc Dupont,0
+SD00000565,CUST-IND-001,Indian Air Force,India,Government,Training_Package,1,3000000,3128983.87,EUR,2019-08-25,2023-08-07,DAP,Milestone-based,Fully Delivered,New Delhi,Jean-Pierre Martin,30
+SD00000566,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,4,95000000,372419721.92,EUR,2018-03-10,2019-10-29,CIF,Milestone-based,Partially Delivered,New Delhi,Antoine Morel,0
+SD00000567,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,1,60000000,60548620.36,EUR,2022-11-16,2025-03-15,CIF,Milestone-based,Fully Delivered,New Delhi,Sophie Leclerc,30
+SD00000568,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,5060542.36,EUR,2019-09-12,2020-07-01,DDP,Milestone-based,Partially Delivered,New Delhi,Jean-Pierre Martin,50
+SD00000569,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2482026.79,EUR,2019-02-24,2023-02-17,CIF,"30% advance, 70% on delivery",Cancelled,Singapore,Antoine Morel,0
+SD00000570,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,4951149.12,EUR,2019-06-24,2019-12-29,EXW,"30% advance, 70% on delivery",Open,Paris,Isabelle Bernard,0
+SD00000571,CUST-PRIV-002,Reliance Industries,India,Private,Spare_Parts_Bundle,1,2500000,2477260.04,EUR,2023-11-26,2026-10-22,CIF,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000572,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,5,45000000,224791931.7,EUR,2019-05-09,2020-10-04,DAP,L/C 90 days,In Production,New Delhi,Isabelle Bernard,50
+SD00000573,CUST-PRIV-002,Reliance Industries,India,Private,MRO_Package_Annual,1,5000000,5175210.11,EUR,2019-02-02,2019-08-27,CIF,Milestone-based,Open,New Delhi,Sophie Leclerc,0
+SD00000574,CUST-IND-002,Indian Navy,India,Government,Training_Package,1,3000000,3147173.8,EUR,2021-12-03,2022-10-06,DAP,L/C 90 days,In Production,New Delhi,Jean-Pierre Martin,0
+SD00000575,CUST-PRIV-004,Total Energies,France,Commercial,MRO_Package_Annual,1,5000000,5166662.99,EUR,2018-10-18,2022-08-07,CIF,"30% advance, 70% on delivery",In Production,New Delhi,Isabelle Bernard,0
+SD00000576,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,5,45000000,230214654.07,EUR,2021-04-18,2023-07-12,CIF,Milestone-based,In Production,Singapore,Antoine Morel,0
+SD00000577,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Training_Package,1,3000000,2979375.57,EUR,2022-12-24,2026-06-20,DDP,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000578,CUST-PRIV-004,Total Energies,France,Commercial,Training_Package,1,3000000,2974061.66,EUR,2018-11-09,2022-10-04,CIF,L/C 90 days,Open,Paris,Antoine Morel,0
+SD00000579,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F4,8,95000000,774825815.49,EUR,2019-11-13,2023-05-18,DAP,Milestone-based,Partially Delivered,Abu Dhabi,Isabelle Bernard,0
+SD00000580,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F3-R,10,90000000,928254874.62,EUR,2021-12-21,2025-04-26,EXW,L/C 90 days,Open,Paris,Jean-Pierre Martin,30
+SD00000581,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 10X,5,75000000,383186746.15,EUR,2022-05-27,2024-12-11,DAP,Milestone-based,In Production,Paris,Isabelle Bernard,50
+SD00000582,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,5,90000000,428008856.15,EUR,2020-10-03,2021-04-26,EXW,Milestone-based,Fully Delivered,Paris,Antoine Morel,30
+SD00000583,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,10,45000000,469040373.08,EUR,2019-09-05,2021-03-02,DAP,L/C 90 days,Open,New Delhi,Antoine Morel,50
+SD00000584,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,12,60000000,736659716.27,EUR,2020-09-04,2024-01-19,CIF,L/C 90 days,In Production,Abu Dhabi,Jean-Pierre Martin,50
+SD00000585,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,3,90000000,267077037.85,EUR,2019-10-07,2023-09-01,DAP,Milestone-based,Fully Delivered,Abu Dhabi,Isabelle Bernard,50
+SD00000586,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 6X,4,45000000,184002748.39,EUR,2021-11-04,2024-09-04,DAP,"30% advance, 70% on delivery",Open,Singapore,Isabelle Bernard,0
+SD00000587,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 10X,1,75000000,75023531.63,EUR,2023-09-09,2024-06-24,CIF,Milestone-based,Fully Delivered,Paris,Antoine Morel,50
+SD00000588,CUST-PRIV-002,Reliance Industries,India,Private,Training_Package,1,3000000,3147720.06,EUR,2018-06-24,2022-04-25,DAP,L/C 90 days,In Production,Singapore,Jean-Pierre Martin,0
+SD00000589,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 10X,4,75000000,287365823.04,EUR,2020-03-28,2021-07-18,CIF,"30% advance, 70% on delivery",Fully Delivered,Paris,Marc Dupont,0
+SD00000590,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 10X,9,75000000,664098976.63,EUR,2018-07-12,2020-12-10,CIF,"30% advance, 70% on delivery",In Production,New Delhi,Jean-Pierre Martin,0
+SD00000591,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2383087.14,EUR,2023-02-06,2024-06-25,EXW,"30% advance, 70% on delivery",Open,Singapore,Isabelle Bernard,50
+SD00000592,CUST-IND-001,Indian Air Force,India,Government,Training_Package,1,3000000,2993222.12,EUR,2021-01-21,2023-08-03,EXW,Milestone-based,Fully Delivered,Paris,Antoine Morel,50
+SD00000593,CUST-PRIV-003,Air France,France,Commercial,Falcon 8X,11,60000000,686096400.27,EUR,2018-11-24,2021-11-16,EXW,Milestone-based,Fully Delivered,Paris,Antoine Morel,0
+SD00000594,CUST-PRIV-002,Reliance Industries,India,Private,MRO_Package_Annual,1,5000000,5114597.33,EUR,2021-01-20,2023-11-28,CIF,Milestone-based,Fully Delivered,Cairo,Sophie Leclerc,0
+SD00000595,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,4,60000000,235841204.65,EUR,2022-03-20,2022-09-21,DAP,"30% advance, 70% on delivery",In Production,Cairo,Jean-Pierre Martin,50
+SD00000596,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 10X,1,75000000,72223049.07,EUR,2023-06-15,2027-01-22,DAP,"30% advance, 70% on delivery",Cancelled,Cairo,Antoine Morel,0
+SD00000597,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,6,90000000,563118823.23,EUR,2018-08-01,2021-04-12,CIF,Milestone-based,In Production,New Delhi,Isabelle Bernard,0
+SD00000598,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F3-R,3,90000000,276235218.95,EUR,2018-12-26,2021-11-18,DAP,L/C 90 days,In Production,Singapore,Antoine Morel,0
+SD00000599,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,10,45000000,429471078.15,EUR,2019-04-30,2020-09-28,DDP,L/C 90 days,Open,Paris,Sophie Leclerc,30
+SD00000600,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F3-R,10,90000000,878606308.85,EUR,2019-10-10,2021-05-21,CIF,Milestone-based,Fully Delivered,Singapore,Isabelle Bernard,50
+SD00000601,CUST-PRIV-002,Reliance Industries,India,Private,MRO_Package_Annual,1,5000000,4865632.61,EUR,2019-04-05,2022-12-21,DDP,Milestone-based,Fully Delivered,Paris,Jean-Pierre Martin,0
+SD00000602,CUST-PRIV-002,Reliance Industries,India,Private,Spare_Parts_Bundle,1,2500000,2385749.48,EUR,2023-03-14,2025-08-24,CIF,Milestone-based,Cancelled,Abu Dhabi,Marc Dupont,0
+SD00000603,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,1,60000000,58914136.62,EUR,2021-02-27,2023-04-02,DDP,L/C 90 days,Cancelled,Paris,Jean-Pierre Martin,50
+SD00000604,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,12,95000000,1145474737.21,EUR,2022-05-14,2024-10-22,DDP,Milestone-based,Fully Delivered,Abu Dhabi,Marc Dupont,50
+SD00000605,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,3,60000000,181748123.39,EUR,2022-02-28,2023-06-28,CIF,"30% advance, 70% on delivery",Open,Abu Dhabi,Isabelle Bernard,50
+SD00000606,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,7,45000000,302480291.16,EUR,2022-09-17,2023-12-26,CIF,"30% advance, 70% on delivery",In Production,Cairo,Jean-Pierre Martin,30
+SD00000607,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,7,60000000,436875500.12,EUR,2022-07-22,2023-02-19,EXW,"30% advance, 70% on delivery",Open,Abu Dhabi,Antoine Morel,30
+SD00000608,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,6,95000000,595928891.34,EUR,2018-01-18,2018-12-02,DAP,Milestone-based,Partially Delivered,Cairo,Jean-Pierre Martin,30
+SD00000609,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,6,90000000,541434202.42,EUR,2018-09-11,2021-04-12,EXW,Milestone-based,Open,Paris,Sophie Leclerc,0
+SD00000610,CUST-PRIV-002,Reliance Industries,India,Private,MRO_Package_Annual,1,5000000,4903795.37,EUR,2020-12-22,2021-10-13,EXW,L/C 90 days,Fully Delivered,Abu Dhabi,Sophie Leclerc,0
+SD00000611,CUST-IND-002,Indian Navy,India,Government,MRO_Package_Annual,1,5000000,5097198.3,EUR,2023-03-31,2027-01-04,CIF,"30% advance, 70% on delivery",Open,Singapore,Jean-Pierre Martin,50
+SD00000612,CUST-PRIV-001,Tata Sons Ltd,India,Private,Spare_Parts_Bundle,1,2500000,2483681.81,EUR,2021-05-15,2024-02-17,CIF,Milestone-based,Partially Delivered,Cairo,Jean-Pierre Martin,0
+SD00000613,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,4,45000000,186859922.33,EUR,2023-07-21,2025-07-10,CIF,Milestone-based,Fully Delivered,Singapore,Jean-Pierre Martin,0
+SD00000614,CUST-GRC-001,Hellenic Air Force,Greece,Government,Training_Package,1,3000000,2864752.81,EUR,2020-01-31,2021-12-08,CIF,Milestone-based,Cancelled,Paris,Antoine Morel,30
+SD00000615,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,11,90000000,950425897.22,EUR,2020-01-31,2021-06-29,EXW,Milestone-based,Open,Cairo,Sophie Leclerc,0
+SD00000616,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 8X,12,60000000,734865709.81,EUR,2023-05-17,2025-01-21,DDP,"30% advance, 70% on delivery",Fully Delivered,Singapore,Isabelle Bernard,30
+SD00000617,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F3-R,3,90000000,279951583.83,EUR,2019-07-01,2021-10-17,DDP,Milestone-based,In Production,Cairo,Isabelle Bernard,50
+SD00000618,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,5,60000000,289960137.03,EUR,2023-04-24,2025-02-16,DDP,"30% advance, 70% on delivery",Fully Delivered,Singapore,Marc Dupont,0
+SD00000619,CUST-PRIV-003,Air France,France,Commercial,Falcon 8X,1,60000000,57819964.09,EUR,2020-01-17,2020-08-28,EXW,L/C 90 days,Partially Delivered,Paris,Jean-Pierre Martin,0
+SD00000620,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,4,45000000,184700616.87,EUR,2019-12-19,2023-05-09,DDP,"30% advance, 70% on delivery",In Production,Abu Dhabi,Isabelle Bernard,50
+SD00000621,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,10,60000000,570545567.48,EUR,2023-06-03,2025-10-08,DAP,Milestone-based,Fully Delivered,Abu Dhabi,Marc Dupont,0
+SD00000622,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,8,90000000,707299736.79,EUR,2018-10-12,2020-05-27,DDP,"30% advance, 70% on delivery",Partially Delivered,Paris,Jean-Pierre Martin,50
+SD00000623,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 10X,4,75000000,291403322.67,EUR,2019-09-26,2021-04-05,CIF,L/C 90 days,Fully Delivered,New Delhi,Sophie Leclerc,50
+SD00000624,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Training_Package,1,3000000,2990058.64,EUR,2020-04-14,2021-03-14,DAP,Milestone-based,Partially Delivered,Cairo,Marc Dupont,50
+SD00000625,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,8,90000000,684248328.68,EUR,2022-01-20,2022-11-03,DAP,Milestone-based,In Production,Singapore,Marc Dupont,0
+SD00000626,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 10X,3,75000000,227928926.19,EUR,2018-12-14,2019-08-27,EXW,L/C 90 days,Fully Delivered,Paris,Sophie Leclerc,0
+SD00000627,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 10X,1,75000000,76315481.29,EUR,2022-11-15,2026-01-07,EXW,L/C 90 days,Fully Delivered,New Delhi,Isabelle Bernard,50
+SD00000628,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,6,60000000,362490287.55,EUR,2018-01-10,2020-12-05,DAP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Isabelle Bernard,0
+SD00000629,CUST-PRIV-001,Tata Sons Ltd,India,Private,MRO_Package_Annual,1,5000000,5067146.37,EUR,2022-07-11,2024-06-27,DAP,Milestone-based,Cancelled,Singapore,Isabelle Bernard,0
+SD00000630,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,MRO_Package_Annual,1,5000000,5047506.3,EUR,2020-05-05,2021-06-02,DDP,L/C 90 days,Partially Delivered,Singapore,Isabelle Bernard,50
+SD00000631,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 10X,10,75000000,771719509.97,EUR,2020-11-21,2024-09-27,CIF,"30% advance, 70% on delivery",Cancelled,Singapore,Antoine Morel,0
+SD00000632,CUST-GRC-001,Hellenic Air Force,Greece,Government,MRO_Package_Annual,1,5000000,4757103.02,EUR,2021-03-01,2025-01-02,DDP,"30% advance, 70% on delivery",Fully Delivered,Cairo,Isabelle Bernard,30
+SD00000633,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 8X,3,60000000,184415428.1,EUR,2020-11-19,2023-07-07,DAP,"30% advance, 70% on delivery",Open,Singapore,Antoine Morel,50
+SD00000634,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F4,11,95000000,1083354002.17,EUR,2019-03-04,2021-07-05,EXW,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000635,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,3,95000000,290274095.91,EUR,2022-11-25,2024-04-22,DDP,L/C 90 days,Open,Singapore,Marc Dupont,50
+SD00000636,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,11,60000000,637666616.67,EUR,2022-06-17,2025-07-15,CIF,"30% advance, 70% on delivery",Fully Delivered,Singapore,Antoine Morel,50
+SD00000637,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,4,60000000,238806029.41,EUR,2023-06-02,2024-03-26,EXW,"30% advance, 70% on delivery",In Production,Cairo,Antoine Morel,0
+SD00000638,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F4,12,95000000,1105791850.41,EUR,2020-11-12,2024-08-01,CIF,Milestone-based,Fully Delivered,Cairo,Antoine Morel,50
+SD00000639,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 10X,7,75000000,500036324.48,EUR,2021-08-22,2025-01-08,CIF,L/C 90 days,Partially Delivered,Abu Dhabi,Antoine Morel,0
+SD00000640,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,11,45000000,497058043.34,EUR,2018-01-16,2022-01-06,CIF,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Isabelle Bernard,0
+SD00000641,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,10,90000000,934205125.37,EUR,2022-09-05,2023-08-22,DDP,"30% advance, 70% on delivery",In Production,Paris,Isabelle Bernard,30
+SD00000642,CUST-GRC-001,Hellenic Air Force,Greece,Government,MRO_Package_Annual,1,5000000,5116227.45,EUR,2023-09-06,2026-06-14,EXW,Milestone-based,Cancelled,Singapore,Isabelle Bernard,30
+SD00000643,CUST-GRC-001,Hellenic Air Force,Greece,Government,MRO_Package_Annual,1,5000000,5194233.74,EUR,2021-12-13,2023-01-01,DDP,Milestone-based,Cancelled,Cairo,Isabelle Bernard,30
+SD00000644,CUST-IND-001,Indian Air Force,India,Government,Rafale F3-R,1,90000000,88977733.4,EUR,2023-01-03,2025-05-23,CIF,L/C 90 days,Partially Delivered,New Delhi,Marc Dupont,50
+SD00000645,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4785645.56,EUR,2022-04-17,2024-10-05,DAP,"30% advance, 70% on delivery",In Production,New Delhi,Marc Dupont,30
+SD00000646,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F4,9,95000000,862586279.7,EUR,2023-04-19,2025-06-13,DDP,"30% advance, 70% on delivery",Open,Singapore,Isabelle Bernard,50
+SD00000647,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,9,90000000,832318051.69,EUR,2021-07-27,2024-09-11,DAP,Milestone-based,Fully Delivered,Paris,Sophie Leclerc,50
+SD00000648,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,10,90000000,881846913.87,EUR,2021-01-01,2022-05-11,CIF,"30% advance, 70% on delivery",Cancelled,New Delhi,Jean-Pierre Martin,50
+SD00000649,CUST-GRC-001,Hellenic Air Force,Greece,Government,Rafale F3-R,9,90000000,819028545.32,EUR,2023-12-31,2025-09-28,EXW,L/C 90 days,Open,Paris,Sophie Leclerc,30
+SD00000650,CUST-PRIV-003,Air France,France,Commercial,Rafale F3-R,10,90000000,924314219.65,EUR,2018-09-29,2022-08-22,CIF,L/C 90 days,Partially Delivered,Cairo,Sophie Leclerc,0
+SD00000651,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,MRO_Package_Annual,1,5000000,5245016.32,EUR,2021-01-05,2022-02-13,CIF,L/C 90 days,In Production,Abu Dhabi,Antoine Morel,0
+SD00000652,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,MRO_Package_Annual,1,5000000,5207186.48,EUR,2023-03-16,2024-11-04,CIF,L/C 90 days,In Production,Cairo,Marc Dupont,50
+SD00000653,CUST-IND-001,Indian Air Force,India,Government,MRO_Package_Annual,1,5000000,4999132.68,EUR,2020-07-01,2024-03-15,DAP,Milestone-based,In Production,Singapore,Antoine Morel,0
+SD00000654,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Spare_Parts_Bundle,1,2500000,2375272.44,EUR,2020-10-24,2022-10-27,DAP,"30% advance, 70% on delivery",Open,Paris,Marc Dupont,50
+SD00000655,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,6,60000000,360741042.66,EUR,2018-03-13,2021-04-25,EXW,"30% advance, 70% on delivery",In Production,Paris,Sophie Leclerc,0
+SD00000656,CUST-IND-002,Indian Navy,India,Government,Training_Package,1,3000000,3049496.37,EUR,2023-04-14,2025-05-18,CIF,Milestone-based,Partially Delivered,Singapore,Marc Dupont,0
+SD00000657,CUST-PRIV-003,Air France,France,Commercial,Falcon 10X,2,75000000,150202279.56,EUR,2022-10-09,2024-10-05,DDP,"30% advance, 70% on delivery",Cancelled,Paris,Antoine Morel,0
+SD00000658,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 8X,10,60000000,589200000.37,EUR,2023-10-31,2026-07-18,EXW,"30% advance, 70% on delivery",Fully Delivered,Singapore,Isabelle Bernard,0
+SD00000659,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 6X,11,45000000,508189427.54,EUR,2019-11-21,2022-10-15,EXW,L/C 90 days,Open,Singapore,Isabelle Bernard,50
+SD00000660,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 10X,3,75000000,224083048.86,EUR,2023-05-23,2025-07-10,DDP,"30% advance, 70% on delivery",Cancelled,Cairo,Sophie Leclerc,0
+SD00000661,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,7,90000000,623879872.68,EUR,2020-05-25,2021-05-17,DAP,Milestone-based,In Production,Singapore,Antoine Morel,0
+SD00000662,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 10X,3,75000000,233692964.71,EUR,2022-01-21,2024-06-15,CIF,L/C 90 days,Partially Delivered,Singapore,Antoine Morel,0
+SD00000663,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,4,60000000,231204421.42,EUR,2019-08-15,2021-05-06,DAP,Milestone-based,Fully Delivered,Singapore,Antoine Morel,50
+SD00000664,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,3,60000000,175103981.83,EUR,2018-08-20,2019-04-30,CIF,Milestone-based,Fully Delivered,Abu Dhabi,Antoine Morel,50
+SD00000665,CUST-PRIV-003,Air France,France,Commercial,Training_Package,1,3000000,2866688.65,EUR,2021-02-23,2024-04-02,EXW,L/C 90 days,Cancelled,Abu Dhabi,Jean-Pierre Martin,0
+SD00000666,CUST-PRIV-003,Air France,France,Commercial,Training_Package,1,3000000,2976215.78,EUR,2021-07-09,2023-10-09,DAP,L/C 90 days,In Production,Singapore,Antoine Morel,0
+SD00000667,CUST-PRIV-003,Air France,France,Commercial,Rafale F3-R,8,90000000,737924181.57,EUR,2023-03-11,2026-07-26,DAP,Milestone-based,Open,Cairo,Antoine Morel,0
+SD00000668,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,6,75000000,450446749.4,EUR,2022-05-19,2023-10-24,DDP,L/C 90 days,Partially Delivered,Abu Dhabi,Antoine Morel,50
+SD00000669,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Spare_Parts_Bundle,1,2500000,2426340.76,EUR,2018-04-04,2019-08-15,CIF,Milestone-based,Cancelled,Paris,Sophie Leclerc,0
+SD00000670,CUST-PRIV-002,Reliance Industries,India,Private,Spare_Parts_Bundle,1,2500000,2545314.69,EUR,2020-01-09,2021-02-26,DAP,L/C 90 days,Cancelled,Abu Dhabi,Jean-Pierre Martin,0
+SD00000671,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F4,3,95000000,297209352.2,EUR,2023-11-13,2026-07-12,DAP,L/C 90 days,Fully Delivered,New Delhi,Jean-Pierre Martin,0
+SD00000672,CUST-PRIV-003,Air France,France,Commercial,Training_Package,1,3000000,2852112.85,EUR,2022-07-04,2025-03-04,DAP,"30% advance, 70% on delivery",Fully Delivered,Paris,Isabelle Bernard,0
+SD00000673,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,4,60000000,239545143.27,EUR,2019-08-25,2023-06-12,CIF,L/C 90 days,Partially Delivered,Singapore,Sophie Leclerc,0
+SD00000674,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 10X,12,75000000,901024279.74,EUR,2022-11-24,2025-02-03,CIF,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Marc Dupont,0
+SD00000675,CUST-HRV-001,Croatian Air Force,Croatia,Government,Training_Package,1,3000000,2948371.09,EUR,2023-09-25,2027-09-01,DDP,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Marc Dupont,50
+SD00000676,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F3-R,8,90000000,715842661.45,EUR,2019-02-20,2020-08-02,DDP,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Marc Dupont,30
+SD00000677,CUST-PRIV-003,Air France,France,Commercial,Rafale F3-R,11,90000000,1024071610.97,EUR,2021-07-27,2024-07-12,DAP,Milestone-based,Fully Delivered,New Delhi,Jean-Pierre Martin,0
+SD00000678,CUST-PRIV-001,Tata Sons Ltd,India,Private,Training_Package,1,3000000,3035360.19,EUR,2020-06-30,2023-11-19,EXW,Milestone-based,In Production,Paris,Marc Dupont,0
+SD00000679,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 6X,2,45000000,94246727.26,EUR,2021-06-29,2022-05-05,CIF,"30% advance, 70% on delivery",In Production,Paris,Sophie Leclerc,0
+SD00000680,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,5175415.88,EUR,2020-03-23,2022-12-18,CIF,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Isabelle Bernard,0
+SD00000681,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F4,12,95000000,1087272091.59,EUR,2022-11-29,2025-12-05,DAP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Marc Dupont,0
+SD00000682,CUST-PRIV-003,Air France,France,Commercial,Falcon 10X,6,75000000,446685825.83,EUR,2021-04-10,2023-03-30,CIF,L/C 90 days,Partially Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000683,CUST-UAE-001,UAE Air Force,UAE,Government,Spare_Parts_Bundle,1,2500000,2556407.31,EUR,2022-10-17,2024-12-15,DAP,Milestone-based,Fully Delivered,New Delhi,Sophie Leclerc,50
+SD00000684,CUST-GRC-001,Hellenic Air Force,Greece,Government,Training_Package,1,3000000,2915588.94,EUR,2023-08-05,2026-12-03,DAP,Milestone-based,Fully Delivered,Singapore,Isabelle Bernard,30
+SD00000685,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,10,60000000,624600722.51,EUR,2019-08-27,2022-08-10,CIF,L/C 90 days,In Production,New Delhi,Jean-Pierre Martin,0
+SD00000686,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F4,6,95000000,573375003.42,EUR,2021-05-31,2022-10-28,DDP,"30% advance, 70% on delivery",Cancelled,New Delhi,Marc Dupont,0
+SD00000687,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2588634.11,EUR,2022-03-08,2023-01-23,EXW,L/C 90 days,Partially Delivered,New Delhi,Antoine Morel,50
+SD00000688,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F3-R,8,90000000,749547505.37,EUR,2021-05-13,2023-06-29,CIF,L/C 90 days,Fully Delivered,Abu Dhabi,Isabelle Bernard,0
+SD00000689,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,6,95000000,583851596.56,EUR,2022-01-01,2025-07-19,DAP,L/C 90 days,In Production,Cairo,Marc Dupont,0
+SD00000690,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,7,95000000,635982194.39,EUR,2018-01-13,2020-05-31,DDP,"30% advance, 70% on delivery",Open,Paris,Antoine Morel,0
+SD00000691,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,7,95000000,669292180.22,EUR,2018-10-22,2020-11-27,DAP,"30% advance, 70% on delivery",Fully Delivered,Abu Dhabi,Marc Dupont,0
+SD00000692,CUST-PRIV-003,Air France,France,Commercial,Training_Package,1,3000000,2965981.19,EUR,2018-08-28,2022-06-17,DDP,L/C 90 days,In Production,Cairo,Isabelle Bernard,0
+SD00000693,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Rafale F3-R,12,90000000,1133592172.1,EUR,2019-05-29,2022-11-26,DDP,"30% advance, 70% on delivery",Partially Delivered,Paris,Sophie Leclerc,50
+SD00000694,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,5234622.21,EUR,2018-05-02,2022-01-18,CIF,L/C 90 days,Fully Delivered,New Delhi,Jean-Pierre Martin,0
+SD00000695,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,7,45000000,311129014.77,EUR,2023-02-26,2024-05-03,CIF,Milestone-based,Partially Delivered,Cairo,Isabelle Bernard,0
+SD00000696,CUST-IND-002,Indian Navy,India,Government,Rafale F3-R,3,90000000,283429311.05,EUR,2022-06-03,2024-04-05,DAP,"30% advance, 70% on delivery",In Production,New Delhi,Sophie Leclerc,50
+SD00000697,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,5,45000000,227558667.57,EUR,2018-06-12,2019-05-06,DDP,L/C 90 days,Fully Delivered,Cairo,Isabelle Bernard,0
+SD00000698,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,7,45000000,314628997.64,EUR,2018-03-08,2019-03-15,CIF,L/C 90 days,Partially Delivered,Paris,Marc Dupont,0
+SD00000699,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 10X,5,75000000,386784467.59,EUR,2019-05-08,2021-05-18,DDP,"30% advance, 70% on delivery",In Production,New Delhi,Marc Dupont,0
+SD00000700,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 10X,7,75000000,546418196.9,EUR,2022-11-14,2025-01-31,CIF,"30% advance, 70% on delivery",Open,Paris,Antoine Morel,50
+SD00000701,CUST-UAE-001,UAE Air Force,UAE,Government,Training_Package,1,3000000,3075482.37,EUR,2022-04-04,2023-12-21,EXW,L/C 90 days,Open,Cairo,Antoine Morel,50
+SD00000702,CUST-GRC-001,Hellenic Air Force,Greece,Government,MRO_Package_Annual,1,5000000,5041323.92,EUR,2019-10-09,2021-04-15,CIF,Milestone-based,Partially Delivered,Abu Dhabi,Jean-Pierre Martin,30
+SD00000703,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,1,90000000,87446987.02,EUR,2021-08-17,2022-02-18,EXW,Milestone-based,Cancelled,Paris,Sophie Leclerc,0
+SD00000704,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 10X,11,75000000,804854983.85,EUR,2022-06-24,2025-09-01,DDP,L/C 90 days,Open,Paris,Marc Dupont,50
+SD00000705,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 6X,2,45000000,87774218.46,EUR,2022-01-19,2024-02-03,DAP,Milestone-based,In Production,Cairo,Marc Dupont,50
+SD00000706,CUST-UAE-001,UAE Air Force,UAE,Government,Falcon 8X,6,60000000,345340619.74,EUR,2020-12-03,2024-09-17,CIF,L/C 90 days,Partially Delivered,Abu Dhabi,Sophie Leclerc,0
+SD00000707,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F3-R,5,90000000,428128380.41,EUR,2021-08-12,2023-09-15,CIF,L/C 90 days,In Production,Cairo,Isabelle Bernard,0
+SD00000708,CUST-PRIV-001,Tata Sons Ltd,India,Private,Falcon 6X,1,45000000,45892642.8,EUR,2022-03-12,2025-07-02,DAP,L/C 90 days,Open,Singapore,Isabelle Bernard,0
+SD00000709,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F4,5,95000000,461041195.28,EUR,2018-12-12,2021-04-04,DAP,Milestone-based,Open,New Delhi,Isabelle Bernard,50
+SD00000710,CUST-PRIV-001,Tata Sons Ltd,India,Private,Spare_Parts_Bundle,1,2500000,2417707.56,EUR,2019-03-02,2019-09-28,DAP,L/C 90 days,Partially Delivered,Cairo,Jean-Pierre Martin,0
+SD00000711,CUST-IND-001,Indian Air Force,India,Government,Spare_Parts_Bundle,1,2500000,2532715.45,EUR,2021-08-04,2024-06-15,EXW,Milestone-based,In Production,Paris,Isabelle Bernard,50
+SD00000712,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F3-R,3,90000000,279820570.84,EUR,2020-03-21,2022-01-30,DAP,Milestone-based,Cancelled,Abu Dhabi,Sophie Leclerc,0
+SD00000713,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,1,45000000,44569099.7,EUR,2018-08-05,2020-02-14,DDP,L/C 90 days,In Production,Cairo,Marc Dupont,0
+SD00000714,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,5204976.81,EUR,2018-03-19,2020-07-14,DDP,"30% advance, 70% on delivery",Cancelled,Abu Dhabi,Jean-Pierre Martin,0
+SD00000715,CUST-IND-002,Indian Navy,India,Government,Falcon 10X,3,75000000,214364441.18,EUR,2022-08-02,2025-10-08,EXW,"30% advance, 70% on delivery",Open,Abu Dhabi,Marc Dupont,50
+SD00000716,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,1,60000000,57572690.87,EUR,2022-07-04,2025-05-18,DDP,L/C 90 days,Fully Delivered,Singapore,Sophie Leclerc,0
+SD00000717,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,3,60000000,176001756.29,EUR,2018-05-10,2020-08-21,DDP,"30% advance, 70% on delivery",In Production,New Delhi,Jean-Pierre Martin,30
+SD00000718,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 8X,11,60000000,628817065.58,EUR,2018-07-09,2019-06-08,DDP,Milestone-based,Open,Singapore,Marc Dupont,0
+SD00000719,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F4,4,95000000,369657347.1,EUR,2019-12-15,2022-06-26,CIF,"30% advance, 70% on delivery",In Production,New Delhi,Sophie Leclerc,0
+SD00000720,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 10X,6,75000000,464958172.36,EUR,2022-08-14,2024-09-12,DDP,Milestone-based,In Production,New Delhi,Antoine Morel,0
+SD00000721,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 10X,5,75000000,379102946.48,EUR,2022-10-20,2023-04-28,CIF,Milestone-based,In Production,New Delhi,Marc Dupont,0
+SD00000722,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,12,90000000,1113505900.41,EUR,2021-12-31,2023-11-17,CIF,L/C 90 days,Partially Delivered,Cairo,Sophie Leclerc,0
+SD00000723,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,MRO_Package_Annual,1,5000000,4838673.47,EUR,2023-04-17,2025-01-31,DAP,Milestone-based,In Production,New Delhi,Isabelle Bernard,50
+SD00000724,CUST-GRC-001,Hellenic Air Force,Greece,Government,MRO_Package_Annual,1,5000000,5031360.28,EUR,2018-09-29,2020-09-25,CIF,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Sophie Leclerc,50
+SD00000725,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F3-R,10,90000000,937451014.2,EUR,2022-09-02,2024-11-04,CIF,Milestone-based,Open,New Delhi,Sophie Leclerc,0
+SD00000726,CUST-HRV-001,Croatian Air Force,Croatia,Government,MRO_Package_Annual,1,5000000,4829626.98,EUR,2022-12-14,2024-12-17,CIF,Milestone-based,Cancelled,Abu Dhabi,Sophie Leclerc,30
+SD00000727,CUST-UAE-001,UAE Air Force,UAE,Government,Spare_Parts_Bundle,1,2500000,2406820.45,EUR,2021-10-20,2023-09-11,DDP,L/C 90 days,In Production,Cairo,Isabelle Bernard,50
+SD00000728,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 10X,2,75000000,147581321.43,EUR,2018-12-02,2020-04-15,CIF,"30% advance, 70% on delivery",Fully Delivered,Singapore,Sophie Leclerc,30
+SD00000729,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 6X,11,45000000,484437650.25,EUR,2021-09-07,2024-12-24,DDP,L/C 90 days,Fully Delivered,Singapore,Jean-Pierre Martin,50
+SD00000730,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2557682.27,EUR,2019-08-26,2021-10-20,DDP,L/C 90 days,Partially Delivered,Singapore,Antoine Morel,50
+SD00000731,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2399045.38,EUR,2020-07-08,2023-10-25,CIF,L/C 90 days,Open,New Delhi,Isabelle Bernard,0
+SD00000732,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,1,45000000,44986962.55,EUR,2020-05-02,2023-06-26,DAP,Milestone-based,Open,New Delhi,Jean-Pierre Martin,0
+SD00000733,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Spare_Parts_Bundle,1,2500000,2578629.56,EUR,2018-03-20,2021-10-28,CIF,L/C 90 days,Fully Delivered,Abu Dhabi,Antoine Morel,0
+SD00000734,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,2,60000000,125748548.83,EUR,2022-06-20,2024-01-23,EXW,Milestone-based,Partially Delivered,Cairo,Sophie Leclerc,30
+SD00000735,CUST-PRIV-003,Air France,France,Commercial,Falcon 10X,3,75000000,230594968.24,EUR,2019-11-05,2022-07-07,EXW,Milestone-based,Fully Delivered,Cairo,Sophie Leclerc,0
+SD00000736,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F4,8,95000000,732540791.67,EUR,2021-05-16,2021-12-05,EXW,L/C 90 days,In Production,Paris,Jean-Pierre Martin,0
+SD00000737,CUST-PRIV-003,Air France,France,Commercial,Spare_Parts_Bundle,1,2500000,2550628.97,EUR,2022-04-19,2024-06-05,DAP,L/C 90 days,Partially Delivered,Cairo,Isabelle Bernard,0
+SD00000738,CUST-PRIV-003,Air France,France,Commercial,Rafale F3-R,7,90000000,641461466.38,EUR,2020-07-07,2022-03-26,DAP,"30% advance, 70% on delivery",In Production,Paris,Isabelle Bernard,0
+SD00000739,CUST-IND-002,Indian Navy,India,Government,Falcon 8X,6,60000000,370269620.63,EUR,2018-04-23,2019-06-09,DDP,L/C 90 days,Partially Delivered,Singapore,Marc Dupont,50
+SD00000740,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,2,90000000,174504373.57,EUR,2020-08-06,2022-08-13,DDP,Milestone-based,Cancelled,Cairo,Isabelle Bernard,0
+SD00000741,CUST-PRIV-003,Air France,France,Commercial,Falcon 6X,11,45000000,483794782.22,EUR,2019-02-16,2021-03-13,EXW,"30% advance, 70% on delivery",Open,Paris,Jean-Pierre Martin,0
+SD00000742,CUST-HRV-001,Croatian Air Force,Croatia,Government,Training_Package,1,3000000,3030148.63,EUR,2018-06-04,2019-05-01,DAP,"30% advance, 70% on delivery",Cancelled,Cairo,Jean-Pierre Martin,30
+SD00000743,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F4,1,95000000,90701826.14,EUR,2021-06-30,2022-11-22,DAP,"30% advance, 70% on delivery",Fully Delivered,Singapore,Antoine Morel,0
+SD00000744,CUST-HRV-001,Croatian Air Force,Croatia,Government,Spare_Parts_Bundle,1,2500000,2606457.4,EUR,2022-07-14,2026-01-28,DAP,L/C 90 days,Cancelled,Singapore,Jean-Pierre Martin,0
+SD00000745,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,2,60000000,125457277.25,EUR,2020-04-01,2022-03-10,EXW,Milestone-based,Partially Delivered,Singapore,Marc Dupont,0
+SD00000746,CUST-IND-001,Indian Air Force,India,Government,Falcon 6X,6,45000000,261832007.91,EUR,2022-10-09,2023-08-10,DAP,Milestone-based,Fully Delivered,Singapore,Jean-Pierre Martin,0
+SD00000747,CUST-PRIV-001,Tata Sons Ltd,India,Private,Spare_Parts_Bundle,1,2500000,2389690.17,EUR,2021-08-19,2024-10-26,DAP,Milestone-based,Open,Paris,Sophie Leclerc,0
+SD00000748,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Rafale F4,10,95000000,967275290.97,EUR,2018-03-08,2019-06-08,CIF,L/C 90 days,In Production,Paris,Sophie Leclerc,50
+SD00000749,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F4,5,95000000,455620742.89,EUR,2019-06-27,2022-12-20,EXW,Milestone-based,Partially Delivered,New Delhi,Isabelle Bernard,0
+SD00000750,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F4,10,95000000,922747042.53,EUR,2022-11-22,2026-01-20,EXW,Milestone-based,Fully Delivered,Cairo,Marc Dupont,0
+SD00000751,CUST-HRV-001,Croatian Air Force,Croatia,Government,Falcon 6X,10,45000000,430728641.79,EUR,2018-11-23,2019-08-06,CIF,Milestone-based,Cancelled,Singapore,Jean-Pierre Martin,50
+SD00000752,CUST-HRV-001,Croatian Air Force,Croatia,Government,Rafale F4,10,95000000,997381805.24,EUR,2019-11-25,2021-10-15,DAP,Milestone-based,Fully Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000753,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,2,45000000,93780731.34,EUR,2020-06-11,2022-10-17,CIF,L/C 90 days,Open,New Delhi,Isabelle Bernard,0
+SD00000754,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2511966.88,EUR,2021-11-11,2024-03-30,EXW,"30% advance, 70% on delivery",In Production,Cairo,Marc Dupont,0
+SD00000755,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,11,60000000,650976753.43,EUR,2023-06-16,2024-04-24,CIF,L/C 90 days,Cancelled,Singapore,Antoine Morel,50
+SD00000756,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 10X,9,75000000,676735548.28,EUR,2022-01-10,2024-11-27,EXW,L/C 90 days,In Production,Singapore,Antoine Morel,0
+SD00000757,CUST-UAE-001,UAE Air Force,UAE,Government,Rafale F3-R,1,90000000,88823198.04,EUR,2021-10-27,2024-09-27,CIF,"30% advance, 70% on delivery",Partially Delivered,Abu Dhabi,Marc Dupont,50
+SD00000758,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Falcon 8X,3,60000000,179068587.05,EUR,2018-12-20,2022-01-06,CIF,"30% advance, 70% on delivery",In Production,Abu Dhabi,Isabelle Bernard,30
+SD00000759,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,7,75000000,544633149.34,EUR,2023-05-06,2023-12-18,DAP,Milestone-based,Fully Delivered,Abu Dhabi,Jean-Pierre Martin,0
+SD00000760,CUST-IND-001,Indian Air Force,India,Government,Spare_Parts_Bundle,1,2500000,2502311.01,EUR,2022-09-21,2024-03-22,CIF,"30% advance, 70% on delivery",In Production,Paris,Jean-Pierre Martin,50
+SD00000761,CUST-HRV-001,Croatian Air Force,Croatia,Government,Spare_Parts_Bundle,1,2500000,2510373.84,EUR,2018-08-30,2020-09-04,DAP,Milestone-based,Cancelled,New Delhi,Antoine Morel,0
+SD00000762,CUST-IND-001,Indian Air Force,India,Government,Training_Package,1,3000000,2972293.15,EUR,2020-02-27,2023-06-18,DAP,Milestone-based,Fully Delivered,New Delhi,Sophie Leclerc,0
+SD00000763,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,3,60000000,174149806.1,EUR,2019-09-27,2021-10-27,EXW,Milestone-based,Open,Abu Dhabi,Sophie Leclerc,50
+SD00000764,CUST-UAE-001,UAE Air Force,UAE,Government,MRO_Package_Annual,1,5000000,5249961.86,EUR,2021-05-02,2022-01-02,DAP,"30% advance, 70% on delivery",Open,Singapore,Marc Dupont,50
+SD00000765,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F4,4,95000000,375174977.15,EUR,2019-02-21,2020-04-12,EXW,L/C 90 days,Cancelled,Paris,Marc Dupont,0
+SD00000766,CUST-UAE-001,UAE Air Force,UAE,Government,MRO_Package_Annual,1,5000000,5233591.05,EUR,2022-12-20,2024-04-11,DDP,"30% advance, 70% on delivery",In Production,Cairo,Marc Dupont,0
+SD00000767,CUST-PRIV-003,Air France,France,Commercial,MRO_Package_Annual,1,5000000,5228251.26,EUR,2018-06-17,2022-04-23,DDP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Antoine Morel,0
+SD00000768,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,1,95000000,98752072.11,EUR,2019-02-24,2023-02-16,EXW,"30% advance, 70% on delivery",In Production,Abu Dhabi,Jean-Pierre Martin,50
+SD00000769,CUST-GRC-001,Hellenic Air Force,Greece,Government,Falcon 8X,9,60000000,554091324.46,EUR,2019-01-27,2021-01-13,CIF,Milestone-based,In Production,Abu Dhabi,Sophie Leclerc,50
+SD00000770,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,2,60000000,121698712.93,EUR,2020-07-03,2021-02-14,EXW,Milestone-based,In Production,Singapore,Jean-Pierre Martin,50
+SD00000771,CUST-UAE-001,UAE Air Force,UAE,Government,Training_Package,1,3000000,3017493.35,EUR,2019-04-18,2020-08-08,CIF,Milestone-based,Open,New Delhi,Isabelle Bernard,50
+SD00000772,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,6,90000000,556973344.8,EUR,2021-08-16,2024-01-18,EXW,L/C 90 days,Cancelled,Singapore,Marc Dupont,0
+SD00000773,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,9,90000000,831024399.11,EUR,2020-02-04,2023-10-25,DAP,Milestone-based,Fully Delivered,Singapore,Isabelle Bernard,0
+SD00000774,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,12,90000000,1058188030.08,EUR,2019-09-20,2023-02-15,CIF,"30% advance, 70% on delivery",Fully Delivered,Cairo,Jean-Pierre Martin,0
+SD00000775,CUST-PRIV-004,Total Energies,France,Commercial,Rafale F3-R,7,90000000,619388245.98,EUR,2023-02-26,2024-12-29,EXW,Milestone-based,In Production,Cairo,Jean-Pierre Martin,0
+SD00000776,CUST-IND-002,Indian Navy,India,Government,Spare_Parts_Bundle,1,2500000,2454586.85,EUR,2022-12-25,2025-10-18,DDP,Milestone-based,Open,Singapore,Jean-Pierre Martin,30
+SD00000777,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,3,90000000,266158287.43,EUR,2018-03-25,2021-08-04,CIF,L/C 90 days,In Production,Cairo,Antoine Morel,0
+SD00000778,CUST-PRIV-002,Reliance Industries,India,Private,Falcon 8X,11,60000000,667449394.87,EUR,2022-06-18,2024-08-11,CIF,Milestone-based,In Production,New Delhi,Marc Dupont,0
+SD00000779,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,11,75000000,798945320.28,EUR,2019-07-31,2021-06-23,EXW,L/C 90 days,In Production,Paris,Jean-Pierre Martin,30
+SD00000780,CUST-IND-002,Indian Navy,India,Government,Training_Package,1,3000000,3062831.41,EUR,2021-06-14,2022-07-25,EXW,"30% advance, 70% on delivery",Fully Delivered,Cairo,Antoine Morel,0
+SD00000781,CUST-GRC-001,Hellenic Air Force,Greece,Government,MRO_Package_Annual,1,5000000,4907662.64,EUR,2021-02-28,2024-12-06,CIF,"30% advance, 70% on delivery",Cancelled,Cairo,Antoine Morel,50
+SD00000782,CUST-IND-001,Indian Air Force,India,Government,Falcon 8X,5,60000000,289936266.7,EUR,2023-01-27,2023-11-28,DDP,"30% advance, 70% on delivery",In Production,New Delhi,Antoine Morel,30
+SD00000783,CUST-PRIV-003,Air France,France,Commercial,Falcon 10X,6,75000000,435657741.22,EUR,2020-06-29,2021-06-13,DDP,L/C 90 days,In Production,Cairo,Sophie Leclerc,0
+SD00000784,CUST-IND-001,Indian Air Force,India,Government,Falcon 10X,1,75000000,78087363.16,EUR,2019-07-27,2023-06-15,DDP,L/C 90 days,Partially Delivered,Singapore,Antoine Morel,0
+SD00000785,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,2,60000000,119824475.29,EUR,2019-10-05,2023-08-14,DDP,"30% advance, 70% on delivery",Open,Abu Dhabi,Jean-Pierre Martin,50
+SD00000786,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Falcon 8X,2,60000000,118310191.22,EUR,2020-09-13,2024-07-03,CIF,Milestone-based,In Production,Singapore,Sophie Leclerc,50
+SD00000787,CUST-IND-001,Indian Air Force,India,Government,Spare_Parts_Bundle,1,2500000,2430322.7,EUR,2019-06-01,2021-11-23,DDP,"30% advance, 70% on delivery",Fully Delivered,New Delhi,Antoine Morel,0
+SD00000788,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F3-R,5,90000000,451423746.98,EUR,2022-01-07,2022-07-21,DAP,Milestone-based,In Production,Paris,Antoine Morel,0
+SD00000789,CUST-IND-001,Indian Air Force,India,Government,Rafale F4,10,95000000,925239154.89,EUR,2020-09-24,2022-05-30,DDP,Milestone-based,In Production,Singapore,Isabelle Bernard,0
+SD00000790,CUST-PRIV-002,Reliance Industries,India,Private,Rafale F3-R,1,90000000,86023213.46,EUR,2018-03-30,2019-10-07,EXW,Milestone-based,Fully Delivered,Paris,Isabelle Bernard,0
+SD00000791,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Falcon 8X,6,60000000,355556625.38,EUR,2021-02-24,2024-05-27,EXW,Milestone-based,Open,Singapore,Marc Dupont,0
+SD00000792,CUST-PRIV-004,Total Energies,France,Commercial,Training_Package,1,3000000,3023810.13,EUR,2019-08-08,2021-05-13,EXW,L/C 90 days,Open,New Delhi,Sophie Leclerc,0
+SD00000793,CUST-PRIV-004,Total Energies,France,Commercial,Falcon 6X,2,45000000,94161358.46,EUR,2023-04-04,2026-05-11,DAP,Milestone-based,Cancelled,Abu Dhabi,Isabelle Bernard,0
+SD00000794,CUST-QAT-001,Qatar Emiri Air Force,Qatar,Government,Training_Package,1,3000000,3070175.07,EUR,2020-09-30,2023-09-24,DAP,L/C 90 days,Open,Abu Dhabi,Marc Dupont,0
+SD00000795,CUST-PRIV-003,Air France,France,Commercial,Rafale F4,2,95000000,193231520.18,EUR,2023-08-06,2026-06-27,CIF,Milestone-based,Cancelled,Paris,Marc Dupont,0
+SD00000796,CUST-EGY-001,Egyptian Air Force,Egypt,Government,Training_Package,1,3000000,3044430.79,EUR,2022-09-09,2023-07-23,DDP,L/C 90 days,Open,Paris,Marc Dupont,50
+SD00000797,CUST-PRIV-001,Tata Sons Ltd,India,Private,Rafale F3-R,7,90000000,640217394.42,EUR,2018-09-03,2020-01-15,DAP,L/C 90 days,Open,Paris,Isabelle Bernard,0
+SD00000798,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Training_Package,1,3000000,2857212.12,EUR,2023-05-12,2026-04-01,DDP,"30% advance, 70% on delivery",In Production,New Delhi,Sophie Leclerc,50
+SD00000799,CUST-IDN-001,Indonesian Air Force,Indonesia,Government,Rafale F4,9,95000000,842665405.0,EUR,2019-09-29,2020-08-20,CIF,L/C 90 days,Fully Delivered,Singapore,Marc Dupont,50
+SD00000800,CUST-PRIV-001,Tata Sons Ltd,India,Private,MRO_Package_Annual,1,5000000,4957042.53,EUR,2023-08-02,2024-07-18,DDP,L/C 90 days,Open,Abu Dhabi,Sophie Leclerc,0

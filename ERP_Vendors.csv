@@ -1,0 +1,16 @@
+VendorId,VendorName,Category,Country,PaymentGrade
+VND-0001,Safran Aircraft Engines,Engine,France,A
+VND-0002,Thales Group,Avionics,France,A
+VND-0003,Tata Advanced Systems Ltd,Airframe,India,B
+VND-0004,Dassault Reliance Aerospace,Airframe,India,A
+VND-0005,Hindustan Aeronautics Ltd,Airframe,India,B
+VND-0006,Reliance Defence Ltd,Structure,India,C
+VND-0007,Martin Baker Aircraft,Safety,UK,A
+VND-0008,Pratt & Whitney,Engine,USA,A
+VND-0009,MBDA,Armament,France,A
+VND-0010,Elbit Systems India,Avionics,India,B
+VND-0011,Dynamatic Technologies,Airframe,India,B
+VND-0012,Bharat Electronics Ltd,Electronics,India,B
+VND-0013,Collins Aerospace,Avionics,USA,A
+VND-0014,GE Aviation,Engine,USA,A
+VND-0015,Honeywell Aerospace India,Avionics,India,B

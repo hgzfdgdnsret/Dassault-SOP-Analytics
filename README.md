@@ -17,7 +17,7 @@ L'analyse repose sur la fusion de deux environnements de données distincts :
 Dans un premier temps, j'ai utilisé Python (Google Colab) pour auditer la qualité et le volume des données brutes. 
 **Côté Ventes (Audit du Pipeline CRM) :**
 - Un pipeline global extrêmement chargé : 63,08 Mds€ de deals signés (*Closed Won*), 57,72 Mds€ en négociation finale et 75,37 Mds€ au stade de proposition.
-- **Détection d'anomalies :** Un script de Data Quality a permis d'isoler **19 deals** présentant des incohérences CRM majeures nécessitant une action managériale immédiate (ex: deals marqués gagnés mais facturés à 0€, ou négociations périmées).
+- **Détection d'anomalies :** Un script de Data Quality a permis d'isoler 19 deals présentant des incohérences CRM majeures nécessitant une action managériale immédiate (ex: deals marqués gagnés mais facturés à 0€, ou négociations périmées).
 **Côté Supply Chain (Audit des retards ERP/MIGO) :**
 - La logistique est en forte tension : 428 réceptions sur 760 (soit plus de 56%) sont en retard.
 - L'usine d'Hyderabad a été identifiée comme le goulot d'étranglement critique avec un délai moyen dépassant les 30 jours de retard, devant Bordeaux (~25 jours).

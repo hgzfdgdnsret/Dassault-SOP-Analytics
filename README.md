@@ -16,15 +16,15 @@ L'analyse repose sur la fusion de deux environnements de données distincts :
 ### Partie 1.1 : Analyse Exploratoire (EDA) & Audit sous Python
 Dans un premier temps, j'ai utilisé Python (Google Colab) pour auditer la qualité et le volume des données brutes. 
 **Côté Ventes (Audit du Pipeline CRM) :**
-- Un pipeline global extrêmement chargé : **63,08 Mds€** de deals signés (*Closed Won*), **57,72 Mds€** en négociation finale et **75,37 Mds€** au stade de proposition.
+- Un pipeline global extrêmement chargé : 63,08 Mds€ de deals signés (*Closed Won*), 57,72 Mds€ en négociation finale et 75,37 Mds€ au stade de proposition.
 - **Détection d'anomalies :** Un script de Data Quality a permis d'isoler **19 deals** présentant des incohérences CRM majeures nécessitant une action managériale immédiate (ex: deals marqués gagnés mais facturés à 0€, ou négociations périmées).
 **Côté Supply Chain (Audit des retards ERP/MIGO) :**
-- La logistique est en forte tension : **428 réceptions sur 760 (soit plus de 56%) sont en retard**.
-- L'usine d'**Hyderabad** a été identifiée comme le goulot d'étranglement critique avec un délai moyen dépassant les **30 jours** de retard, devant Bordeaux (~25 jours).
+- La logistique est en forte tension : 428 réceptions sur 760 (soit plus de 56%) sont en retard.
+- L'usine d'Hyderabad a été identifiée comme le goulot d'étranglement critique avec un délai moyen dépassant les 30 jours de retard, devant Bordeaux (~25 jours).
 ### Partie 1.2 : Modélisation du Risque S&OP (Power Query & Excel)
 Pour répondre à la problématique, j'ai croisé les données de livraisons (ERP) avec les contrats clients (CRM) en utilisant Power Query. L'objectif était de lier un retard physique à une pénalité financière potentielle.
 **Résultats clés :**
-- 🔴 **Risque Financier Majeur :** Plus de **15,6 Milliards d'euros** de chiffre d'affaires sont actuellement bloqués en raison de retards logistiques supérieurs à 30 jours.
+- 🔴 **Risque Financier Majeur :** Plus de 15,6 Milliards d'euros de chiffre d'affaires sont actuellement bloqués en raison de retards logistiques supérieurs à 30 jours.
 - ⚠️ **Impact Client :** Le partenaire industriel *Reliance Industries* (Falcon) est le plus impacté avec 7 Mds€ en attente, suivi de *l'Indian Air Force* (Rafale) avec 4,5 Mds€. 
 - **Conclusion stratégique :** Ces retards mettent en péril nos obligations liées au "Make in India". Le croisement de ces données permet désormais à la direction des opérations de prioriser l'allocation des pièces sur les lignes d'assemblage en fonction du risque financier de chaque client.
 ---

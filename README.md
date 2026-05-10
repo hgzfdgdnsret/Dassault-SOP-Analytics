@@ -31,6 +31,25 @@ Pour répondre à la problématique, j'ai croisé les données de livraisons (ER
 
 ## Partie 2 - Audit Commercial & Architecture RevOps (Salesforce CRM)
 
+### 2. Audit Commercial & Architecture RevOps (Salesforce CRM)
+Afin de piloter le pipeline commercial de bout en bout (de l'acquisition marketing jusqu'à la signature), j'ai construit un environnement Salesforce complet en respectant les meilleures pratiques d'architecture relationnelle.
+
+**Phase 1 : Acquisition Marketing & Gestion des Leads**
+*   **Import & Mapping :** Injection de plus de 1200 Leads via le Data Import Wizard. Nettoyage et mapping manuel des champs pour forcer l'alignement du tracking (`Lead Source`, `Lead Status`) et corriger les erreurs d'affectation natives de l'assistant.
+*   **Analyse du ROI Marketing :** Création d'un rapport de performance d'acquisition (Stacked Bar Chart) croisant la source des Leads avec leur statut d'avancement. 
+*   **Insight :** Le rapport a permis de démontrer que si le salon "Aero India" génère un volume de prospection massif, c'est le "Dubai Airshow" qui offre le meilleur taux de conversion qualitatif (*Working / Converted*), justifiant une réallocation du budget événementiel.
+
+**Phase 2 : Architecture de Données & Import Relationnel**
+*   **Création de clés primaires (`External_ID`) :** Configuration de l'Object Manager pour créer des champs de type "ID Externe" sur les objets `Account`, `Contact` et `Opportunity`.
+*   **Migration Relationnelle :** Import séquentiel pour recréer la hiérarchie métier. Les Contacts ont été dynamiquement rattachés aux Comptes (Accounts) via la clé `External_ID`.
+*   **Utilisation de Dataloader.io :** Recours à l'outil ETL professionnel pour injecter 1 000 Opportunités et lier les Activités commerciales (`Tasks`) à la fois aux Humains (`WhoId`) et aux Contrats (`WhatId`).
+
+**Phase 3 : Reporting Avancé & Dashboarding**
+*   **Le "S&OP - Executive Control Tower" :** Un Lightning Dashboard regroupant le pipeline en cours (Funnel Chart), la volumétrie d'activités par Sales Rep (Stacked Bar), et les KPI financiers.
+*   **Le Filtre Croisé (Neglected Deals) :** Création d'un rapport ciblant les *Opportunities WITHOUT Activities*. J'ai pu identifier une faille managériale critique : **19 contrats majeurs en cours de négociation sont totalement à l'abandon**, sans aucun appel ou meeting récent. 
+*   **Impact :** Ce rapport a permis d'isoler **6,13 Milliards d'euros** de chiffre d'affaires potentiel laissé en suspens par les équipes de ventes. *(Voir capture `assets/salesforce_neglected_deals.png`)*.
+
+
 ### 📌 Avant-propos
 
 L’audit du pipeline commercial Salesforce a révélé des dysfonctionnements critiques dans le pilotage de l’activité, du lead jusqu’à la signature. Malgré un volume important de données (915 leads, 19 opportunités actives, plus de 1 200 leads injectés), plusieurs anomalies mettent en péril la fiabilité du forecast et l’efficacité opérationnelle.

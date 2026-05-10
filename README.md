@@ -277,6 +277,47 @@ Afin de recouvrer la trésorerie et d'endiguer le risque, le plan d'action de re
 ### Phase 3 : Business Review Fournisseurs (Moyen Terme)
 *   **KPI "Invoice Accuracy Rate" :** Intégration du taux d'exactitude de facturation dans les revues de performance fournisseurs (Quarterly Business Reviews) et utilisation de cette métrique comme malus lors des futures négociations contractuelles.
 
+## Partie 5 : Revue Stratégique Globale (Analyse croisée P2P, CRM et O2C)
+
+### 5.1 Rétrospective Méthodologique
+L'approche d'audit a été menée de manière itérative afin d'obtenir une vision transverse de la chaîne de valeur :
+
+1.  **Phase 1 - Audit Financier Procure-to-Pay (P2P) :** Extraction et analyse des données de facturation (ERP), ayant mis en évidence 48,96 M€ d'anomalies (échecs du *3-Way Match* et surfacturations).
+2.  **Phase 2 - Audit Opérationnel Fournisseurs (CRM) :** Croisement des données financières avec les données opérationnelles (Cases CRM) pour évaluer la corrélation entre les défaillances de facturation et les litiges qualité.
+3.  **Phase 3 - Audit Financier Order-to-Cash (O2C) :** Élargissement du périmètre à la santé financière de l'entreprise via l'analyse des créances clients (Power BI) pour évaluer la pression globale sur le Besoin en Fonds de Roulement (BFR).
+
+### 5.2 Analyse Croisée des Données
+
+**A. Performance Opérationnelle Fournisseurs (P2P vs CRM)**
+L'analyse croisée met en évidence une corrélation structurelle : le Top 3 des fournisseurs présentant les écarts financiers les plus élevés (*Pratt & Whitney, Elbit Systems, Safran*) correspond également aux acteurs comptabilisant la majorité des litiges qualité dans le CRM. 
+
+*Note méthodologique sur le volume d'incidents :* Le volume brut affiché de 30 571 incidents (Cases) est la résultante d'un **produit cartésien** généré lors de la jointure des tables de données (incidents multipliés par le nombre de lignes de commandes/articles associés). Bien que le volume absolu soit artificiellement dilaté par la structure du modèle, la distribution proportionnelle des incidents confirme une défaillance opérationnelle marquée chez ces fournisseurs de rang 1.
+
+**B. Exposition au Risque Client (O2C)**
+Le tableau de bord Power BI indique une exposition significative au risque de liquidité sur le cycle de vente :
+*   Sur un chiffre d'affaires global de 117 Md, la métrique **"Cash at Risk" s'établit à 24 Md**.
+*   Ce montant correspond aux **20,63%** du CA catégorisés en statut "Overdue" (échu non payé).
+*   L'analyse de la typologie des débiteurs montre une forte concentration de ces créances douteuses auprès de comptes souverains étatiques (ex: Croatian Air Force, UAE Air Force).
+
+### 5.3 Insights Stratégiques
+
+Cette vue à 360° permet de dégager trois axes de réflexion majeurs pour l'organisation :
+
+1.  **Tension asymétrique sur le BFR (Effet Ciseaux) :** L'organisation est exposée à un déséquilibre de trésorerie. En amont (P2P), les décaissements sont gonflés par des anomalies de facturation fournisseurs. En aval (O2C), les encaissements sont ralentis par un volume massif de créances échues (24 Md).
+2.  **Corrélation Qualité/Conformité :** Les fournisseurs dits "Tier 1", historiquement considérés comme sécurisés, concentrent simultanément les risques opérationnels (litiges CRM) et financiers (surfacturation). 
+3.  **Gestion des données en Silo :** L'identification de ces risques a nécessité l'agrégation manuelle de bases de données distinctes. L'absence d'interface native entre l'ERP (facturation/commandes) et le CRM (incidents) empêche un contrôle en temps réel du cycle d'achat.
+
+### 5.4 Plan d'Action Recommandé (Roadmap)
+
+**Action 1 : Rationalisation des flux de trésorerie (Court terme)**
+*   **P2P :** Conditionner le paiement des factures fournisseurs (notamment P&W et Safran) à l'apurement des litiges qualité en cours et à l'émission des avoirs financiers exigés.
+*   **O2C :** Lancer une task force de recouvrement ciblée sur les créances souveraines (24 Md), impliquant la direction commerciale et les affaires publiques pour gérer la dimension diplomatique de ces comptes.
+
+**Action 2 : Sécurisation du Système d'Information (Moyen terme)**
+*   Instaurer des règles de blocage stricts (*Hard Stops*) dans l'ERP empêchant techniquement le forçage des validations de factures si le *3-Way Match* échoue.
+
+**Action 3 : Refonte contractuelle (Long terme)**
+*   Intégrer les métriques de fiabilité croisées (précision de facturation + taux d'incidents CRM épurés) comme critères de pénalités contractuelles (SLA) lors des prochains renouvellements avec les équipementiers Tier 1.
 
 ---
 

@@ -222,6 +222,62 @@ L’audit du pipeline commercial Salesforce a révélé des dysfonctionnements c
 4. **Automatiser un dashboard hebdomadaire** « Neglected Deals » envoyé au VP Sales.
 5. **Réallouer le budget événementiel** après analyse du ROI par Lead Source.
 
+
+# 📋 RAPPORT STRATÉGIQUE : AUDIT PROCURE-TO-PAY (P2P)
+
+**Objet :** Analyse des anomalies de facturation et plan de sécurisation des flux P2P.
+**Impact Financier Total Identifié :** 48,96 Millions d'Euros (M€)
+
+---
+
+## 1. Synthèse Exécutive
+
+L'audit approfondi du cycle Procure-to-Pay met en lumière des défaillances systémiques dans les contrôles internes. Les mécanismes de validation des factures (3-Way Match) ne filtrent pas efficacement les anomalies, entraînant une perte de trésorerie directe de **48,96 Millions d'Euros** sur la période analysée.
+
+Le problème est critique car il se concentre presque exclusivement sur des **partenaires stratégiques de rang 1 (Tier 1)** de l'industrie aéronautique et défense (Safran, Pratt & Whitney, Thales).
+
+## 2. Analyse des Vulnérabilités & Impact Financier
+
+L'hémorragie financière se divise en deux failles opérationnelles distinctes :
+
+### A. Échec du Contrôle Physique (Ghost Invoices) : 6,93 M€
+Le principe du "3-Way Match" (correspondance stricte entre Commande, Réception et Facture) est structurellement contourné. Des paiements sont émis pour des équipements non réceptionnés physiquement.
+
+*   **Cas Critique - Safran Aircraft Engines :** La ligne de commande (EBELN) 409 indique 10 unités commandées et reçues, mais **11 unités payées**. Le coût de cette unité "fantôme" s'élève à **5,55 M€** (correspondant au tarif d'un équipement majeur, type moteur d'aéronef). Le paiement d'un actif de cette valeur sans vérification d'entrée en stock (ex: MIGO dans SAP) révèle un forçage manuel (Bypass) lors de la validation comptable.
+*   **Volume global :** 11 factures fantômes détectées pour un total de 6,93 M€.
+
+### B. Dérive des Prix Négociés (Cash Leakage) : 42,03 M€
+Outre les écarts de quantité, un volume massif d'écarts de prix (Price Variance) est constaté. 51 factures ont été honorées pour des montants supérieurs aux conditions négociées par le service Achats.
+
+*   **Top 3 des fournisseurs par volume de surfacturation :**
+    1.  **Pratt & Whitney** : 9,94 M€
+    2.  **Elbit Systems India** : 8,24 M€
+    3.  **Safran Aircraft Engines** : 6,07 M€
+
+## 3. Insights Stratégiques
+
+L'analyse des données soulève trois constats opérationnels majeurs :
+
+1.  **L'effet "Too Big to Fail" :** La concentration des anomalies sur les fournisseurs ultra-critiques (Safran, P&W) suggère que la validation des factures s'effectue sous pression de la production (risque de rupture de la chaîne d'assemblage). Ces fournisseurs bénéficient d'un rapport de force favorable, facilitant l'absorption de leurs erreurs de facturation par notre comptabilité.
+2.  **Défaillance de la configuration ERP :** Les seuils de tolérance (Tolerance Limits) dans le système d'information sont inopérants. Un ERP correctement paramétré doit bloquer automatiquement (statut "Block for Payment") toute facture présentant un écart unitaire de 5,5 M€.
+3.  **Érosion de la performance Achats :** Les gains obtenus lors des négociations contractuelles en amont sont annulés lors de la phase de paiement en aval. Le processus "Order-to-Cash" des fournisseurs s'avère techniquement plus robuste que notre processus de contrôle "Procure-to-Pay".
+
+## 4. Plan d'Action Recommandé (Roadmap ROI)
+
+Afin de recouvrer la trésorerie et d'endiguer le risque, le plan d'action de remédiation suivant est proposé :
+
+### Phase 1 : Cash Recovery Immédiat (Sous 15 jours)
+*   **Campagne de recouvrement :** Lancement des procédures de réclamation auprès des fournisseurs du Top 5 pour exiger l'émission d'Avoirs (Credit Memos) couvrant les 48,96 M€.
+*   **Mesure conservatoire :** Suspension temporaire des prochaines échéances de paiement vers Pratt & Whitney et Safran dans l'attente d'une régularisation comptable et de l'émission des avoirs.
+
+### Phase 2 : Verrouillage Systémique (Sous 3 mois)
+*   **Audit et "Hard Stop" ERP :** Reconfiguration stricte des clés de tolérance dans l'ERP (ex: SAP transaction MIRO). Instauration d'un blocage technique infranchissable si l'écart dépasse un pourcentage minime (ex: 0.5%) ou un montant fixe absolu (ex: 1 000€).
+*   **Workflow d'escalade :** Tout déblocage de facture hors tolérance nécessitera obligatoirement une double validation (Acheteur responsable de la commodité + Contrôleur de Gestion). Fin des validations unilatérales par la comptabilité.
+
+### Phase 3 : Business Review Fournisseurs (Moyen Terme)
+*   **KPI "Invoice Accuracy Rate" :** Intégration du taux d'exactitude de facturation dans les revues de performance fournisseurs (Quarterly Business Reviews) et utilisation de cette métrique comme malus lors des futures négociations contractuelles.
+
+
 ---
 
 

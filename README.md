@@ -12,21 +12,135 @@ L'analyse repose sur la fusion de deux environnements de données distincts :
 - **Python (Pandas) :** Nettoyage des données, EDA (Analyse Exploratoire) et détection d'anomalies.
 - **Excel (Power Query / TCD) :** Modélisation relationnelle S&OP et reporting financier.
 ---
-## Partie 1 - Déroulement Général 
-### Partie 1.1 : Analyse Exploratoire (EDA) & Audit sous Python
-Dans un premier temps, j'ai utilisé Python (Google Colab) pour auditer la qualité et le volume des données brutes. 
-**Côté Ventes (Audit du Pipeline CRM) :**
-- Un pipeline global extrêmement chargé : 63,08 Mds€ de deals signés (*Closed Won*), 57,72 Mds€ en négociation finale et 75,37 Mds€ au stade de proposition.
-- **Détection d'anomalies :** Un script de Data Quality a permis d'isoler 19 deals présentant des incohérences CRM majeures nécessitant une action managériale immédiate (ex: deals marqués gagnés mais facturés à 0€, ou négociations périmées).
-**Côté Supply Chain (Audit des retards ERP/MIGO) :**
-- La logistique est en forte tension : 428 réceptions sur 760 (soit plus de 56%) sont en retard.
-- L'usine d'Hyderabad a été identifiée comme le goulot d'étranglement critique avec un délai moyen dépassant les 30 jours de retard, devant Bordeaux (~25 jours).
-### Partie 1.2 : Modélisation du Risque S&OP (Power Query & Excel)
-Pour répondre à la problématique, j'ai croisé les données de livraisons (ERP) avec les contrats clients (CRM) en utilisant Power Query. L'objectif était de lier un retard physique à une pénalité financière potentielle.
-**Résultats clés :**
-- 🔴 **Risque Financier Majeur :** Plus de 15,6 Milliards d'euros de chiffre d'affaires sont actuellement bloqués en raison de retards logistiques supérieurs à 30 jours.
-- ⚠️ **Impact Client :** Le partenaire industriel *Reliance Industries* (Falcon) est le plus impacté avec 7 Mds€ en attente, suivi de *l'Indian Air Force* (Rafale) avec 4,5 Mds€. 
-- **Conclusion stratégique :** Ces retards mettent en péril nos obligations liées au "Make in India". Le croisement de ces données permet désormais à la direction des opérations de prioriser l'allocation des pièces sur les lignes d'assemblage en fonction du risque financier de chaque client.
+# Dassault Aviation – Audit des retards, risques financiers et performance commerciale
+
+## Vue d’ensemble
+
+Ce dépôt contient l’analyse croisée de deux jeux de données opérationnels et commerciaux de Dassault Aviation.  
+L’objectif est d’identifier les causes et les impacts des retards (fournisseurs et livraisons), de quantifier les risques financiers associés, et de proposer des stratégies concrètes pour y remédier.
+
+Deux approches complémentaires sont présentées :
+
+- **Partie 1 – Analyse Python** : audit des retards fournisseurs (données MIGO) et du pipeline CRM (Salesforce).
+- **Partie 2 – Analyse Excel / Power BI** : examen des livraisons ERP, des valeurs bloquées par client et des risques financiers par région.
+
+---
+
+## Partie 1 – Analyse Python : retards fournisseurs et pipeline CRM
+
+### 1.1 Données utilisées
+
+- **Retards fournisseurs (MIGO)** : 760 réceptions, dont 428 en retard.
+- **Pipeline CRM (Salesforce)** : 1 200 deals en cours, pour un montant total de 307 Md€ (tous stades confondus).
+
+### 1.2 Principaux constats
+
+#### Retards par site de production
+
+| Site       | Retard moyen (jours) – source 1 | Retard moyen (jours) – source 2 |
+|------------|--------------------------------|--------------------------------|
+| Hyderabad  | 30,1                           | 29,0                           |
+| Bordeaux   | 24,9                           | 25,5                           |
+| Mérignac   | 21,8                           | 19,5                           |
+| Nagpur     | 21,8                           | 20,5                           |
+| Bangalore  | 18,4                           | 17,5                           |
+
+*Deux sources internes donnent des valeurs légèrement différentes, signe d’un défaut d’harmonisation des indicateurs.*
+
+#### Pipeline commercial
+
+- **Proposal** : 75,4 Md€  
+- **Negotiation** : 57,7 Md€  
+- **Closed Won** : 63,1 Md€  
+- **Closed Lost** : 29,7 Md€  
+- **Qualification** : 44,7 Md€  
+- **Prospecting** : 36,7 Md€  
+
+**Anomalies détectées :** 19 deals incohérents, dont des `AMOUNT_ZERO_ON_CLOSED_WON` (montant nul sur des deals censés être gagnés) et un `STALE_NEGOTIATION` (négociation obsolète).
+
+### 1.3 Stratégies recommandées
+
+- **Gouvernance des données CRM** : corriger les 19 anomalies, ajouter une règle de validation empêchant la clôture d’un deal sans montant positif.
+- **Scorecard fournisseur** : lier les paiements aux objectifs de ponctualité, avec actions prioritaires sur Hyderabad (réduction du retard à <20 jours) et Bordeaux (renégociation des contrats).
+- **Alertes automatiques** : déclencher une revue direction pour toute négociation restée bloquée plus de 90 jours.
+
+---
+
+## Partie 2 – Analyse Excel / Power BI : livraisons, valeurs bloquées et risques par région
+
+### 2.1 Sources de données
+
+- **Feuil2** : tableau croisé des valeurs bloquées par client.
+- **ERP_Deliveries_VL01N** : 389 lignes de livraison avec statut, retard, site d’expédition, montant bloqué.
+- **ERP_SalesOrders_SD** : 800 commandes (produits, montants, conditions de paiement, offsets).
+- **Graphiques Power BI (Africa, Europe, Middle East)** : risques financiers, CA gagné et win rates par région.
+
+### 2.2 Constats clés
+
+#### Clients avec valeurs bloquées (Feuil2)
+
+| Client                | Valeur bloquée (Md€) |
+|-----------------------|----------------------|
+| Reliance Industries   | 7,02                 |
+| Indian Air Force      | 4,56                 |
+| Indonesian Air Force  | 4,05                 |
+| **Total**             | **15,63**            |
+
+#### Livraisons retardées (extraits de VL01N)
+
+- Retard de 365 jours : livraison VL0080000029 (Indonesian Air Force, Rafale F3‑R) – 783,5 M€ bloqués.
+- Retard de 60 jours : livraison VL0080000003 (Reliance, Rafale F4) – 882 M€ bloqués.
+- Retard de 90 jours : livraison VL0080000005 (Air France, Falcon 10X) – 301,6 M€ bloqués.
+
+*De très nombreux retards de 60, 90, 180 et 365 jours sont répertoriés. Le site de Nagpur (Inde) concentre les retards les plus longs.*
+
+#### Risques financiers par région (Power BI)
+
+| Région       | CA gagné (Md€) | Taux de victoire | Risque financier lié aux retards |
+|--------------|----------------|------------------|----------------------------------|
+| Europe       | 30             | 70,7 %           |                                  |
+| Moyen‑Orient | 11             | 74,7 %           | 41,29 Md€ (toutes régions)       |
+| Asie         | 7              | n.d.             |                                  |
+| Afrique      | n.d.           | 86,7 %           |                                  |
+
+**Le risque financier total atteint 41,29 Md€**, soit plus que le CA gagné cumulé.  
+L’Europe est le marché le plus important mais aussi celui où la concurrence est la plus rude (taux de perte ~30 %).
+
+### 2.3 Recommandations issues de l’analyse Excel / Power BI
+
+- **Déblocage progressif** : pour les trois clients prioritaires (Reliance, Indian AF, Indonesian AF), proposer des livraisons partielles avec paiements échelonnés afin de réduire l’encours bloqué.
+- **Offensive logistique en Europe** : communiquer sur les plans de réduction des délais pour reconquérir les appels d’offres perdus (Belgique, Finlande, etc.).
+- **Priorité Inde** : utiliser les obligations offset pour créer des co‑entreprises locales de logistique et accélérer les livraisons sur les sites indiens (Nagpur).
+- **Tableau de bord unique** : croiser chaque semaine les valeurs bloquées, les retards par site et les échéances contractuelles, avec revue mensuelle des dix plus gros blocages.
+
+---
+
+## Stratégies transversales et plan d’action global
+
+1. **Réduction des retards extrêmes**  
+   Audit des causes des retards >180 jours (sous‑traitance, douanes, offsets) avec une task force dédiée.
+
+2. **Harmonisation des données**  
+   Aligner la définition du « retard » entre MIGO, production et CRM. Nettoyer les 19 anomalies CRM.
+
+3. **Couverture financière**  
+   Provisionner 5 % du risque total (~2 Md€) pour absorber les pénalités et négocier des déblocages anticipés.
+
+| Priorité | Action | Délai | Impact attendu |
+|----------|--------|-------|----------------|
+| 1 | Débloquer les 15,6 Md€ de valeurs bloquées (Reliance, Indian AF, Indonesian AF) | 90 jours | Réduction du risque de 15 Md€, amélioration de trésorerie |
+| 2 | Éliminer tous les retards >180 jours | 6 mois | Zéro retard critique |
+| 3 | Corriger les anomalies CRM et déployer le scorecard fournisseur | 3‑6 mois | Fiabilité du pilotage |
+
+---
+
+## Conclusion
+
+Dassault Aviation dispose d’un pipeline commercial exceptionnel (307 Md€) et d’un chiffre d’affaires gagné significatif (48 Md€). Cependant, les retards logistiques et fournisseurs génèrent un risque financier de 41,3 Md€ et des valeurs bloquées de 15,6 Md€ sur trois clients seulement. L’Inde est à la fois le marché le plus prometteur et le plus exposé. La mise en œuvre des actions ci-dessus – gouvernance des données, réduction des retards critiques, déblocage progressif des paiements – permettra de réduire le risque, d’améliorer la trésorerie et de renforcer la compétitivité de Dassault sur ses marchés clés.
+
+---
+
+*Ce README accompagne les analyses réalisées en Python (pandas, numpy) et en Excel/Power BI (tableaux croisés, graphiques régionaux). Les fichiers sources sont disponibles dans le dépôt.*
 ---
 
 ## Partie 2 - Audit Commercial & Architecture RevOps (Salesforce CRM)

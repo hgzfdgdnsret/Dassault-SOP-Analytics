@@ -12,7 +12,7 @@ L'analyse repose sur la fusion de deux environnements de données distincts :
 - **Python (Pandas) :** Nettoyage des données, EDA (Analyse Exploratoire) et détection d'anomalies.
 - **Excel (Power Query / TCD) :** Modélisation relationnelle S&OP et reporting financier.
 ---
-## 📊 Déroulement de l'Analyse & Insights
+## Partie 1 - Déroulement Général 
 ### Partie 1.1 : Analyse Exploratoire (EDA) & Audit sous Python
 Dans un premier temps, j'ai utilisé Python (Google Colab) pour auditer la qualité et le volume des données brutes. 
 **Côté Ventes (Audit du Pipeline CRM) :**
@@ -28,6 +28,71 @@ Pour répondre à la problématique, j'ai croisé les données de livraisons (ER
 - ⚠️ **Impact Client :** Le partenaire industriel *Reliance Industries* (Falcon) est le plus impacté avec 7 Mds€ en attente, suivi de *l'Indian Air Force* (Rafale) avec 4,5 Mds€. 
 - **Conclusion stratégique :** Ces retards mettent en péril nos obligations liées au "Make in India". Le croisement de ces données permet désormais à la direction des opérations de prioriser l'allocation des pièces sur les lignes d'assemblage en fonction du risque financier de chaque client.
 ---
+
+## Partie 2 - Audit Commercial & Architecture RevOps (Salesforce CRM)
+
+### 📌 Avant-propos
+
+L’audit du pipeline commercial Salesforce a révélé des dysfonctionnements critiques dans le pilotage de l’activité, du lead jusqu’à la signature. Malgré un volume important de données (915 leads, 19 opportunités actives, plus de 1 200 leads injectés), plusieurs anomalies mettent en péril la fiabilité du forecast et l’efficacité opérationnelle.
+
+### Constats chiffrés
+
+| Indicateur | Valeur |
+|------------|--------|
+| Total leads injectés | 1 200+ |
+| Leads par source principale | Aero India : 119, Dubai Airshow : 111, LinkedIn : 123, etc. |
+| Opportunités en cours (Q2-2026) | 19 |
+| **Montant total du pipeline potentiel abandonné** | **6,13 milliards d’euros** |
+| Opportunités sans aucune activité (Task, appel, meeting) | 19/19 (100% des deals actifs sont en fait inactifs) |
+| Disparité taux de conversion | Aero India : fort volume, faible conversion ; Dubai Airshow : meilleur taux de conversion |
+
+### Lieux / sources concernés
+
+- **Événements** : Aero India Bangalore, Dubai Airshow, DSEI London, Air Show Le Bourget, Euronaval
+- **Canaux** : Embassy Referral, Partner Network, LinkedIn, Government RFP, Diplomatic Channel, External
+- **Comptes impactés** : Rolls-Royce India, Lockheed Martin India, Indian Air Force, Indian Navy, Egyptian Air Force, Indonesian Air Force, Kuwait Air Force, Singapore Air Force, UAE Air Force, Reliance Defence, etc.
+
+---
+
+### 🔍 Insights clés (par ordre d’importance décroissante)
+
+### 1. **Pipeline dormant critique – 6,13 Mds€ sans aucune activité commerciale**
+- **Détail** : Les 19 opportunités ouvertes (stades : Negotiation, Proposal, Qualification, Prospecting) n’ont aucune `Task` associée (ni appel, ni email, ni réunion) depuis leur création.
+- **Exemple** : *Aviation GE – Indonesia (7 units)* à 275 M€ ; *Royalty FTA – Egypt (26 units)* à 2,3 Mds€ – tous sans suivi.
+- **Risque** : Abandon pur et simple du deal, perte de chiffre d’affaires, détérioration de la relation client.
+
+### 2. **Le ROI marketing masqué : volume ≠ performance**
+- **Détail** : Aero India génère un lead massif (119), mais le taux de conversion qualitatif (*Working / Converted*) est inférieur à celui de Dubai Airshow (111 leads mais taux d’avancement bien supérieur).
+- **Insight stratégique** : Continuer à investir dans Aero India sans correction de la qualification serait une perte budgétaire.
+- **Opportunité** : Réallocation des dépenses événementielles vers Dubai Airshow + LinkedIn.
+
+### 3. **Absence de tracking post-lead – faille managériale**
+- **Détail** : Aucune règle ni workflow n’oblige les commerciaux à créer une activité (`Task`) après la création d’une opportunité. Le rapport « Opportunities without Activities » a dû être créé manuellement.
+- **Conséquence** : La direction n’a aucun moyen de détecter les deals stagnants avant qu’ils ne soient perdus. La revue commerciale mensuelle est fondée sur des données obsolètes.
+
+### 4. **Probabilités incohérentes avec l’âge des opportunités**
+- **Détail** : Plusieurs opportunités affichent 75% de probabilité alors qu’elles ont été créées 1 jour avant la clôture prévue (date irréaliste).
+- **Exemple** : *Training Program – Germany (2 units)* – créé le 09/05/2026, clôture prévue le 04/04/2026 (date passée), probabilité 75%.
+- **Impact** : Forecast financier totalement biaisé ; trésorerie et S&OP non fiables.
+
+### 5. **Canaux « External » et « Diplomatic Channel » sous-exploités en reporting**
+- **Détail** : Ces sources représentent plusieurs opportunités (ex : *Spare Parts Package – Qatar* via Diplomatic Channel) mais ne sont jamais analysées en performance.
+- **Potentiel** : Peut-être une source de conversion lente mais à très haute valeur. À investiguer.
+
+---
+
+###  Recommandations immédiates
+
+1. **Forcer la création d’une activité sous 48h** pour toute opportunité en stage *Negotiation/Proposal*.
+2. **Réactiver les 19 deals** en affectant un responsable commercial senior.
+3. **Recalibrer les probabilités** avec une matrice stage + âge.
+4. **Automatiser un dashboard hebdomadaire** « Neglected Deals » envoyé au VP Sales.
+5. **Réallouer le budget événementiel** après analyse du ROI par Lead Source.
+
+---
+
+
+
 ## 🛠️ Comment reproduire ce projet
 1. Cloner ce repository.
 2. Exécuter les scripts Python situés dans `/scripts` (`generate_crm.py` et `generate_erp.py`) pour regénérer les datasets simulés.
